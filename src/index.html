@@ -9,39 +9,21 @@
 /*__SHARED_CSS__*/
 main{display:grid;grid-template-columns:minmax(0,1fr) 500px;gap:16px;padding:16px 24px 8px;align-items:start}
 .left{display:grid;gap:16px;min-width:0}
-.maptop{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
-.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
-.seg button{font:inherit;font-size:14px;padding:7px 14px;border:0;background:var(--surface);color:var(--ink);cursor:pointer}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
-.legend{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--muted);flex-wrap:wrap}
-.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
-.mapwrap{position:relative;padding:8px 8px 0}
-svg.map{width:100%;height:auto;display:block}
-.state{fill:var(--land);stroke:var(--bg);stroke-width:.8}
-.dot{stroke:var(--surface);stroke-width:.8;cursor:pointer;transition:r .15s}
-.dot:hover{stroke:var(--ink);stroke-width:1.2}
-.dot.sel{stroke:var(--ink);stroke-width:2.5}
-.lbl{font:700 15px Inter,system-ui,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:4px;pointer-events:none}
-.timebar{display:grid;grid-template-columns:auto auto 1fr auto;gap:16px;align-items:center;padding:12px 16px;border-top:1px solid var(--line)}
-.playbtn{width:34px;height:34px;border-radius:50%;border:0;background:var(--orange);color:#fff;font-size:14px;cursor:pointer;display:grid;place-items:center}
-.ticks{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:4px}
-.year{font:800 24px/1 Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums;min-width:62px;text-align:right}
 .kpis{display:grid;grid-template-columns:repeat(3,1fr)}
 .kpi{padding:18px 20px;border-right:1px solid var(--line)}
 .kpi:last-child{border-right:0}
 .kpi .n{font:800 30px/1 Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums}
 .kpi .n small{font:400 15px/1 Inter,system-ui,sans-serif;color:var(--muted);margin-left:4px}
 .kpi p{margin:6px 0 0;color:var(--muted);font-size:14px;max-width:30ch}
-.rail{display:grid;gap:0}
 .rail>section{padding:18px 20px;border-bottom:1px solid var(--line)}
 .rail>section:last-child{border-bottom:0}
 .name{font:700 20px/1.25 Archivo,system-ui,sans-serif;margin:0;overflow-wrap:anywhere}
-.sub{color:var(--muted);font-size:14px;margin:4px 0 0}
+.sub{color:var(--muted);font-size:14px;margin:2px 0 0}
 .sub b{color:var(--ink)}
 .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;align-items:center;font-size:13px;color:var(--muted)}
 .rows{display:grid;grid-template-columns:minmax(150px,1fr) 1.1fr;gap:12px 18px;align-items:center;margin-top:6px}
 .rows .l{font-size:14px;line-height:1.3}
-.db{position:relative;height:30px}
+.db{position:relative;height:44px}
 .db .tr{position:absolute;left:0;right:0;top:21px;height:2px;background:var(--line)}
 .db .seg2{position:absolute;top:21px;height:2px;background:var(--dot)}
 .db .pt{position:absolute;top:17px;width:10px;height:10px;border-radius:50%;transform:translateX(-50%)}
@@ -49,10 +31,10 @@ svg.map{width:100%;height:auto;display:block}
 .db .v.me{font-weight:700}
 .key{font-size:13px;color:var(--muted);margin-top:8px;display:flex;gap:16px}
 .key i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
-.twins{font-size:14px;color:var(--muted);margin-top:10px;line-height:1.7}
-.twins button{all:unset;cursor:pointer;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
-.twins button:hover{text-decoration-color:var(--ink)}
-.twins button:focus-visible{outline:2px solid var(--orange)}
+.peers{font-size:14px;color:var(--muted);margin-top:10px;line-height:1.7}
+.peers button{all:unset;cursor:pointer;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.peers button:hover{text-decoration-color:var(--ink)}
+.peers button:focus-visible{outline:2px solid var(--orange)}
 .fix{border-left:4px solid var(--orange);padding-left:14px}
 .fix .lane{color:var(--orange);font-size:12px;font-weight:700;letter-spacing:.6px;text-transform:uppercase}
 .fix h4{margin:2px 0 6px;font:700 18px/1.3 Archivo,system-ui,sans-serif}
@@ -60,33 +42,31 @@ svg.map{width:100%;height:auto;display:block}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}
 .tile{background:var(--chip);border-radius:8px;padding:12px 14px}
 .tile .k{font-size:13px;color:var(--muted)}
-.tile .big{font:800 24px/1.2 Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums}
-.tile .big small{font:400 14px/1 Inter,system-ui,sans-serif;color:var(--muted)}
+.tile .bg{font:800 24px/1.2 Archivo,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+.tile .bg small{font:400 14px/1 Inter,system-ui,sans-serif;color:var(--muted)}
 .tile .s{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
 .result{margin:10px 0 4px;font-size:15px}
-details{margin-top:0}
 summary{cursor:pointer;font-size:14px;color:var(--muted)}
+details+details{margin-top:8px}
 .layers{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
 .layers td{padding:5px 4px;border-bottom:1px solid var(--line);vertical-align:top}
 .layers td:last-child{text-align:right;white-space:nowrap}
 .ok{color:var(--green);font-weight:600}
-.scrollx{overflow-x:auto;margin:0 -4px}
-.pt{border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap;width:100%}
-.pt th{font-weight:600;color:var(--muted);text-align:right;padding:5px 6px;border-bottom:1px solid var(--line)}
-.pt td{text-align:right;padding:5px 6px;border-bottom:1px solid var(--line)}
-.pt th:first-child,.pt td:first-child{text-align:left}
-.pt tr.me td{font-weight:700;background:var(--sel)}
-.pt tr.med td{color:var(--muted);font-style:italic}
-details+details{margin-top:8px}
+.pt2{border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap;width:100%}
+.pt2 th{font-weight:600;color:var(--muted);text-align:right;padding:5px 6px;border-bottom:1px solid var(--line)}
+.pt2 td{text-align:right;padding:5px 6px;border-bottom:1px solid var(--line)}
+.pt2 th:first-child,.pt2 td:first-child{text-align:left}
+.pt2 tr.me td{font-weight:700;background:var(--sel)}
+.pt2 tr.med td{color:var(--muted);font-style:italic}
 @media (max-width:1100px){main{grid-template-columns:1fr}}
-@media (max-width:700px){.rows{grid-template-columns:1fr;gap:2px 0}.rows .l{margin-top:10px}.tiles{grid-template-columns:1fr}.maptop{padding:10px 12px}.kpis{grid-template-columns:1fr}.kpi{border-right:0;border-bottom:1px solid var(--line)}.timebar{grid-template-columns:auto 1fr auto}.timebar .what{grid-column:1/-1}}
+@media (max-width:700px){.rows{grid-template-columns:1fr;gap:2px 0}.rows .l{margin-top:10px}.tiles{grid-template-columns:1fr}.maptop{padding:10px 12px}.kpis{grid-template-columns:1fr}.kpi{border-right:0;border-bottom:1px solid var(--line)}}
 </style>
 </head>
 <body>
 <header>
   <a class="word" href="index.html">Peer<b>Gap</b></a>
   <span class="tag">Which cities are falling behind the cities most like them, and what can a bank do about it?</span>
-  <nav><a href="index.html" aria-current="page">Map</a><a href="forecast.html">Forecast</a><a href="legacy.html">Classic view</a></nav>
+  <nav><a href="index.html" aria-current="page">Map</a><a href="forecast.html">Forecast</a><a href="compare.html">Compare</a></nav>
   <div class="search"><label class="sr" for="q">Find a metro area</label><input id="q" type="search" placeholder="Find a metro area" autocomplete="off"><ul id="hits" role="listbox"></ul></div>
 </header>
 <main>
@@ -94,12 +74,12 @@ details+details{margin-top:8px}
     <div class="card">
       <div class="maptop">
         <div class="seg" role="group" aria-label="Map colouring">
-          <button id="mode-twins" aria-pressed="true">Compared with twins</button>
+          <button id="mode-peers" aria-pressed="true">Compared with peers</button>
           <button id="mode-squeeze" aria-pressed="false">Renter squeeze</button>
         </div>
         <div class="legend" id="legend"></div>
       </div>
-      <div class="mapwrap"><svg class="map" id="map" viewBox="0 0 975 610" role="img" aria-label="Map of the 100 largest U.S. metros"></svg></div>
+      <div class="mapwrap"><svg class="map" id="map" role="img" aria-label="Map of the 100 largest U.S. metros; click one to see its peers"></svg></div>
       <div class="timebar">
         <button class="playbtn" id="play" aria-label="Play the scenario">&#9654;</button>
         <select id="whatif" class="what" aria-label="What-if scenario"></select>
@@ -112,9 +92,8 @@ details+details{margin-top:8px}
   <div class="card rail" id="rail"></div>
 </main>
 <footer>
-  <span>Data: ACS 2020–2024 5-year (U.S. Census Bureau) and 2025 HMDA. Twins are matched on size, growth, income, job mix and infrastructure, never on housing costs.</span>
+  <span>Data: ACS 2020–2024 5-year (U.S. Census Bureau) and 2025 HMDA. Peers are matched on size, growth, income, job mix and infrastructure, never on housing costs.</span>
   <span>Anything after 2026 is a <b>scenario, not a prediction</b>. Items marked <span class="badge p1">Phase 1</span> use placeholder inputs until the next data pull.</span>
-  <a href="legacy.html">Classic view</a>
 </footer>
 <script>/*__D3__*/</script>
 <script>/*__TOPOJSON__*/</script>
@@ -122,22 +101,17 @@ details+details{margin-top:8px}
 const DATA = /*__DATA__*/;
 const V2 = /*__V2__*/;
 const US = /*__US__*/;
-const M = DATA.metros, byId = Object.fromEntries(M.map(x=>[x.id,x]));
-const slug = s => s.toLowerCase().replace(/[^a-z0-9]/g,'');
-const bySlug = Object.fromEntries(M.map(x=>[slug(x.s),x]));
-const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const sgn = v => (v>0?'+':v<0?'−':'')+Math.abs(v).toFixed(2);
-const YEARS = V2.years, CFG = V2.cfg;
-const ROWS = [ // plain-language view of the four measures the deck leads with
+/*__SHARED_JS__*/
+const ROWS = [
   ['burden','Renters stretched by rent', v=>Math.round(v*100)+'%', 1],
   ['price_to_income','Years of income to buy a home', v=>v.toFixed(1)+' yrs', 1],
   ['denial','Buyers turned down for a mortgage', v=>'1 in '+Math.round(1/v), 1],
   ['homeownership','Households that own their home', v=>Math.round(v*100)+'%', -1]];
 const CAUSE = {
-  O:['Buyers get turned down','Mortgage applications are denied more often than in its twin cities.'],
-  H:['Not enough homes get built','Fewer new homes per household than its twin cities, so prices and rents have nowhere to go but up.'],
-  M:['Older homes are slipping away','More of the housing stock is pre-1960 than in its twins, and it is repricing or falling out of use.'],
-  E:['Owning costs keep climbing','Property tax and insurance take a bigger bite of owner income than in its twin cities.']};
+  O:['Buyers get turned down','Mortgage applications are denied more often than in its peer cities.'],
+  H:['Not enough homes get built','Fewer new homes than its peer cities, so prices and rents have nowhere to go but up.'],
+  M:['Older homes are slipping away','More of the housing stock is pre-1960 than in its peers, and it is repricing or falling out of use.'],
+  E:['Owning costs keep climbing','Property tax and insurance take a bigger bite of owner income than in its peer cities.']};
 const PRODUCT = {
   'Gap Equity Loan':'a partner pool covers 20% down, the bank makes the 80% loan.',
   'Second-look underwriting':'a second look for denied applicants using rent history.',
@@ -150,113 +124,93 @@ const PRODUCT = {
   'Insurance-retrofit grants':'fund the roof and storm upgrades that cut premiums.',
   'Escrow early warning':'warn owners before tax and insurance jumps hit their payment.'};
 const LAYERS = [['Census ACS 5-year','yearly','ok'],['HMDA mortgage data','yearly','ok'],['Building permits','monthly','p1'],['Zillow / Apartment List rents','monthly','p1'],['FHFA house price index','quarterly','p1'],['BLS jobs and wages','monthly','p1'],['HUD subsidized housing + NHPD','yearly','p1'],['County parcels','yearly','p1'],['FEMA risk + flood insurance','yearly','p1'],['Fannie Mae condo eligibility','monthly','p1'],['Council agendas (AI scan)','weekly','p1'],['Bank-side: applications, denial reasons, escrow','live · never leaves the bank','bank']];
+const DRV_LABEL = {denial:'Mortgage denial rate',tax_burden:'Property tax ÷ owner income',recent_build:'Homes built since 2010',multifamily:'Homes in 5+ unit buildings',pre1960:'Homes built before 1960'};
+const PLAY = {H:['Housing supply','Build'],O:['Ownership access','Access'],M:['Maintaining existing stock','Preserve'],E:['Expenses of ownership','Relief']};
 
-const S = {id:null, mode:'twins', whatif:'rents_outpace_pay', year:2031, play:false, timer:null};
+const S = {id:null, mode:'peers', whatif:'rents_outpace_pay', year:2031};
 const yi = () => S.year - YEARS[0];
-const sc = (id, w=S.whatif) => V2.metros[id].sc[w];
-const gapAt = (id, y=yi(), play=false) => { const s = sc(id); return (play ? s.gp : s.g)[y]; };
-const rankAt = (id, y=yi(), play=false) => { const g = gapAt(id,y,play); return 1 + M.filter(x=>x.id!==id && gapAt(x.id,y) > g).length; };
-const stretched = (y) => M.filter(x=>sc(x.id).b[y] >= CFG.stretched_share).length;
-
-// ---------- map ----------
-const proj = d3.geoAlbersUsa().scale(1300).translate([487.5,305]);
-const path = d3.geoPath();
-const svg = d3.select('#map');
-svg.append('g').selectAll('path').data(topojson.feature(US, US.objects.states).features).join('path').attr('class','state').attr('d', path);
-const pts = M.map(x=>{ const v=V2.metros[x.id], p=proj([v.lon,v.lat]); return {x, px:p?p[0]:null, py:p?p[1]:null}; }).filter(d=>d.px!==null);
-const dots = svg.append('g').selectAll('circle').data(pts).join('circle').attr('class','dot').attr('cx',d=>d.px).attr('cy',d=>d.py).attr('r',4.5)
-  .on('click',(e,d)=>select(d.x.id)).append('title');
-const label = svg.append('text').attr('class','lbl');
-const twinColor = g => g >= CFG.wide_margin_sd ? 'var(--red)' : g >= CFG.gap_metro_sd ? 'var(--orange)' : g <= -CFG.gap_metro_sd ? 'var(--green)' : 'var(--dot)';
+const sc = id => scOf(id, S.whatif);
+const stretched = y => M.filter(x=>sc(x.id).b[y] >= CFG.stretched_share).length;
 const squeezeColor = b => b >= 0.60 ? 'var(--red)' : b >= 0.55 ? 'var(--orange)' : b >= 0.50 ? 'var(--peach)' : 'var(--dot)';
+
+const map = PeerMap('#map', {
+  onPick: id => select(id),
+  focus: () => [S.id],
+  fill: x => S.mode==='peers' ? tierColor(x.gap) : squeezeColor(sc(x.id).b[yi()]),
+  title: x => S.mode==='peers' ? `${x.s}: ${sgn(x.gap)} SD vs its peers (#${x.rank})` : `${x.s}: ${Math.round(sc(x.id).b[yi()]*100)}% of renters stretched in ${S.year} (scenario)`,
+});
 function paint(){
-  svg.selectAll('circle.dot').attr('fill', d => S.mode==='twins' ? twinColor(d.x.gap) : squeezeColor(sc(d.x.id).b[yi()]))
-    .classed('sel', d=>d.x.id===S.id).attr('r', d=>d.x.id===S.id?7:4.5)
-    .select('title').text(d => S.mode==='twins' ? `${d.x.s}: ${sgn(d.x.gap)} SD vs twins (#${d.x.rank})` : `${d.x.s}: ${Math.round(sc(d.x.id).b[yi()]*100)}% of renters stretched in ${S.year} (scenario)`);
-  svg.selectAll('circle.sel').raise();
-  const sel = pts.find(d=>d.x.id===S.id); if(sel){ label.attr('x',sel.px+10).attr('y',sel.py+5).text(sel.x.s); }
-  document.getElementById('legend').innerHTML = S.mode==='twins'
-    ? `Gap vs. its twins: <span><i style="background:var(--red)"></i>Wide margin</span><span><i style="background:var(--orange)"></i>Behind</span><span><i style="background:var(--dot)"></i>In line</span><span><i style="background:var(--green)"></i>Ahead</span>`
-    : `Renters spending 30%+ on rent: <span><i style="background:var(--red)"></i>6 in 10+</span><span><i style="background:var(--orange)"></i>55%+</span><span><i style="background:var(--peach)"></i>Half+</span><span><i style="background:var(--dot)"></i>Under half</span>`;
+  map.paint();
+  document.getElementById('legend').innerHTML = (S.mode==='peers'
+    ? `Gap vs. its peers: ${TIER_LEGEND}`
+    : `Renters spending 30%+ on rent: <span><i style="background:var(--red)"></i>6 in 10+</span><span><i style="background:var(--orange)"></i>55%+</span><span><i style="background:var(--peach)"></i>Half+</span><span><i style="background:var(--dot)"></i>Under half</span>`) + LINE_LEGEND;
 }
-function setMode(m){ S.mode=m; document.getElementById('mode-twins').setAttribute('aria-pressed', m==='twins'); document.getElementById('mode-squeeze').setAttribute('aria-pressed', m==='squeeze'); paint(); }
-document.getElementById('mode-twins').onclick = ()=>setMode('twins');
+function setMode(m){ S.mode=m; document.getElementById('mode-peers').setAttribute('aria-pressed', m==='peers'); document.getElementById('mode-squeeze').setAttribute('aria-pressed', m==='squeeze'); paint(); }
+document.getElementById('mode-peers').onclick = ()=>setMode('peers');
 document.getElementById('mode-squeeze').onclick = ()=>setMode('squeeze');
 
-// ---------- time ----------
-const yr = document.getElementById('year');
-function setYear(y){ S.year=+y; yr.value=y; yr.style.setProperty('--p', ((y-2026)/10*100)+'%'); document.getElementById('yearlbl').textContent=y; paint(); kpis(); scenarioCard(); }
-yr.addEventListener('input', e=>setYear(e.target.value));
 const wsel = document.getElementById('whatif');
 wsel.innerHTML = Object.entries(V2.whatifs).map(([k,l])=>`<option value="${k}">What if: ${esc(l.toLowerCase())}</option>`).join('');
 wsel.value = S.whatif; wsel.onchange = e=>{ S.whatif=e.target.value; paint(); kpis(); scenarioCard(); };
-const playBtn = document.getElementById('play');
-playBtn.onclick = ()=>{
-  if(S.play){ clearInterval(S.timer); S.play=false; playBtn.innerHTML='&#9654;'; return; }
-  S.play=true; playBtn.innerHTML='&#10074;&#10074;'; if(S.mode!=='squeeze') setMode('squeeze');
-  let y = S.year>=2036 ? 2026 : S.year; setYear(y);
-  S.timer = setInterval(()=>{ y++; if(y>2036){ clearInterval(S.timer); S.play=false; playBtn.innerHTML='&#9654;'; return; } setYear(y); }, 650);
-};
+const setYear = wireYear(y=>{ S.year=y; paint(); kpis(); scenarioCard(); });
+document.getElementById('play').addEventListener('click', ()=>{ if(S.mode!=='squeeze') setMode('squeeze'); });
 
-// ---------- KPIs ----------
 function kpis(){
   const n1 = M.filter(x=>x.gap>=CFG.gap_metro_sd).length, n2 = M.filter(x=>x.gap>=CFG.wide_margin_sd).length;
   const a = stretched(0), b = stretched(yi());
   document.getElementById('kpis').innerHTML = `
-    <div class="kpi"><div class="n">${n1}<small>of 100</small></div><p>metros are less affordable than their twins</p></div>
-    <div class="kpi"><div class="n">${n2}</div><p>trail their twins by a wide margin</p></div>
+    <div class="kpi"><div class="n">${n1}<small>of 100</small></div><p>metros are less affordable than their peers</p></div>
+    <div class="kpi"><div class="n">${n2}</div><p>trail their peers by a wide margin</p></div>
     <div class="kpi"><div class="n">${a} <span aria-hidden="true">→</span><span class="sr">to</span> <span style="color:${b>a?'var(--red)':b<a?'var(--green)':'inherit'}">${b}</span></div><p>metros where 6 in 10 renters are stretched, by ${S.year} <span class="badge p1">scenario</span></p></div>`;
 }
 
-// ---------- rail ----------
 const ext = {}; ROWS.forEach(([k])=>{ const vals = M.flatMap(x=>[x.m[k],x.mt[k]]); ext[k]=[Math.min(...vals), Math.max(...vals)]; });
 function dumbbell(x,[k,l,f,dir]){
   const v=x.m[k], t=x.mt[k], [lo,hi]=ext[k], px = u => 6+88*(u-lo)/(hi-lo);
   const worse = dir*(v-t)>0, close = Math.abs(v-t)/Math.max(Math.abs(t),1e-9)<0.02;
   const c = close?'var(--ink)':worse?'var(--red)':'var(--green)';
-  return `<div class="l">${l}</div><div class="db" role="img" aria-label="${l}: ${x.s} ${f(v)}, twin median ${f(t)}">
+  return `<div class="l">${l}</div><div class="db" role="img" aria-label="${l}: ${x.s} ${f(v)}, peer median ${f(t)}">
     <div class="tr"></div><div class="seg2" style="left:${Math.min(px(v),px(t))}%;width:${Math.abs(px(v)-px(t))}%"></div>
-    <span class="v" style="left:${px(t)}%;color:var(--muted)">${f(t)}</span><span class="v me" style="left:${px(v)}%;color:${c}">${f(v)}</span>
+    <span class="v" style="left:${px(t)}%;top:29px;color:var(--muted)">${f(t)}</span><span class="v me" style="left:${px(v)}%;color:${c}">${f(v)}</span>
     <span class="pt" style="left:${px(t)}%;background:var(--dot)"></span><span class="pt" style="left:${px(v)}%;background:${c}"></span></div>`;
 }
+const pct = v => v==null ? '—' : (v*100).toFixed(1)+'%';
+const med = a => { const s=a.filter(z=>z!=null).sort((p,q)=>p-q), n=s.length; return n ? (n%2 ? s[(n-1)/2] : (s[n/2-1]+s[n/2])/2) : null; };
+function peerTable(x){
+  const v = V2.metros[x.id], cl = V2.clusters[v.cluster];
+  const row = (id, d, me) => { const f = V2.metros[id].f; return `<tr${me?' class="me"':''}><td>${esc(byId[id].s)}</td><td>${d==null?'—':d.toFixed(2)}</td><td>${(f[0]/1e6).toFixed(1)}M</td><td>${f[1]==null?'n/a':(f[1]>0?'+':'')+(f[1]*100).toFixed(1)+'%'}</td><td>$${Math.round(f[2]/1000)}k</td><td>${esc(f[3])} ${pct(f[4])}</td><td>${pct(f[5])}</td><td>${pct(f[6])}</td><td>${pct(f[7])}</td><td>${f[8].toFixed(0)}</td><td>${sgn(f[9])}</td></tr>`; };
+  const fm = i => med(x.tw.map(id=>V2.metros[id].f[i]));
+  const mrow = `<tr class="med"><td>Peer median</td><td>${med(v.td).toFixed(2)}</td><td>${(fm(0)/1e6).toFixed(1)}M</td><td>${(fm(1)>0?'+':'')+(fm(1)*100).toFixed(1)}%</td><td>$${Math.round(fm(2)/1000)}k</td><td>${pct(fm(4))}</td><td>${pct(fm(5))}</td><td>${pct(fm(6))}</td><td>${pct(fm(7))}</td><td>${fm(8).toFixed(0)}</td><td>${sgn(fm(9))}</td></tr>`;
+  return `<p class="note" style="margin:8px 0 6px">Distance = how different on the matching factors; lower is closer. Housing costs are never used to match. ${esc(x.s)} sits in <b>${esc(cl.name)}</b>: ${cl.n} metros like ${esc(cl.examples.split(' | ').slice(0,3).join(', '))}.</p>
+    <div class="scrollx"><table class="pt2"><thead><tr><th>Metro</th><th>Dist.</th><th>Pop.</th><th>5-yr growth</th><th>Income</th><th>Top industry</th><th>Broadband</th><th>Transit</th><th>No car</th><th>Commute</th><th>Housing score</th></tr></thead>
+    <tbody>${row(x.id,null,true)}${x.tw.map((id,i)=>row(id, v.td[i])).join('')}${mrow}</tbody></table></div>`;
+}
 function fixCard(x){
-  const v = V2.metros[x.id], p = PLAY[x.top];
-  if(!x.top || x.gap<=0) return `<div class="fix" style="border-left-color:var(--green)"><div class="lane" style="color:var(--green)">Watch</div><h4>${x.gap>0?'No driver is worse than its twins':'More affordable than its twins'}</h4><p>${esc(x.s)} matches or beats its twins on the drivers we measure${x.top?`; ${PLAY[x.top][0].toLowerCase()} is where it trails most`:''}.</p></div>`;
-  const [h,why] = CAUSE[x.top]; const prods = v.products.length?v.products:(PLAY[x.top]?[PLAY[x.top][1]]:[]);
+  const v = V2.metros[x.id];
+  if(!x.top || x.gap<=0) return `<div class="fix" style="border-left-color:var(--green)"><div class="lane" style="color:var(--green)">Watch</div><h4>${x.gap>0?'No driver is worse than its peers':'More affordable than its peers'}</h4><p>${esc(x.s)} matches or beats its peers on the drivers we measure${x.top?`; ${PLAY[x.top][0].toLowerCase()} is where it trails most`:''}.</p></div>`;
+  const [h,why] = CAUSE[x.top]; const prods = v.products.length?v.products:[PLAY[x.top][1]];
   const first = prods[0], rest = prods.slice(1);
   return `<div class="fix"><div class="lane">${esc(v.lane)}</div><h4>${h}</h4><p>${why}</p>
     <p><b>Bank play:</b> ${esc(first)}: ${PRODUCT[first]||''}${rest.length?' Plus '+rest.map(r=>r.toLowerCase()).join(' and ')+'.':''}</p>
     <p class="note">Why this lane: ${esc(v.route_reason)}.</p></div>`;
 }
-const PLAY = {H:['Housing supply','Build'],O:['Ownership access','Access'],M:['Maintaining existing stock','Preserve'],E:['Expenses of ownership','Relief']};
-const pct = v => v==null ? '—' : (v*100).toFixed(1)+'%';
-function peerTable(x){
-  const v = V2.metros[x.id], cl = V2.clusters[v.cluster];
-  const row = (id, d, me) => { const f = V2.metros[id].f; return `<tr${me?' class="me"':''}><td>${esc(byId[id].s)}</td><td>${d==null?'—':d.toFixed(2)}</td><td>${(f[0]/1e6).toFixed(1)}M</td><td>${f[1]==null?'n/a':(f[1]>0?'+':'')+(f[1]*100).toFixed(1)+'%'}</td><td>$${Math.round(f[2]/1000)}k</td><td>${esc(f[3])} ${pct(f[4])}</td><td>${pct(f[5])}</td><td>${pct(f[6])}</td><td>${pct(f[7])}</td><td>${f[8].toFixed(0)}</td><td>${sgn(f[9])}</td></tr>`; };
-  const med = i => { const a = x.tw.map(id=>V2.metros[id].f[i]).filter(z=>z!=null).sort((p,q)=>p-q); const n=a.length; return n? (n%2? a[(n-1)/2] : (a[n/2-1]+a[n/2])/2) : null; };
-  const mrow = `<tr class="med"><td>Twin median</td><td>${med_d(v.td).toFixed(2)}</td><td>${(med(0)/1e6).toFixed(1)}M</td><td>${(med(1)>0?'+':'')+(med(1)*100).toFixed(1)}%</td><td>$${Math.round(med(2)/1000)}k</td><td>${pct(med(4))}</td><td>${pct(med(5))}</td><td>${pct(med(6))}</td><td>${pct(med(7))}</td><td>${med(8).toFixed(0)}</td><td>${sgn(med(9))}</td></tr>`;
-  return `<p class="note" style="margin:8px 0 6px">Distance = how different on the matching factors (lower is closer). Housing costs are never used to match. ${esc(x.s)} sits in <b>${esc(cl.name)}</b>: ${cl.n} metros like ${esc(cl.examples.split(' | ').slice(0,3).join(', '))}.</p>
-    <div class="scrollx"><table class="pt"><thead><tr><th>Metro</th><th>Dist.</th><th>Pop.</th><th>5-yr growth</th><th>Income</th><th>Top industry</th><th>Broadband</th><th>Transit</th><th>No car</th><th>Commute</th><th>Housing score</th></tr></thead>
-    <tbody>${row(x.id,null,true)}${x.tw.map((id,i)=>row(id, v.td[i])).join('')}${mrow}</tbody></table></div>`;
-}
-const med_d = a => { const s=[...a].sort((p,q)=>p-q), n=s.length; return n%2? s[(n-1)/2] : (s[n/2-1]+s[n/2])/2; };
 function rail(){
   const x = byId[S.id], v = V2.metros[x.id];
-  const arrow = {diverging:'↗ Diverging', recovering:'↘ Recovering', chronic:'→ Chronic', stable:'→ Stable'}[v.trend];
   document.getElementById('rail').innerHTML = `
     <section>
       <h2 class="name">${esc(x.n)}</h2>
-      <p class="sub"><b>${sgn(x.gap)} SD</b> ${x.gap>0?'less':'more'} affordable than its 10 twins · <b>#${x.rank}</b> of 100 · top 10 in <b>${Math.round(x.mc*100)}%</b> of ${DATA.meta.runs.toLocaleString()} simulations</p>
-      <div class="meta"><span class="badge">${esc(V2.clusters[v.cluster].name)}</span><span>${arrow} <span class="tabular">${sgn(v.gap_then)} then → ${sgn(x.gap)} now</span></span><span class="badge p1" title="Trend uses placeholder 2015–19 inputs until the next data pull">Phase 1 · illustrative</span>${v.priority?'<span class="badge" style="background:var(--sel);color:var(--orange-ink)">Priority market</span>':''}</div>
+      ${heroGap(x.gap)}
+      <p class="sub"><b>#${x.rank}</b> of 100 · top 10 in <b>${Math.round(x.mc*100)}%</b> of ${DATA.meta.runs.toLocaleString()} simulations</p>
+      <div class="meta"><span class="badge">${esc(V2.clusters[v.cluster].name)}</span><span>${TREND[v.trend]} <span class="tabular">${sgn(v.gap_then)} then → ${sgn(x.gap)} now</span></span><span class="badge p1" title="Trend uses placeholder 2015–19 inputs until the next data pull">Phase 1 · illustrative</span>${v.priority?'<span class="badge pr">Priority market</span>':''}</div>
     </section>
     <section>
       <div class="rows">${ROWS.map(r=>dumbbell(x,r)).join('')}</div>
-      <div class="key"><span><i style="background:var(--ink)"></i>${esc(x.s)}</span><span><i style="background:var(--dot)"></i>Twin-city median</span></div>
-      <p class="twins">Twins: ${x.tw.map(id=>`<button data-id="${id}">${esc(byId[id].s)}</button>`).join(', ')}</p>
-      <details><summary>Twins side by side (the matching factors)</summary>${peerTable(x)}</details>
+      <div class="key"><span><i style="background:var(--ink)"></i>${esc(x.s)}</span><span><i style="background:var(--dot)"></i>Peer median</span></div>
+      <p class="peers">Peers, closest first: ${x.tw.map(id=>`<button data-id="${id}">${esc(byId[id].s)}</button>`).join(', ')}</p>
+      <details><summary>Peers side by side: the matching factors</summary>${peerTable(x)}</details>
       <details><summary>All six measures and the drivers</summary>
-        <table class="layers" style="margin-top:8px">${[['burden','Renters paying 30%+'],['severe','Renters paying 50%+'],['rent_to_income','Rent ÷ renter income'],['price_to_income','Home value ÷ income'],['denial','Mortgage denial rate'],['homeownership','Homeownership']].map(([k,l])=>`<tr><td>${l}</td><td class="tabular">${k==='price_to_income'?x.m[k].toFixed(1)+'×':(x.m[k]*100).toFixed(1)+'%'} <span class="note">vs ${k==='price_to_income'?x.mt[k].toFixed(1)+'×':(x.mt[k]*100).toFixed(1)+'%'}</span></td></tr>`).join('')}
-        ${x.dr.map(d=>`<tr><td>${esc({denial:'Mortgage denial rate',tax_burden:'Property tax ÷ owner income',recent_build:'Homes built since 2010',multifamily:'Homes in 5+ unit buildings',pre1960:'Homes built before 1960'}[d.k])} <span class="badge">${d.h}</span></td><td class="tabular" style="color:${d.d>0?'var(--red)':'var(--green)'}">${sgn(d.d)} SD vs twins</td></tr>`).join('')}</table></details>
+        <table class="layers">${[['burden','Renters paying 30%+'],['severe','Renters paying 50%+'],['rent_to_income','Rent ÷ renter income'],['price_to_income','Home value ÷ income'],['denial','Mortgage denial rate'],['homeownership','Homeownership']].map(([k,l])=>`<tr><td>${l}</td><td class="tabular">${k==='price_to_income'?x.m[k].toFixed(1)+'×':(x.m[k]*100).toFixed(1)+'%'} <span class="note">vs ${k==='price_to_income'?x.mt[k].toFixed(1)+'×':(x.mt[k]*100).toFixed(1)+'%'}</span></td></tr>`).join('')}
+        ${x.dr.map(d=>`<tr><td>${esc(DRV_LABEL[d.k])} <span class="badge">${d.h}</span></td><td class="tabular" style="color:${d.d>0?'var(--red)':'var(--green)'}">${sgn(d.d)} SD vs peers</td></tr>`).join('')}</table></details>
     </section>
     <section><p class="kicker">Main reason and the fix</p>${fixCard(x)}</section>
     <section id="scenario"></section>
@@ -267,38 +221,29 @@ function rail(){
 function scenarioCard(){
   const el = document.getElementById('scenario'); if(!el || !S.id) return;
   const x = byId[S.id], v = V2.metros[x.id], s = sc(x.id), y = yi(), play = document.getElementById('bank')?.checked || false;
-  const b0 = s.b[0], bY = s.b[y], r0 = rankAt(x.id,0), rY = rankAt(x.id,y,play), g0 = s.g[0], gY = s.g[y], gP = s.gp[y];
+  const b0 = s.b[0], bY = s.b[y], r0 = rankIn(x.id,S.whatif,0), rY = rankIn(x.id,S.whatif,y,play), g0 = s.g[0], gY = s.g[y], gP = s.gp[y];
   const move = Math.abs(gY-g0) < CFG.diverging_sd ? 'Holds steady' : gY>g0 ? 'Widens' : 'Narrows';
   const smaller = gY>0 ? Math.round((gY-gP)/gY*100) : 0;
   const dpts = ((x.m.denial - x.mt.denial)*100).toFixed(1);
   el.innerHTML = `<p class="kicker">${esc(V2.whatifs[S.whatif])}: ${esc(x.s)} by ${S.year} <span class="badge p1">Phase 1 · scenario</span></p>
     <div class="tiles">
-      <div class="tile"><div class="k">Renters stretched by rent</div><div class="big"><small>${Math.round(b0*100)}% →</small> <span style="color:${bY>b0+.005?'var(--red)':bY<b0-.005?'var(--green)':'inherit'}">${Math.round(bY*100)}%</span></div></div>
-      <div class="tile"><div class="k">Gap vs. twins</div><div class="big">${move}</div><div class="s">#${r0} → #${rY} of 100${play?' with the play':''}</div></div>
+      <div class="tile"><div class="k">Renters stretched by rent</div><div class="bg"><small>${Math.round(b0*100)}% →</small> <span style="color:${bY>b0+.005?'var(--red)':bY<b0-.005?'var(--green)':'inherit'}">${Math.round(bY*100)}%</span></div></div>
+      <div class="tile"><div class="k">Gap vs. peers</div><div class="bg">${move}</div><div class="s">#${r0} → #${rY} of 100${play?' with the play':''}</div></div>
     </div>
     <label class="switch"><input type="checkbox" id="bank" ${play?'checked':''}> Add the bank play</label>
-    <p class="result">${x.gap>0 && x.top==='O' || v.lane==='Access'
-      ? (play ? `With the bank play, the gap is <b>${smaller}% smaller</b> by ${S.year}.` : `Turn on the bank play to see how much of the gap the ${esc(v.lane)} lane closes by ${S.year}.`)
-      : (play ? `The ${esc(v.lane)} lane is modelled only through mortgage access here; for ${esc(x.s)} that closes <b>${smaller}%</b> of the gap by ${S.year}.` : `${esc(x.s)}'s lead driver is ${esc((PLAY[x.top]||['',''])[0].toLowerCase()||'none')}; the bank-play switch models mortgage access only.`)}</p>
-    <p class="note">Assumption: the play closes half of the ${dpts}-point denial gap with its twins by 2031. Band and drift come from the 1,000-run Monte Carlo spread.</p>
+    <p class="result">${v.lane==='Access'
+      ? (play ? `With the bank play, the gap is <b>${smaller}% smaller</b> by ${S.year}.` : `Turn on the bank play to see how much of the gap the Access lane closes by ${S.year}.`)
+      : (play ? `The bank-play switch models mortgage access only; for ${esc(x.s)} that closes <b>${smaller}%</b> of the gap by ${S.year}.` : `${esc(x.s)}'s lead lane is ${esc(v.lane)}; the bank-play switch models mortgage access only.`)}</p>
+    <p class="note">Assumption: the play closes half of the ${dpts}-point denial gap with its peers by 2031. Band and drift come from the 1,000-run Monte Carlo spread.</p>
     <p class="note">Change the what-if under the map. <b>A scenario, not a prediction.</b> <a href="forecast.html#${slug(x.s)}">Open the full forecast →</a></p>`;
   document.getElementById('bank').onchange = scenarioCard;
 }
-
-// ---------- selection + search ----------
 function select(id, push=true){ S.id=id; rail(); paint(); if(push){ try{ history.replaceState(null,'','#'+slug(byId[id].s)); }catch(e){} } }
 document.addEventListener('click', e=>{ const b=e.target.closest('button[data-id]'); if(b) select(b.dataset.id); });
-const q = document.getElementById('q'), hits = document.getElementById('hits');
-q.addEventListener('input', ()=>{ const f=q.value.trim().toLowerCase(); if(!f){hits.classList.remove('open');return;}
-  const list = M.filter(x=>x.n.toLowerCase().includes(f)).slice(0,8);
-  hits.innerHTML = list.map(x=>`<li role="option"><button data-id="${x.id}">${esc(x.s)}<small>#${x.rank} · ${sgn(x.gap)}</small></button></li>`).join('') || '<li class="note" style="padding:8px">No metro matches.</li>';
-  hits.classList.add('open'); });
-q.addEventListener('keydown', e=>{ if(e.key==='Enter'){ const b=hits.querySelector('button'); if(b){ select(b.dataset.id); q.value=''; hits.classList.remove('open'); } } if(e.key==='Escape'){ hits.classList.remove('open'); } });
-hits.addEventListener('click', ()=>{ q.value=''; hits.classList.remove('open'); });
-document.addEventListener('click', e=>{ if(!e.target.closest('.search')) hits.classList.remove('open'); });
-
+wireSearch(id=>select(id));
 const start = bySlug[(location.hash||'').slice(1)] || bySlug['miami'] || M[0];
-kpis(); setYear(2031); select(start.id, false);
+S.id = start.id; kpis(); setYear(2031); select(start.id, false);
+window.addEventListener('hashchange', ()=>{ const x=bySlug[location.hash.slice(1)]; if(x && x.id!==S.id) select(x.id, false); });
 </script>
 </body>
 </html>

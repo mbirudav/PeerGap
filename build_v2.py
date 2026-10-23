@@ -83,6 +83,18 @@ def zmat(m):
         Z[cols] = Z[cols] / np.sqrt(len(cols))
     return Z
 
+def zrows(m, p):
+    """Rebuild peergap.distance_matrix's weighted z-score rows exactly and prove it against peers.csv."""
+    blocks = []
+    for cols in GROUPS.values():
+        zb = m[cols].apply(lambda c: (c - c.mean()) / c.std(ddof=0)).fillna(0.0)   # missing -> metro average, as peergap.py
+        blocks.append(zb.values * np.sqrt(1 / len(cols)))
+    X = np.hstack(blocks); pos = {cid: i for i, cid in enumerate(m.index)}; name2id = {v: k for k, v in m.name.items()}
+    err = max(abs(np.linalg.norm(X[pos[name2id[r.metro]]] - X[pos[name2id[r.twin]]]) - r.distance) for r in p.itertuples())
+    if err > 0.002: sys.exit(f"GATE FAIL: rebuilt peer distances differ from peers.csv by {err:.4f}")
+    log(f"distances: rebuilt all {len(p)} peer distances from the matching factors (max error {err:.4f})")
+    return pd.DataFrame(X, index=m.index)
+
 # ---- coordinates (REAL, Census 2023 gazetteer) ------------------------------
 def coords(m):
     g = pd.read_csv(DATA / "2023_Gaz_cbsa_national.txt", sep="\t", dtype={"GEOID": str})
@@ -111,13 +123,13 @@ def peers_table(m, p, query):
                     transit_share=r.transit_share, no_vehicle=r.no_vehicle, commute_min=r.commute_min,
                     housing_score=r.score, gap=r.gap)
     rows.append(row(me, "self", 0.0))
-    for _, t in tw.iterrows(): rows.append(row(m.loc[name2id[t.twin]], "twin", t.distance))
+    for _, t in tw.iterrows(): rows.append(row(m.loc[name2id[t.twin]], "peer", t.distance))
     df = pd.DataFrame(rows)
-    med = df[df.role == "twin"].median(numeric_only=True).astype(object); med["role"], med["metro"] = "twin_median", "Twin median"
-    med["top_industry"] = df[df.role == "twin"].top_industry.mode()[0]
+    med = df[df.role == "peer"].median(numeric_only=True).astype(object); med["role"], med["metro"] = "peer_median", "Peer median"
+    med["top_industry"] = df[df.role == "peer"].top_industry.mode()[0]
     df = pd.concat([df, med.to_frame().T], ignore_index=True)
     fn = OUT / f"{me['short'].lower().replace(' ', '_')}_peers.csv"
-    df.to_csv(fn, index=False); log(f"peers: wrote {fn.name} ({len(tw)} twins)")
+    df.to_csv(fn, index=False); log(f"peers: wrote {fn.name} ({len(tw)} peers)")
     return df
 
 # ---- clusters (REAL) ---------------------------------------------------------
@@ -147,7 +159,7 @@ def clusters(m, p):
         tw = p[p.metro == m.loc[cid, "name"]].twin.map(name2id)
         cons.append((lab[tw] == lab[cid]).mean())
     cons = pd.Series(cons, index=m.index, name="peer_consistency")
-    log(f"clusters: average share of a metro's 10 twins in its own cluster = {cons.mean():.2f}")
+    log(f"clusters: average share of a metro's 10 peers in its own cluster = {cons.mean():.2f}")
     pc = PCA(2, random_state=SEED).fit_transform(Z)
     out = pd.DataFrame({"metro": m.short, "cluster": lab, "silhouette": sil.round(3), "peer_consistency": cons.round(2),
                         "pca_x": pc[:, 0].round(3), "pca_y": pc[:, 1].round(3)}, index=m.index)
@@ -199,7 +211,7 @@ def funnel(m, div):
     prio = gapm[gapm.mc_top10_share >= CFG["priority_mc"]]
     ptr = div.loc[prio.index, "trend_scenario"].value_counts().to_dict()
     rows = [("all large metros", len(m), "100 largest MSAs"),
-            ("gap metros", len(gapm), f"gap >= {CFG['gap_metro_sd']} SD vs twins"),
+            ("gap metros", len(gapm), f"gap >= {CFG['gap_metro_sd']} SD vs peers"),
             ("robust", len(robust), "10th-percentile simulated gap still > 0"),
             ("not recovering (scenario)", len(keep), f"drops recovering metros; split: {tr.value_counts().to_dict()} (illustrative)"),
             ("priority markets", len(prio), f"top-10 in >= {int(CFG['priority_mc']*100)}% of 1,000 runs; trend split {ptr} (illustrative)")]
@@ -209,13 +221,13 @@ def funnel(m, div):
 def route(row, collateral_gap_pts=None):
     h = row.top_driver_home; r = ROUTES.get(h)
     if not isinstance(h, str) or r is None or row.gap <= 0:
-        return dict(route_cause="none", route_lane="Watch", route_products="", route_reason="no driver worse than twins")
+        return dict(route_cause="none", route_lane="Watch", route_products="", route_reason="no driver worse than peers")
     prods = list(r["products"])
     if h == "O" and collateral_gap_pts is not None and collateral_gap_pts >= CFG["condo_rescue_pts"]:
         prods.remove("Condo rescue loans"); prods.insert(0, "Condo rescue loans")
         why = f"collateral denials {collateral_gap_pts:+.1f} pts vs peers -> condo rescue first"
     else:
-        why = f"largest driver vs twins: {row.top_driver} ({row['drv_' + row.top_driver]:+.2f} SD)"
+        why = f"largest driver vs peers: {row.top_driver} ({row['drv_' + row.top_driver]:+.2f} SD)"
     return dict(route_cause=r["cause"], route_lane=r["lane"], route_products=" | ".join(prods), route_reason=why)
 
 def gap_metros(m, div, clus, collateral):
@@ -306,7 +318,7 @@ def scenarios(m, p, div):
     log(f"scenarios: Miami burden {mi.burden_scenario.iloc[0]:.0%} -> {mi.burden_scenario.iloc[1]:.0%} by 2031 under rents-outpace-pay, "
         f"rank #{mi.rank_scenario.iloc[0]} -> #{mi.rank_scenario.iloc[1]}; metros with >=60% stretched {n26} -> {n31}  [SCENARIO, not a prediction]")
     mrow = m[m.short == "Miami"].iloc[0]
-    log(f"bank play (real re-score, assumed play): Miami denial {mrow.denial:.1%} vs twins {twin_den[m.short == 'Miami'].iloc[0]:.1%}; "
+    log(f"bank play (real re-score, assumed play): Miami denial {mrow.denial:.1%} vs peers {twin_den[m.short == 'Miami'].iloc[0]:.1%}; "
         f"closing half cuts the gap {play[m.short == 'Miami'].iloc[0]:.2f} SD -> {(g31 - gp31) / g31:.0%} smaller by 2031")
     return df, blob
 
@@ -334,7 +346,7 @@ def returns(price=443_300):
     log("returns: 5-row table reproduces the deck to the dollar"); return df
 
 # ---- v2.json for the pages ---------------------------------------------------
-def write_json(m, c, clus, prof, div, gm, blob, flag, denial_df, prio, p):
+def write_json(m, c, clus, prof, div, gm, blob, flag, denial_df, prio, p, Z):
     dist = {cid: p[p.metro == m.loc[cid, "name"]].sort_values("rank").distance.round(2).tolist() for cid in m.index}
     def factors(r):
         top = r[list(INDUSTRY)].astype(float).idxmax()
@@ -350,7 +362,7 @@ def write_json(m, c, clus, prof, div, gm, blob, flag, denial_df, prio, p):
                            trend=div.loc[cid, "trend_scenario"], gap_change=float(div.loc[cid, "gap_change_scenario"]),
                            gap_then=float(div.loc[cid, "gap_2015_19_scenario"]), diverging_share=float(div.loc[cid, "mc_diverging_share_scenario"]),
                            lane=rt["route_lane"], products=[p for p in str(rt["route_products"]).split(" | ") if p], route_reason=rt["route_reason"],
-                           priority=cid in prio, f=factors(r), td=dist[cid], sc=blob[cid])
+                           priority=cid in prio, f=factors(r), td=dist[cid], z=np.round(Z.loc[cid].values, 4).tolist(), sc=blob[cid])
     out = dict(cfg={k: v for k, v in CFG.items() if k != "years"}, years=CFG["years"],
                whatifs={k: v[0] for k, v in WHATIFS.items()}, routes=ROUTES, flagship=flag,
                clusters={int(i): dict(n=int(p.n_metros), gap_n=int(p.n_gap_metros), cause=p.top_home_cause, examples=p.example_metros,
@@ -358,6 +370,58 @@ def write_json(m, c, clus, prof, div, gm, blob, flag, denial_df, prio, p):
                miami_denial_reasons=denial_df.to_dict("records"), metros=metros)
     (DATA / "v2.json").write_text(json.dumps(out, separators=(",", ":")))
     log(f"json: wrote data/v2.json ({(DATA / 'v2.json').stat().st_size // 1024} KB)")
+
+# ---- simulation Q&A: a standalone file, no website needed --------------------
+def qa(m, s, div, prof, play):
+    W, out = "rents_outpace_pay", []
+    def Q(q, basis, body): out.extend([f"## {len([l for l in out if l.startswith('## ')]) + 1}. {q}", f"*Basis: {basis}*", "", body, ""])
+    cut = lambda w, y: s[(s.whatif == w) & (s.year == y)].set_index("metro")
+    n = lambda w, y: int((cut(w, y).burden_scenario >= CFG["stretched_share"]).sum())
+    Q("How many of the 100 metros will have 6 in 10 renters stretched by rent?", "Scenario",
+      "| What-if | 2026 | 2031 | 2036 |\n|---|---|---|---|\n" + "\n".join(f"| {WHATIFS[w][0]} | {n(w, 2026)} | {n(w, 2031)} | {n(w, 2036)} |" for w in WHATIFS))
+    up = (cut(W, 2031).burden_scenario - cut(W, 2026).burden_scenario).sort_values(ascending=False).head(5)
+    Q("If rents outpace pay, where does the share of stretched renters rise fastest by 2031?", "Scenario",
+      "\n".join(f"- {k}: {cut(W, 2026).burden_scenario[k]:.0%} to {cut(W, 2031).burden_scenario[k]:.0%}" for k in up.index))
+    rows = []
+    for w in WHATIFS:
+        r = s[(s.metro == "Miami") & (s.whatif == w)].set_index("year"); d = r.gap_scenario[2031] - r.gap_scenario[2026]
+        rows.append(f"| {WHATIFS[w][0]} | {r.gap_scenario[2026]:+.2f} to {r.gap_scenario[2031]:+.2f} SD | #{r.rank_scenario[2026]} to #{r.rank_scenario[2031]} | "
+                    + ("holds steady" if abs(d) < CFG["diverging_sd"] else "widens" if d > 0 else "narrows") + " |")
+    Q("Does Miami's gap with its peers widen, hold or narrow by 2031?", "Scenario", "| What-if | Gap | Rank | Verdict |\n|---|---|---|---|\n" + "\n".join(rows))
+    pr = m[(m.gap >= CFG["gap_metro_sd"]) & (m.mc_top10_share >= CFG["priority_mc"])].sort_values("gap", ascending=False)
+    c31 = cut(W, 2031)
+    Q("How much smaller is each priority market's gap by 2031 with the bank play?", "Real re-score of an assumed play (halve the denial gap with peers)",
+      "| Metro | Gap 2031 | With the play | Smaller by |\n|---|---|---|---|\n" + "\n".join(
+          f"| {r.short} | {c31.gap_scenario[r.short]:+.2f} | {c31.gap_with_bank_play_scenario[r.short]:+.2f} | {(c31.gap_scenario[r.short] - c31.gap_with_bank_play_scenario[r.short]) / c31.gap_scenario[r.short]:.0%} |" for _, r in pr.iterrows()))
+    t0 = set(c31.gap_scenario.nlargest(10).index); t1 = set(c31.gap_with_bank_play_scenario.nlargest(10).index)
+    Q("If the bank play ran in every metro, who leaves the top 10 gaps by 2031?", "Real re-score of an assumed play",
+      f"Leave the top 10: {', '.join(sorted(t0 - t1)) or 'none'}. Enter it: {', '.join(sorted(t1 - t0)) or 'none'}. The play shrinks gaps most where denials run furthest above peers, so access-led metros fall while supply-led ones stay.")
+    keep = [k for k, g in s[s.whatif == W].groupby("metro") if (g.gap_p10_scenario > 0).all()]
+    Q("Which gaps stay above zero even in the optimistic 10th-percentile case through 2036?", "Scenario band from the Monte Carlo spread",
+      f"{len(keep)} metros: " + ", ".join(m.set_index("short").loc[keep].gap.sort_values(ascending=False).index) + ".")
+    hb = m[(m.top_driver_home == "H") & (m.gap > 0)].short
+    rel = (cut(W, 2036).gap_scenario - cut("building_boom", 2036).gap_scenario)[hb].sort_values(ascending=False).head(5)
+    Q("Under a building boom, which supply-led metros close the most gap by 2036?", "Scenario",
+      "\n".join(f"- {k}: {rel[k]:.2f} SD smaller than if rents outpace pay" for k in rel.index))
+    rk = (cut("trend", 2026).rank_scenario - cut("trend", 2031).rank_scenario).sort_values(ascending=False).head(5)
+    Q("If current trends continue, who climbs the gap ranking fastest by 2031?", "Scenario built on placeholder divergence. Do not quote until the 2015-19 rebuild",
+      "\n".join(f"- {k}: #{cut('trend', 2026).rank_scenario[k]} to #{cut('trend', 2031).rank_scenario[k]}" for k in rk.index))
+    mi = m.index[m.short == "Miami"][0]; g31 = c31.gap_scenario["Miami"]
+    Q("How sensitive is Miami's bank-play result to how much of the denial gap the play closes?", "Real arithmetic: the effect scales linearly with the share closed",
+      "| Share of the denial gap closed | Gap smaller by 2031 |\n|---|---|\n" + "\n".join(f"| {c:.0%} | {play[mi] * c / CFG['bank_play_closes'] / g31:.0%} |" for c in (0.25, 0.5, 0.75, 1.0)))
+    top = prof.sort_values("n_gap_metros", ascending=False).iloc[0]; cause = ROUTES.get(top.top_home_cause, {}).get("cause", top.top_home_cause)
+    Q("Which market archetype holds the most gap metros, and what drives them?", "Real clustering; names still to be chosen",
+      f"Archetype {int(top.name) + 1}: {int(top.n_gap_metros)} of its {int(top.n_metros)} metros are gap metros. Main cause: {cause}. Examples: {top.example_metros.replace(' | ', ', ')}.")
+    rep10 = investor_return(443_300, .2, .2, -0.0105)[0]
+    Q("What does a 100-loan Miami pilot pool cost, and what does it earn?", "Real arithmetic on the deck's assumptions",
+      f"100 loans x 20% x $443,300 = ${100 * .2 * 443_300:,.0f}. At 3% a year of price growth the pool earns 3.0% a year. If prices fall 10% over 10 years, it gets back ${rep10:,.0f} per $88,660 home, a loss of about 1% a year.")
+    pdv = div.loc[pr.index]; dv = pdv[pdv.trend_scenario == "diverging"].metro.tolist()
+    Q("Which priority markets are pulling further away from their peers?", "Placeholder. Do not quote until the 2015-19 rebuild",
+      f"Diverging: {', '.join(dv) or 'none'}. Chronic: {', '.join(pdv[pdv.trend_scenario == 'chronic'].metro) or 'none'}.")
+    head = ["# What the PeerGap simulation can answer", "",
+            "Generated by `build_v2.py --qa` from `outputs/v2/scenarios.csv`; no website needed. Every number after 2026 is a **scenario, not a prediction**.",
+            "Basis tags: **Real** comes from the Census and HMDA pipeline. **Scenario** is today's value plus a stated drift. **Placeholder** is a stand-in input; do not quote it.", ""]
+    (OUT / "simulation_qa.md").write_text("\n".join(head + out)); log(f"qa: wrote simulation_qa.md ({sum(l.startswith('## ') for l in out)} questions)")
 
 # ---- charts ------------------------------------------------------------------
 def charts(m, clus, div, denial_df, prio):
@@ -370,9 +434,9 @@ def charts(m, clus, div, denial_df, prio):
     d = denial_df[denial_df.reason_code != 10].sort_values("miami_share_pct_assumption")
     fig, ax = plt.subplots(figsize=(9, 5.2)); y = np.arange(len(d))
     ax.barh(y + 0.2, d.miami_share_pct_assumption, 0.38, color=ORANGE, label="Miami")
-    ax.barh(y - 0.2, d.peer_median_share_pct_assumption, 0.38, color=DOT, label="Twin median")
+    ax.barh(y - 0.2, d.peer_median_share_pct_assumption, 0.38, color=DOT, label="Peer median")
     ax.set_yticks(y, d.reason); ax.set_xlabel("Share of denials, primary reason (%)"); ax.legend(frameon=False, loc="lower right")
-    ax.set_title("Why Miami buyers are denied vs. its twins  [assumption: placeholder until the HMDA loan-level pull]", fontsize=11, loc="left", color=MUTED)
+    ax.set_title("Why Miami buyers are denied vs. its peers  [assumption: placeholder until the HMDA loan-level pull]", fontsize=11, loc="left", color=MUTED)
     fig.tight_layout(); fig.savefig(OUT / "miami_denial_reasons.png", dpi=200); plt.close(fig)
     # 2) divergence quadrant (SCENARIO data)
     fig, ax = plt.subplots(figsize=(9, 6))
@@ -382,7 +446,7 @@ def charts(m, clus, div, denial_df, prio):
     ax.axvline(CFG["chronic_gap_sd"], color=MUTED, ls="--", lw=0.8)
     for cid in prio:
         ax.annotate(m.loc[cid, "short"], (div.loc[cid, "gap_2020_24"], div.loc[cid, "gap_change_scenario"]), xytext=(6, 4), textcoords="offset points", fontsize=10, fontweight="bold")
-    ax.set_xlabel("Gap vs. twins, 2020-24 (SD)"); ax.set_ylabel("Gap change since 2015-19 (SD)")
+    ax.set_xlabel("Gap vs. peers, 2020-24 (SD)"); ax.set_ylabel("Gap change since 2015-19 (SD)")
     ax.set_title("Is the gap growing?  [scenario: illustrative until the ACS 2015-19 rebuild]", fontsize=11, loc="left", color=MUTED)
     for txt, xy, c in [("Diverging", (0.98, 0.97), RED), ("Recovering", (0.98, 0.03), GREEN)]:
         ax.text(*xy, txt, transform=ax.transAxes, ha="right", va="top" if xy[1] > 0.5 else "bottom", color=c, fontweight="bold")
@@ -397,28 +461,30 @@ def charts(m, clus, div, denial_df, prio):
     for j, cid in enumerate(sorted(prio, key=lambda c: clus.loc[c, "pca_y"])):
         ax.annotate(m.loc[cid, "short"].replace("Urban ", ""), (clus.loc[cid, "pca_x"], clus.loc[cid, "pca_y"]), xytext=(7, -13 if j % 2 else 5), textcoords="offset points", fontsize=10, fontweight="bold")
     ax.set_xlabel("PCA 1 of the matching factors"); ax.set_ylabel("PCA 2"); ax.legend(frameon=False, fontsize=10)
-    ax.set_title("Market archetypes (K-means on the twin-matching factors; dark outline = gap metro)", fontsize=11, loc="left", color=MUTED)
+    ax.set_title("Market archetypes (K-means on the peer-matching factors; dark outline = gap metro)", fontsize=11, loc="left", color=MUTED)
     fig.tight_layout(); fig.savefig(OUT / "archetype_map.png", dpi=200); plt.close(fig)
     log("charts: wrote miami_denial_reasons.png, divergence_quadrant.png, archetype_map.png")
 
 def main():
     ap = argparse.ArgumentParser()
-    for f in ["clusters", "divergence", "hmda_reasons", "scenarios", "returns", "all"]: ap.add_argument("--" + f.replace("_", "-"), action="store_true")
+    for f in ["clusters", "divergence", "hmda_reasons", "scenarios", "returns", "qa", "all"]: ap.add_argument("--" + f.replace("_", "-"), action="store_true")
     ap.add_argument("--peers", default=None); a = ap.parse_args()
     if not any(vars(a).values()): a.all = True
     log("config: " + ", ".join(f"{k}={v}" for k, v in CFG.items() if k != "years"))
     m, p, r = load(); c = coords(m)
     if a.peers or a.all: peers_table(m, p, a.peers or "Miami")
     if a.returns or a.all: returns()
-    if not a.all and not (a.clusters or a.divergence or a.hmda_reasons or a.scenarios): return
+    if not a.all and not (a.clusters or a.divergence or a.hmda_reasons or a.scenarios or a.qa): return
     clus, prof, sil = clusters(m, p)
     div = divergence(m)
     denial_df, coll, flag = hmda_reasons(m)
     gm = gap_metros(m, div, clus, coll)
     _, prio = funnel(m, div)
-    _, blob = scenarios(m, p, div)
+    sdf, blob = scenarios(m, p, div)
+    play_eff, _ = bank_play_effect(m, p)
     charts(m, clus, div, denial_df, prio)
-    write_json(m, c, clus, prof, div, gm, blob, flag, denial_df, prio, p)
+    write_json(m, c, clus, prof, div, gm, blob, flag, denial_df, prio, p, zrows(m, p))
+    if a.qa or a.all: qa(m, sdf, div, prof, play_eff)
     log("done.")
 
 if __name__ == "__main__":

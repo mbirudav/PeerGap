@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PeerGap Compare</title>
+<meta name="description" content="Put two metros side by side: their gap with peers, what drives it, how they are matched, and where each could be by 2036.">
+<style>
+/*__SHARED_CSS__*/
+main{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px;padding:16px 24px 8px;align-items:start}
+.wide{grid-column:1/-1}
+.slots{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.slot{font:inherit;font-size:14px;display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.slot i{font-style:normal;font-weight:800;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;color:#fff}
+.slot.a i{background:var(--orange)}.slot.b i{background:var(--blue)}
+.slot[aria-pressed="true"].a{border-color:var(--orange);box-shadow:0 0 0 3px rgba(239,106,0,.15)}
+.slot[aria-pressed="true"].b{border-color:var(--blue);box-shadow:0 0 0 3px rgba(47,109,181,.15)}
+.presets{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;padding:4px 16px 14px}
+.sides{display:grid;grid-template-columns:1fr 1fr}
+.side{padding:18px 20px;min-width:0}
+.side+.side{border-left:1px solid var(--line)}
+.side .big{font-size:56px}
+.who{display:flex;align-items:center;gap:8px;font:700 17px/1.25 Archivo,system-ui,sans-serif;overflow-wrap:anywhere}
+.who i{font-style:normal;font:800 13px/1 Inter,system-ui,sans-serif;width:24px;height:24px;flex:none;border-radius:50%;display:grid;place-items:center;color:#fff}
+.side.a .who i{background:var(--orange)}.side.b .who i{background:var(--blue)}
+.sub{color:var(--muted);font-size:14px;margin:2px 0 0}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;align-items:center;font-size:13px;color:var(--muted)}
+.rel{padding:16px 20px;border-top:1px solid var(--line);font-size:15px}
+.rel p{margin:0 0 8px}
+.diffs{margin:0;padding-left:18px}
+.diffs li{margin:4px 0}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:14px 20px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:14px;padding:7px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fbody{padding:16px 20px 20px}
+.grid4{display:grid;grid-template-columns:minmax(180px,1.6fr) 96px 96px minmax(160px,2.4fr);gap:10px 16px;align-items:center}
+.grid4 .h{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.grid4 .cv{font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.grid4 .cl{font-size:14px}
+.track{position:relative;height:18px}
+.track .tr{position:absolute;left:0;right:0;top:8px;height:2px;background:var(--line)}
+.track .pt{position:absolute;top:3px;width:12px;height:12px;border-radius:50%;transform:translateX(-50%);border:2px solid var(--surface)}
+.track .pa{background:var(--orange)}.track .pb{background:var(--blue)}
+.ends{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.fcctl{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-bottom:12px}
+.fcctl input[type=range]{width:220px}
+.tbl{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums;margin-top:10px}
+.tbl th{text-align:right;color:var(--muted);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line)}
+.tbl td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}
+.tbl th:first-child,.tbl td:first-child{text-align:left}
+@media (max-width:1100px){main{grid-template-columns:1fr}}
+@media (max-width:700px){.sides{grid-template-columns:1fr}.side+.side{border-left:0;border-top:1px solid var(--line)}
+  .grid4{grid-template-columns:1fr 70px 70px}.grid4 .track,.grid4 .tk{grid-column:1/-1}.grid4 .cl{grid-column:1}.side .big{font-size:48px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="word" href="index.html">Peer<b>Gap</b></a>
+  <span class="tag">Put two cities side by side: how far each sits from its peers, why, and where each could be by 2036.</span>
+  <nav><a href="index.html">Map</a><a href="forecast.html">Forecast</a><a href="compare.html" aria-current="page">Compare</a></nav>
+  <div class="search"><label class="sr" for="q">Find a metro area</label><input id="q" type="search" placeholder="Set the active city" autocomplete="off"><ul id="hits" role="listbox"></ul></div>
+</header>
+<main>
+  <div class="card">
+    <div class="maptop">
+      <div class="slots">
+        <button class="slot a" id="slotA" aria-pressed="true"><i>A</i><span id="nameA"></span></button>
+        <button class="btn" id="swap" aria-label="Swap A and B" title="Swap A and B">⇄</button>
+        <button class="slot b" id="slotB" aria-pressed="false"><i>B</i><span id="nameB"></span></button>
+      </div>
+      <div class="legend"><span id="hint"></span><span><i class="ln"></i>Darker line = closer peer</span></div>
+    </div>
+    <div class="mapwrap"><svg class="map" id="map" role="img" aria-label="Map of the 100 metros; click to set city A or B"></svg></div>
+    <div class="presets"><span class="note">Try:</span><div class="chips" id="presets"></div></div>
+  </div>
+  <div class="card" id="h2h"></div>
+  <div class="card wide" id="factors">
+    <div class="tabs" id="tabs"></div>
+    <div class="fbody" id="fbody"></div>
+  </div>
+</main>
+<footer>
+  <span>Data: ACS 2020–2024 5-year and 2025 HMDA. Dots sit at each metro's position among all 100 metros, lowest on the left. Trend labels and anything after 2026 are <span class="badge p1">Phase 1</span> scenario values, not predictions.</span>
+</footer>
+<script>/*__D3__*/</script>
+<script>/*__TOPOJSON__*/</script>
+<script>
+const DATA = /*__DATA__*/;
+const V2 = /*__V2__*/;
+const US = /*__US__*/;
+/*__SHARED_JS__*/
+const S = {a:null, b:null, slot:'a', tab:'aff', whatif:'rents_outpace_pay', year:2031, play:false};
+const A = () => byId[S.a], B = () => byId[S.b];
+const pct0 = v=>Math.round(v*100)+'%', pct1 = v=>(v*100).toFixed(1)+'%';
+const drvV = (x,k) => (x.dr.find(d=>d.k===k)||{}).v;
+const fV = (x,i) => V2.metros[x.id].f[i];
+const TABS = {
+  aff:['Affordability', [
+    ['Renters stretched by rent (30%+ of income)', x=>x.m.burden, pct0, 1],
+    ['Renters paying half their income or more', x=>x.m.severe, pct0, 1],
+    ['Rent as a share of renter income', x=>x.m.rent_to_income, pct0, 1],
+    ['Years of income to buy a home', x=>x.m.price_to_income, v=>v.toFixed(1)+' yrs', 1]]],
+  acc:['Access', [
+    ['Buyers turned down for a mortgage', x=>x.m.denial, v=>'1 in '+Math.round(1/v), 1],
+    ['Households that own their home', x=>x.m.homeownership, pct0, -1]]],
+  drv:['Drivers (HOME)', [
+    ['H · Homes built since 2010', x=>drvV(x,'recent_build'), pct1, -1],
+    ['H · Homes in 5+ unit buildings', x=>drvV(x,'multifamily'), pct1, -1],
+    ['O · Mortgage denial rate', x=>drvV(x,'denial'), pct1, 1],
+    ['M · Homes built before 1960', x=>drvV(x,'pre1960'), pct1, 1],
+    ['E · Property tax ÷ owner income', x=>drvV(x,'tax_burden'), pct1, 1]]],
+  fun:['How peers are matched', [
+    ['Population', x=>fV(x,0), v=>(v/1e6).toFixed(1)+'M', 0],
+    ['5-year population growth', x=>fV(x,1), v=>(v>0?'+':'')+(v*100).toFixed(1)+'%', 0],
+    ['Median household income', x=>fV(x,2), v=>'$'+Math.round(v/1000)+'k', 0],
+    ['Homes with broadband', x=>fV(x,5), pct0, 0],
+    ['Commute by transit', x=>fV(x,6), pct1, 0],
+    ['Households with no car', x=>fV(x,7), pct1, 0],
+    ['Average commute', x=>fV(x,8), v=>Math.round(v)+' min', 0]]],
+  fc:['Forecast', null]};
+const sorted = {}; const posOf = (get, v, key) => { if(!sorted[key]) sorted[key] = M.map(get).filter(z=>z!=null).sort((p,q)=>p-q); const s=sorted[key]; let i=s.findIndex(z=>z>=v); if(i<0) i=s.length-1; return i/(s.length-1); };
+
+const map = PeerMap('#map', {
+  onPick: id => pick(id),
+  focus: () => [S.a, S.b],
+  fill: x => x.id===S.a ? 'var(--orange)' : x.id===S.b ? 'var(--blue)' : 'var(--dot)',
+  title: x => `${x.s}: ${sgn(x.gap)} SD vs its peers. Click to set city ${S.slot.toUpperCase()}.`,
+  labels: () => [{id:S.a, text:'A · '+byId[S.a].s}, {id:S.b, text:'B · '+byId[S.b].s}],
+});
+function pick(id){
+  const other = S.slot==='a' ? 'b' : 'a';
+  if(id===S[other]) S[other] = S[S.slot];
+  S[S.slot] = id; S.slot = other; render();
+}
+function slots(){
+  document.getElementById('nameA').textContent = A().s; document.getElementById('nameB').textContent = B().s;
+  document.getElementById('slotA').setAttribute('aria-pressed', S.slot==='a'); document.getElementById('slotB').setAttribute('aria-pressed', S.slot==='b');
+  document.getElementById('hint').textContent = `Click the map to set city ${S.slot.toUpperCase()}`;
+}
+function side(x, cls, letter){
+  const v = V2.metros[x.id];
+  return `<div class="side ${cls}"><div class="who"><i>${letter}</i>${esc(x.n)}</div>${heroGap(x.gap)}
+    <p class="sub"><b>#${x.rank}</b> of 100 · top 10 in <b>${Math.round(x.mc*100)}%</b> of runs</p>
+    <div class="meta"><span class="badge">${esc(V2.clusters[v.cluster].name)}</span><span class="badge">${esc(v.lane)} lane</span><span>${TREND[v.trend]}</span>${v.priority?'<span class="badge pr">Priority market</span>':''}</div></div>`;
+}
+function h2h(){
+  const a=A(), b=B(), va=V2.metros[a.id], vb=V2.metros[b.id];
+  const ia=a.tw.indexOf(b.id), ib=b.tw.indexOf(a.id), dist=Math.hypot(...va.z.map((z,i)=>z-vb.z[i]));
+  const rel = ia>=0 ? `<b>${esc(b.s)} is ${esc(a.s)}'s #${ia+1} peer</b>, distance ${dist.toFixed(2)}.`
+    : ib>=0 ? `<b>${esc(a.s)} is ${esc(b.s)}'s #${ib+1} peer</b>, distance ${dist.toFixed(2)}.`
+    : `<b>Not peers.</b> They sit ${dist.toFixed(2)} apart on the matching factors; ${esc(a.s)}'s closest peer is ${va.td[0].toFixed(2)} away.`;
+  const shared = a.tw.filter(t=>b.tw.includes(t)).map(t=>byId[t].s);
+  const arch = va.cluster===vb.cluster ? `Same archetype: ${esc(V2.clusters[va.cluster].name)}.` : `Different archetypes: ${esc(V2.clusters[va.cluster].name)} and ${esc(V2.clusters[vb.cluster].name)}.`;
+  const diffs = [...TABS.aff[1], ...TABS.acc[1], ...TABS.drv[1]].map(([l,get,fmt])=>{ const x1=get(a), x2=get(b); return x1==null||x2==null ? null : {d:Math.abs(posOf(get,x1,l)-posOf(get,x2,l)), t:`${l}: ${esc(a.s)} ${fmt(x1)}, ${esc(b.s)} ${fmt(x2)}`}; })
+    .filter(Boolean).sort((p,q)=>q.d-p.d).slice(0,3);
+  const gd = a.gap - b.gap;
+  document.getElementById('h2h').innerHTML = `<div class="sides">${side(a,'a','A')}${side(b,'b','B')}</div>
+    <div class="rel"><p>${rel} ${shared.length?`They share ${shared.length} peer${shared.length>1?'s':''}: ${esc(shared.join(', '))}.`:'They share no peers.'} ${arch}</p>
+      <p>Measured against their own peers, ${esc(a.s)} sits <b>${Math.abs(gd).toFixed(2)} SD ${gd>0?'worse':'better'} off</b> than ${esc(b.s)}.</p>
+      <p class="kicker" style="margin:12px 0 6px">Biggest differences</p><ul class="diffs">${diffs.map(d=>`<li>${d.t}</li>`).join('')}</ul></div>`;
+}
+function rowsTab(rows){
+  const a=A(), b=B();
+  return `<div class="grid4"><div class="h">Measure</div><div class="h" style="text-align:right;color:var(--orange-ink)">A · ${esc(a.s)}</div><div class="h" style="text-align:right;color:var(--blue)">B · ${esc(b.s)}</div><div class="h tk">Where each sits among the 100 metros</div>
+    ${rows.map(([l,get,fmt,dir])=>{ const x1=get(a), x2=get(b), n1=x1==null, n2=x2==null;
+      const c1 = !dir||n1||n2||x1===x2 ? 'var(--ink)' : dir*(x1-x2)>0 ? 'var(--red)' : 'var(--green)';
+      const c2 = !dir||n1||n2||x1===x2 ? 'var(--ink)' : dir*(x2-x1)>0 ? 'var(--red)' : 'var(--green)';
+      return `<div class="cl">${l}</div><div class="cv" style="color:${c1}">${n1?'n/a':fmt(x1)}</div><div class="cv" style="color:${c2}">${n2?'n/a':fmt(x2)}</div>
+        <div class="track" role="img" aria-label="${esc(l)}: A ${n1?'n/a':fmt(x1)}, B ${n2?'n/a':fmt(x2)}"><div class="tr"></div>${n1?'':`<span class="pt pa" style="left:${posOf(get,x1,l)*100}%"></span>`}${n2?'':`<span class="pt pb" style="left:${posOf(get,x2,l)*100}%"></span>`}</div>`; }).join('')}
+    <div></div><div></div><div></div><div class="ends tk"><span>lowest</span><span>highest</span></div></div>
+    <p class="note" style="margin-top:12px">${rows[0][3] ? 'Red marks the worse of the two on that measure, green the better.' : 'These are the factors peers are matched on. Neither value is better or worse.'}</p>`;
+}
+function fcTab(){
+  const a=A(), b=B(), y=S.year-YEARS[0], sa=scOf(a.id,S.whatif), sb=scOf(b.id,S.whatif), p=S.play;
+  return `<div class="fcctl"><select id="cwhatif" aria-label="What-if scenario">${Object.entries(V2.whatifs).map(([k,l])=>`<option value="${k}" ${k===S.whatif?'selected':''}>What if: ${esc(l.toLowerCase())}</option>`).join('')}</select>
+      <label class="switch"><input type="checkbox" id="cbank" ${p?'checked':''}> Add the bank play</label>
+      <span class="note">Year</span><input type="range" id="cyear" min="2026" max="2036" step="1" value="${S.year}" style="--p:${(S.year-2026)*10}%" aria-label="Year"><b class="tabular">${S.year}</b><span class="badge p1">Phase 1 · scenario</span></div>
+    <div class="chart" id="cchart" style="padding:0"></div>
+    <div class="scrollx"><table class="tbl"><thead><tr><th>${S.year}</th><th style="color:var(--orange-ink)">A · ${esc(a.s)}</th><th style="color:var(--blue)">B · ${esc(b.s)}</th></tr></thead><tbody>
+      <tr><td>Gap vs. peers</td><td>${sgn(sa.g[y])}</td><td>${sgn(sb.g[y])}</td></tr>
+      <tr><td>With the bank play</td><td style="color:var(--green)">${sgn(sa.gp[y])}</td><td style="color:var(--green)">${sgn(sb.gp[y])}</td></tr>
+      <tr><td>Rank of 100${p?', with the play':''}</td><td>#${rankIn(a.id,S.whatif,y,p)}</td><td>#${rankIn(b.id,S.whatif,y,p)}</td></tr>
+      <tr><td>Renters stretched</td><td>${Math.round(sa.b[y]*100)}%</td><td>${Math.round(sb.b[y]*100)}%</td></tr>
+      <tr><td>Band, 10th–90th percentile</td><td>${sgn(sa.lo[y])} to ${sgn(sa.hi[y])}</td><td>${sgn(sb.lo[y])} to ${sgn(sb.hi[y])}</td></tr></tbody></table></div>`;
+}
+function factors(){
+  document.getElementById('tabs').innerHTML = Object.entries(TABS).map(([k,[l]])=>`<button data-tab="${k}" aria-pressed="${S.tab===k}">${l}</button>`).join('');
+  const body = document.getElementById('fbody');
+  body.innerHTML = S.tab==='fc' ? fcTab() : rowsTab(TABS[S.tab][1]);
+  if(S.tab==='fc'){ const a=A(), b=B(), sa=scOf(a.id,S.whatif), sb=scOf(b.id,S.whatif);
+    bandChart(document.getElementById('cchart'), 'Gap vs. peers, 2026–2036', 'Orange = A, blue = B. Bands = 10th–90th percentile of the Monte Carlo runs.',
+      [{name:'A', lo:sa.lo, hi:sa.hi, line:sa.g, play:sa.gp, color:'var(--orange)'}, {name:'B', lo:sb.lo, hi:sb.hi, line:sb.g, play:sb.gp, color:'var(--blue)'}],
+      S.year-YEARS[0], t=>sgn(t), {zero:'level with its peers', play:S.play}); }
+}
+document.getElementById('factors').addEventListener('click', e=>{ const t=e.target.closest('button[data-tab]'); if(t){ S.tab=t.dataset.tab; factors(); } });
+document.getElementById('factors').addEventListener('change', e=>{ if(e.target.id==='cwhatif'){ S.whatif=e.target.value; factors(); } if(e.target.id==='cbank'){ S.play=e.target.checked; factors(); } });
+document.getElementById('factors').addEventListener('input', e=>{ if(e.target.id==='cyear'){ S.year=+e.target.value; factors(); document.getElementById('cyear').focus(); } });
+function render(){ slots(); map.paint(); h2h(); factors(); try{ history.replaceState(null,'','#'+slug(A().s)+'-vs-'+slug(B().s)); }catch(e){} }
+document.getElementById('slotA').onclick = ()=>{ S.slot='a'; slots(); map.paint(); };
+document.getElementById('slotB').onclick = ()=>{ S.slot='b'; slots(); map.paint(); };
+document.getElementById('swap').onclick = ()=>{ [S.a,S.b]=[S.b,S.a]; render(); };
+const PRESETS = [['miami','pittsburgh','Miami vs Pittsburgh: peers, opposite outcomes'],['miami','tampa','Miami vs its closest peer'],['losangeles','sandiego','Los Angeles vs San Diego'],['neworleans','pittsburgh','New Orleans vs Pittsburgh']];
+document.getElementById('presets').innerHTML = PRESETS.filter(([p,q])=>bySlug[p]&&bySlug[q]).map(([p,q,l])=>`<button data-a="${bySlug[p].id}" data-b="${bySlug[q].id}">${esc(l)}</button>`).join('');
+document.getElementById('presets').addEventListener('click', e=>{ const t=e.target.closest('button[data-a]'); if(t){ S.a=t.dataset.a; S.b=t.dataset.b; S.slot='a'; render(); } });
+wireSearch(id=>pick(id));
+let rz; window.addEventListener('resize',()=>{clearTimeout(rz); rz=setTimeout(factors,120);});
+const [ha, hb] = (location.hash||'').slice(1).split('-vs-');
+S.a = (bySlug[ha]||bySlug['miami']).id; S.b = (bySlug[hb]||bySlug['pittsburgh']).id; if(S.a===S.b) S.b = byId[S.a].tw[0];
+render();
+window.addEventListener('hashchange', ()=>{ const [p,q]=location.hash.slice(1).split('-vs-'); if(bySlug[p]&&bySlug[q]&&(bySlug[p].id!==S.a||bySlug[q].id!==S.b)){ S.a=bySlug[p].id; S.b=bySlug[q].id; render(); } });
+</script>
+</body>
+</html>

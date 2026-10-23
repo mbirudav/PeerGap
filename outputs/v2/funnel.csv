@@ -1,6 +1,6 @@
 stage,count,definition
 all large metros,100,100 largest MSAs
-gap metros,33,gap >= 0.5 SD vs twins
+gap metros,33,gap >= 0.5 SD vs peers
 robust,29,10th-percentile simulated gap still > 0
 not recovering (scenario),29,"drops recovering metros; split: {'chronic': 23, 'diverging': 6} (illustrative)"
 priority markets,5,"top-10 in >= 70% of 1,000 runs; trend split {'chronic': 3, 'diverging': 2} (illustrative)"
