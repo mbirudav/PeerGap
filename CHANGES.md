@@ -70,4 +70,13 @@ Every illustrative CSV column ends in `_assumption` or `_scenario`. Every illust
 ## Not in this repo
 
 - `access_impact.py` and the "10% redirected" wording live in the deck, not in this code. Change that wording to "10% targeted at gap metros" in the deck.
-- No Netlify deploy was made. The live site at peergaplive.netlify.app is unchanged.
+- The old site at peergaplive.netlify.app is not in this Netlify account and was not touched.
+
+## Deploy
+
+Live at https://peergap.netlify.app (Netlify project `peergap`). Only the three pages are published. To redeploy after a change:
+
+```bash
+python3 assemble.py && mkdir -p dist && cp index.html forecast.html compare.html dist/
+netlify deploy --prod --dir dist --site peergap
+```
