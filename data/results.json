@@ -1,0 +1,7008 @@
+{
+ "acs": "ACS 2020-2024 5-year",
+ "hmda": 2025,
+ "k": 10,
+ "runs": 1000,
+ "metros": [
+  {
+   "cbsa": "35620",
+   "name": "New York-Newark-Jersey City, NY-NJ Metro Area",
+   "short": "New York",
+   "gap": 1.623,
+   "gap_rank": 6,
+   "score": 1.732,
+   "twins": [
+    "Chicago",
+    "Boston",
+    "Philadelphia",
+    "San Francisco",
+    "Baltimore",
+    "Washington",
+    "Seattle",
+    "Los Angeles",
+    "Bridgeport",
+    "Miami"
+   ],
+   "metrics": {
+    "burden": 0.5242,
+    "severe": 0.2843,
+    "rent_to_income": 0.3356,
+    "price_to_income": 6.1943,
+    "denial": 0.1191,
+    "homeownership": 0.5149
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.212
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.532
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.88
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.623
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.024
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 2.197
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.684,
+   "mc_gap_p10": 0.982,
+   "mc_gap_p90": 2.208
+  },
+  {
+   "cbsa": "31080",
+   "name": "Los Angeles-Long Beach-Anaheim, CA Metro Area",
+   "short": "Los Angeles",
+   "gap": 2.893,
+   "gap_rank": 1,
+   "score": 2.873,
+   "twins": [
+    "Chicago",
+    "Atlanta",
+    "Philadelphia",
+    "San Diego",
+    "Denver",
+    "Miami",
+    "Portland",
+    "Riverside",
+    "St. Louis",
+    "Minneapolis"
+   ],
+   "metrics": {
+    "burden": 0.5745,
+    "severe": 0.3064,
+    "rent_to_income": 0.3515,
+    "price_to_income": 9.08,
+    "denial": 0.1212,
+    "homeownership": 0.4842
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.473
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.082
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.58
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.546
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.295
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.505
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.956,
+   "mc_gap_p10": 1.625,
+   "mc_gap_p90": 3.437
+  },
+  {
+   "cbsa": "16980",
+   "name": "Chicago-Naperville-Elgin, IL-IN Metro Area",
+   "short": "Chicago",
+   "gap": -0.404,
+   "gap_rank": 79,
+   "score": -0.354,
+   "twins": [
+    "Philadelphia",
+    "Los Angeles",
+    "Miami",
+    "Baltimore",
+    "St. Louis",
+    "Portland",
+    "Atlanta",
+    "Boston",
+    "Pittsburgh",
+    "Detroit"
+   ],
+   "metrics": {
+    "burden": 0.4903,
+    "severe": 0.2535,
+    "rent_to_income": 0.3073,
+    "price_to_income": 3.5539,
+    "denial": 0.1128,
+    "homeownership": 0.6555
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.396
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.152
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.831
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.421
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.191
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.511
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.693,
+   "mc_gap_p90": 0.037
+  },
+  {
+   "cbsa": "19100",
+   "name": "Dallas-Fort Worth-Arlington, TX Metro Area",
+   "short": "Dallas",
+   "gap": 0.354,
+   "gap_rank": 43,
+   "score": 0.54,
+   "twins": [
+    "Atlanta",
+    "Phoenix",
+    "Houston",
+    "Charlotte",
+    "Nashville",
+    "Tampa",
+    "San Antonio",
+    "Indianapolis",
+    "Orlando",
+    "Minneapolis"
+   ],
+   "metrics": {
+    "burden": 0.5235,
+    "severe": 0.2467,
+    "rent_to_income": 0.3145,
+    "price_to_income": 3.9823,
+    "denial": 0.1343,
+    "homeownership": 0.601
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.638
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.431
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.812
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.413
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.109
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.673
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.119,
+   "mc_gap_p90": 0.781
+  },
+  {
+   "cbsa": "26420",
+   "name": "Houston-Pasadena-The Woodlands, TX Metro Area",
+   "short": "Houston",
+   "gap": 0.722,
+   "gap_rank": 22,
+   "score": 1.244,
+   "twins": [
+    "Dallas",
+    "Atlanta",
+    "Phoenix",
+    "Tampa",
+    "Miami",
+    "Charlotte",
+    "San Antonio",
+    "Riverside",
+    "Nashville",
+    "Indianapolis"
+   ],
+   "metrics": {
+    "burden": 0.5312,
+    "severe": 0.2664,
+    "rent_to_income": 0.3223,
+    "price_to_income": 3.6267,
+    "denial": 0.1885,
+    "homeownership": 0.6125
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.078
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.104
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.749
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.804
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.225
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.267
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.069,
+   "mc_gap_p10": 0.263,
+   "mc_gap_p90": 1.248
+  },
+  {
+   "cbsa": "47900",
+   "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+   "short": "Washington",
+   "gap": -0.89,
+   "gap_rank": 94,
+   "score": -0.509,
+   "twins": [
+    "San Francisco",
+    "Boston",
+    "Seattle",
+    "Baltimore",
+    "Denver",
+    "San Diego",
+    "Bridgeport",
+    "Sacramento",
+    "Urban Honolulu",
+    "Philadelphia"
+   ],
+   "metrics": {
+    "burden": 0.4781,
+    "severe": 0.2342,
+    "rent_to_income": 0.2969,
+    "price_to_income": 4.5775,
+    "denial": 0.0952,
+    "homeownership": 0.6366
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.729
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.254
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.728
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.028
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.392
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.761
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.002,
+   "mc_gap_p90": -0.449
+  },
+  {
+   "cbsa": "37980",
+   "name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+   "short": "Philadelphia",
+   "gap": -0.106,
+   "gap_rank": 64,
+   "score": -0.294,
+   "twins": [
+    "Chicago",
+    "Baltimore",
+    "Minneapolis",
+    "Portland",
+    "Providence",
+    "Boston",
+    "St. Louis",
+    "Pittsburgh",
+    "Phoenix",
+    "Atlanta"
+   ],
+   "metrics": {
+    "burden": 0.5141,
+    "severe": 0.2743,
+    "rent_to_income": 0.3253,
+    "price_to_income": 3.8548,
+    "denial": 0.0924,
+    "homeownership": 0.6682
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.31
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.341
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.551
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.032
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.757
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.95
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.234,
+   "mc_gap_p90": 0.218
+  },
+  {
+   "cbsa": "12060",
+   "name": "Atlanta-Sandy Springs-Roswell, GA Metro Area",
+   "short": "Atlanta",
+   "gap": 0.525,
+   "gap_rank": 33,
+   "score": 0.504,
+   "twins": [
+    "Dallas",
+    "Phoenix",
+    "Houston",
+    "Riverside",
+    "Nashville",
+    "Charlotte",
+    "Tampa",
+    "Denver",
+    "Indianapolis",
+    "Portland"
+   ],
+   "metrics": {
+    "burden": 0.5442,
+    "severe": 0.2787,
+    "rent_to_income": 0.3419,
+    "price_to_income": 4.097,
+    "denial": 0.1293,
+    "homeownership": 0.6612
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.152
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.071
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.008
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.532
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.302
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.007
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.288,
+   "mc_gap_p90": 0.695
+  },
+  {
+   "cbsa": "33100",
+   "name": "Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",
+   "short": "Miami",
+   "gap": 2.843,
+   "gap_rank": 2,
+   "score": 3.126,
+   "twins": [
+    "Tampa",
+    "Houston",
+    "St. Louis",
+    "Phoenix",
+    "Pittsburgh",
+    "San Antonio",
+    "Atlanta",
+    "Riverside",
+    "Birmingham",
+    "Charlotte"
+   ],
+   "metrics": {
+    "burden": 0.6422,
+    "severe": 0.3499,
+    "rent_to_income": 0.3981,
+    "price_to_income": 5.7927,
+    "denial": 0.188,
+    "homeownership": 0.6052
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.846
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.285
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -3.344
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.791
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.093
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.873
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 1.0,
+   "mc_gap_p10": 2.101,
+   "mc_gap_p90": 3.227
+  },
+  {
+   "cbsa": "38060",
+   "name": "Phoenix-Mesa-Chandler, AZ Metro Area",
+   "short": "Phoenix",
+   "gap": 0.202,
+   "gap_rank": 48,
+   "score": -0.131,
+   "twins": [
+    "Dallas",
+    "Charlotte",
+    "Tampa",
+    "San Antonio",
+    "Kansas City",
+    "Atlanta",
+    "Columbus",
+    "Indianapolis",
+    "Nashville",
+    "Minneapolis"
+   ],
+   "metrics": {
+    "burden": 0.5232,
+    "severe": 0.2497,
+    "rent_to_income": 0.3242,
+    "price_to_income": 4.9931,
+    "denial": 0.1008,
+    "homeownership": 0.6659
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.271
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.351
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.268
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.324
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.494
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.867
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.486,
+   "mc_gap_p90": 0.307
+  },
+  {
+   "cbsa": "14460",
+   "name": "Boston-Cambridge-Newton, MA-NH Metro Area",
+   "short": "Boston",
+   "gap": 0.368,
+   "gap_rank": 41,
+   "score": 0.281,
+   "twins": [
+    "Seattle",
+    "Philadelphia",
+    "San Francisco",
+    "Baltimore",
+    "Bridgeport",
+    "Denver",
+    "Chicago",
+    "San Diego",
+    "Minneapolis",
+    "Portland"
+   ],
+   "metrics": {
+    "burden": 0.5115,
+    "severe": 0.2578,
+    "rent_to_income": 0.3436,
+    "price_to_income": 5.5781,
+    "denial": 0.0836,
+    "homeownership": 0.6155
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.072
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.067
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.118
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.169
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.284
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.306
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.003,
+   "mc_gap_p90": 0.58
+  },
+  {
+   "cbsa": "40140",
+   "name": "Riverside-San Bernardino-Ontario, CA Metro Area",
+   "short": "Riverside",
+   "gap": 0.693,
+   "gap_rank": 23,
+   "score": 1.215,
+   "twins": [
+    "Atlanta",
+    "Houston",
+    "Miami",
+    "Phoenix",
+    "Sacramento",
+    "Dallas",
+    "Indianapolis",
+    "Portland",
+    "Stockton",
+    "Tampa"
+   ],
+   "metrics": {
+    "burden": 0.5897,
+    "severe": 0.3027,
+    "rent_to_income": 0.3563,
+    "price_to_income": 5.9814,
+    "denial": 0.1274,
+    "homeownership": 0.6584
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.664
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.797
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 1.426
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.206
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.021
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.133
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.032,
+   "mc_gap_p10": 0.243,
+   "mc_gap_p90": 1.083
+  },
+  {
+   "cbsa": "41860",
+   "name": "San Francisco-Oakland-Fremont, CA Metro Area",
+   "short": "San Francisco",
+   "gap": 0.658,
+   "gap_rank": 27,
+   "score": 0.767,
+   "twins": [
+    "Boston",
+    "Seattle",
+    "Washington",
+    "Bridgeport",
+    "Denver",
+    "San Diego",
+    "San Jose",
+    "Baltimore",
+    "Los Angeles",
+    "Chicago"
+   ],
+   "metrics": {
+    "burden": 0.4821,
+    "severe": 0.2473,
+    "rent_to_income": 0.3114,
+    "price_to_income": 8.3858,
+    "denial": 0.086,
+    "homeownership": 0.5548
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.227
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.425
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.229
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.369
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.012
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.424
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.095,
+   "mc_gap_p10": 0.029,
+   "mc_gap_p90": 1.263
+  },
+  {
+   "cbsa": "19820",
+   "name": "Detroit-Warren-Dearborn, MI Metro Area",
+   "short": "Detroit",
+   "gap": 0.874,
+   "gap_rank": 19,
+   "score": 0.032,
+   "twins": [
+    "Cincinnati",
+    "St. Louis",
+    "Cleveland",
+    "Milwaukee",
+    "Pittsburgh",
+    "Indianapolis",
+    "Louisville",
+    "Virginia Beach",
+    "Kansas City",
+    "Providence"
+   ],
+   "metrics": {
+    "burden": 0.5082,
+    "severe": 0.2724,
+    "rent_to_income": 0.3233,
+    "price_to_income": 3.2571,
+    "denial": 0.161,
+    "homeownership": 0.712
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.523
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.243
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.266
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 2.027
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.542
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.536
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.249,
+   "mc_gap_p10": 0.059,
+   "mc_gap_p90": 1.541
+  },
+  {
+   "cbsa": "42660",
+   "name": "Seattle-Tacoma-Bellevue, WA Metro Area",
+   "short": "Seattle",
+   "gap": -0.444,
+   "gap_rank": 81,
+   "score": -0.063,
+   "twins": [
+    "Denver",
+    "Boston",
+    "Portland",
+    "San Diego",
+    "Bridgeport",
+    "Minneapolis",
+    "Atlanta",
+    "Sacramento",
+    "San Francisco",
+    "Philadelphia"
+   ],
+   "metrics": {
+    "burden": 0.4904,
+    "severe": 0.23,
+    "rent_to_income": 0.3053,
+    "price_to_income": 6.2295,
+    "denial": 0.081,
+    "homeownership": 0.5998
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.042
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.105
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.034
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.245
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.313
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.147
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.565,
+   "mc_gap_p90": 0.276
+  },
+  {
+   "cbsa": "33460",
+   "name": "Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",
+   "short": "Minneapolis",
+   "gap": -1.06,
+   "gap_rank": 97,
+   "score": -1.362,
+   "twins": [
+    "Portland",
+    "Salt Lake City",
+    "Kansas City",
+    "Phoenix",
+    "Denver",
+    "Hartford",
+    "Cincinnati",
+    "Columbus",
+    "Providence",
+    "San Diego"
+   ],
+   "metrics": {
+    "burden": 0.4842,
+    "severe": 0.2351,
+    "rent_to_income": 0.3017,
+    "price_to_income": 3.7463,
+    "denial": 0.0743,
+    "homeownership": 0.7073
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.056
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.53
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.639
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.472
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.225
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.047
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.198,
+   "mc_gap_p90": -0.59
+  },
+  {
+   "cbsa": "45300",
+   "name": "Tampa-St. Petersburg-Clearwater, FL Metro Area",
+   "short": "Tampa",
+   "gap": 1.274,
+   "gap_rank": 9,
+   "score": 0.941,
+   "twins": [
+    "San Antonio",
+    "Charlotte",
+    "Phoenix",
+    "Nashville",
+    "Indianapolis",
+    "Jacksonville",
+    "Kansas City",
+    "Miami",
+    "Cincinnati",
+    "Columbus"
+   ],
+   "metrics": {
+    "burden": 0.5804,
+    "severe": 0.2928,
+    "rent_to_income": 0.3587,
+    "price_to_income": 4.6389,
+    "denial": 0.1412,
+    "homeownership": 0.6791
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.198
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.407
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.422
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.94
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.147
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.113
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.304,
+   "mc_gap_p10": 0.437,
+   "mc_gap_p90": 1.484
+  },
+  {
+   "cbsa": "41740",
+   "name": "San Diego-Chula Vista-Carlsbad, CA Metro Area",
+   "short": "San Diego",
+   "gap": 2.147,
+   "gap_rank": 3,
+   "score": 2.06,
+   "twins": [
+    "Denver",
+    "Portland",
+    "Minneapolis",
+    "Oxnard",
+    "Sacramento",
+    "Seattle",
+    "Baltimore",
+    "Salt Lake City",
+    "Los Angeles",
+    "Phoenix"
+   ],
+   "metrics": {
+    "burden": 0.5779,
+    "severe": 0.2956,
+    "rent_to_income": 0.3455,
+    "price_to_income": 8.0429,
+    "denial": 0.1136,
+    "homeownership": 0.5457
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.716
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.27
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.039
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.503
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.166
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.615
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.963,
+   "mc_gap_p10": 1.48,
+   "mc_gap_p90": 2.269
+  },
+  {
+   "cbsa": "19740",
+   "name": "Denver-Aurora-Centennial, CO Metro Area",
+   "short": "Denver",
+   "gap": -0.114,
+   "gap_rank": 65,
+   "score": -0.111,
+   "twins": [
+    "Portland",
+    "San Diego",
+    "Seattle",
+    "Minneapolis",
+    "Sacramento",
+    "Salt Lake City",
+    "Atlanta",
+    "Phoenix",
+    "Raleigh",
+    "Bridgeport"
+   ],
+   "metrics": {
+    "burden": 0.5174,
+    "severe": 0.246,
+    "rent_to_income": 0.319,
+    "price_to_income": 5.709,
+    "denial": 0.0842,
+    "homeownership": 0.6405
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.351
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.262
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.121
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.43
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.065
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.881
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.341,
+   "mc_gap_p90": 0.127
+  },
+  {
+   "cbsa": "12580",
+   "name": "Baltimore-Columbia-Towson, MD Metro Area",
+   "short": "Baltimore",
+   "gap": -0.035,
+   "gap_rank": 63,
+   "score": -0.186,
+   "twins": [
+    "Sacramento",
+    "Philadelphia",
+    "Urban Honolulu",
+    "Providence",
+    "Virginia Beach",
+    "Albany",
+    "Portland",
+    "Denver",
+    "Worcester",
+    "Richmond"
+   ],
+   "metrics": {
+    "burden": 0.5189,
+    "severe": 0.2608,
+    "rent_to_income": 0.3296,
+    "price_to_income": 3.9338,
+    "denial": 0.1039,
+    "homeownership": 0.6691
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.141
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.029
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.524
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.429
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.834
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.487
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.52,
+   "mc_gap_p90": 0.224
+  },
+  {
+   "cbsa": "41180",
+   "name": "St. Louis, MO-IL Metro Area",
+   "short": "St. Louis",
+   "gap": -0.735,
+   "gap_rank": 91,
+   "score": -1.452,
+   "twins": [
+    "Cincinnati",
+    "Pittsburgh",
+    "Kansas City",
+    "Cleveland",
+    "Milwaukee",
+    "Detroit",
+    "Virginia Beach",
+    "Providence",
+    "Louisville",
+    "Columbus"
+   ],
+   "metrics": {
+    "burden": 0.4585,
+    "severe": 0.2344,
+    "rent_to_income": 0.2841,
+    "price_to_income": 3.0525,
+    "denial": 0.0932,
+    "homeownership": 0.704
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.034
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.459
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.666
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.008
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.189
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.302
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.907,
+   "mc_gap_p90": -0.409
+  },
+  {
+   "cbsa": "36740",
+   "name": "Orlando-Kissimmee-Sanford, FL Metro Area",
+   "short": "Orlando",
+   "gap": 1.201,
+   "gap_rank": 11,
+   "score": 1.735,
+   "twins": [
+    "Nashville",
+    "San Antonio",
+    "Jacksonville",
+    "Tampa",
+    "Charlotte",
+    "North Port",
+    "Las Vegas",
+    "Dallas",
+    "Phoenix",
+    "Atlanta"
+   ],
+   "metrics": {
+    "burden": 0.6006,
+    "severe": 0.2989,
+    "rent_to_income": 0.3649,
+    "price_to_income": 4.7088,
+    "denial": 0.1613,
+    "homeownership": 0.6306
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.093
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.678
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.469
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.901
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.32
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.225
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.14,
+   "mc_gap_p10": 0.843,
+   "mc_gap_p90": 1.324
+  },
+  {
+   "cbsa": "16740",
+   "name": "Charlotte-Concord-Gastonia, NC-SC Metro Area",
+   "short": "Charlotte",
+   "gap": -0.177,
+   "gap_rank": 72,
+   "score": -0.384,
+   "twins": [
+    "Nashville",
+    "Tampa",
+    "Jacksonville",
+    "Phoenix",
+    "Dallas",
+    "Indianapolis",
+    "San Antonio",
+    "Kansas City",
+    "Columbus",
+    "Richmond"
+   ],
+   "metrics": {
+    "burden": 0.4886,
+    "severe": 0.236,
+    "rent_to_income": 0.3105,
+    "price_to_income": 4.2783,
+    "denial": 0.1115,
+    "homeownership": 0.6591
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.066
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.046
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.158
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.156
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.103
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.38
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.757,
+   "mc_gap_p90": -0.041
+  },
+  {
+   "cbsa": "41700",
+   "name": "San Antonio-New Braunfels, TX Metro Area",
+   "short": "San Antonio",
+   "gap": 1.021,
+   "gap_rank": 16,
+   "score": 0.814,
+   "twins": [
+    "Tampa",
+    "Nashville",
+    "Indianapolis",
+    "Charlotte",
+    "Jacksonville",
+    "Phoenix",
+    "Oklahoma City",
+    "Kansas City",
+    "Richmond",
+    "Orlando"
+   ],
+   "metrics": {
+    "burden": 0.5291,
+    "severe": 0.2602,
+    "rent_to_income": 0.3233,
+    "price_to_income": 3.6582,
+    "denial": 0.1689,
+    "homeownership": 0.6335
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.174
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.192
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.3
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.719
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.072
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.762
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.203,
+   "mc_gap_p10": 0.425,
+   "mc_gap_p90": 1.49
+  },
+  {
+   "cbsa": "38900",
+   "name": "Portland-Vancouver-Hillsboro, OR-WA Metro Area",
+   "short": "Portland",
+   "gap": 0.465,
+   "gap_rank": 36,
+   "score": 0.069,
+   "twins": [
+    "Minneapolis",
+    "Salt Lake City",
+    "Denver",
+    "San Diego",
+    "Kansas City",
+    "Providence",
+    "Sacramento",
+    "Cincinnati",
+    "Columbus",
+    "Phoenix"
+   ],
+   "metrics": {
+    "burden": 0.5183,
+    "severe": 0.2532,
+    "rent_to_income": 0.3152,
+    "price_to_income": 5.7412,
+    "denial": 0.0814,
+    "homeownership": 0.6166
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.468
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.488
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.614
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.398
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.064
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.599
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.012,
+   "mc_gap_p10": 0.073,
+   "mc_gap_p90": 0.987
+  },
+  {
+   "cbsa": "38300",
+   "name": "Pittsburgh, PA Metro Area",
+   "short": "Pittsburgh",
+   "gap": -0.957,
+   "gap_rank": 95,
+   "score": -1.584,
+   "twins": [
+    "Cleveland",
+    "St. Louis",
+    "Milwaukee",
+    "Cincinnati",
+    "Buffalo",
+    "Providence",
+    "Louisville",
+    "Birmingham",
+    "Rochester",
+    "Detroit"
+   ],
+   "metrics": {
+    "burden": 0.4459,
+    "severe": 0.2233,
+    "rent_to_income": 0.2891,
+    "price_to_income": 2.8378,
+    "denial": 0.0937,
+    "homeownership": 0.7068
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.099
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.635
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.39
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.209
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.691
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.609
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.116,
+   "mc_gap_p90": -0.586
+  },
+  {
+   "cbsa": "12420",
+   "name": "Austin-Round Rock-San Marcos, TX Metro Area",
+   "short": "Austin",
+   "gap": 0.783,
+   "gap_rank": 20,
+   "score": 0.449,
+   "twins": [
+    "Raleigh",
+    "Provo",
+    "Nashville",
+    "Boise City",
+    "Dallas",
+    "Jacksonville",
+    "Salt Lake City",
+    "Orlando",
+    "Charlotte",
+    "Denver"
+   ],
+   "metrics": {
+    "burden": 0.4914,
+    "severe": 0.2297,
+    "rent_to_income": 0.3023,
+    "price_to_income": 4.63,
+    "denial": 0.1343,
+    "homeownership": 0.5826
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.829
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.552
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.214
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.07
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.494
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 2.464
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.072,
+   "mc_gap_p10": 0.264,
+   "mc_gap_p90": 1.233
+  },
+  {
+   "cbsa": "40900",
+   "name": "Sacramento-Roseville-Folsom, CA Metro Area",
+   "short": "Sacramento",
+   "gap": 1.017,
+   "gap_rank": 17,
+   "score": 0.829,
+   "twins": [
+    "Baltimore",
+    "Virginia Beach",
+    "Portland",
+    "Denver",
+    "Richmond",
+    "Salt Lake City",
+    "Phoenix",
+    "Minneapolis",
+    "Columbus",
+    "Providence"
+   ],
+   "metrics": {
+    "burden": 0.5647,
+    "severe": 0.293,
+    "rent_to_income": 0.3442,
+    "price_to_income": 6.0656,
+    "denial": 0.0961,
+    "homeownership": 0.6301
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.634
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.341
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.579
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.185
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.378
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.581
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.08,
+   "mc_gap_p10": 0.707,
+   "mc_gap_p90": 1.234
+  },
+  {
+   "cbsa": "29820",
+   "name": "Las Vegas-Henderson-North Las Vegas, NV Metro Area",
+   "short": "Las Vegas",
+   "gap": 1.17,
+   "gap_rank": 12,
+   "score": 1.602,
+   "twins": [
+    "Orlando",
+    "San Antonio",
+    "Tampa",
+    "Tucson",
+    "Nashville",
+    "Jacksonville",
+    "Deltona",
+    "Oklahoma City",
+    "Indianapolis",
+    "North Port"
+   ],
+   "metrics": {
+    "burden": 0.5774,
+    "severe": 0.2978,
+    "rent_to_income": 0.3571,
+    "price_to_income": 5.636,
+    "denial": 0.1173,
+    "homeownership": 0.5778
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.235
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.002
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.684
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.541
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.733
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.511
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.522,
+   "mc_gap_p10": 0.311,
+   "mc_gap_p90": 1.784
+  },
+  {
+   "cbsa": "17140",
+   "name": "Cincinnati, OH-KY-IN Metro Area",
+   "short": "Cincinnati",
+   "gap": -0.227,
+   "gap_rank": 74,
+   "score": -0.944,
+   "twins": [
+    "Kansas City",
+    "Indianapolis",
+    "St. Louis",
+    "Columbus",
+    "Providence",
+    "Louisville",
+    "Detroit",
+    "Milwaukee",
+    "Virginia Beach",
+    "Cleveland"
+   ],
+   "metrics": {
+    "burden": 0.4643,
+    "severe": 0.2434,
+    "rent_to_income": 0.2938,
+    "price_to_income": 3.1879,
+    "denial": 0.1083,
+    "homeownership": 0.6831
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.135
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.343
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.128
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.453
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.11
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.274
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.376,
+   "mc_gap_p90": 0.099
+  },
+  {
+   "cbsa": "28140",
+   "name": "Kansas City, MO-KS Metro Area",
+   "short": "Kansas City",
+   "gap": -0.646,
+   "gap_rank": 89,
+   "score": -1.373,
+   "twins": [
+    "Columbus",
+    "Cincinnati",
+    "Indianapolis",
+    "Omaha",
+    "St. Louis",
+    "Richmond",
+    "Phoenix",
+    "Providence",
+    "Virginia Beach",
+    "Louisville"
+   ],
+   "metrics": {
+    "burden": 0.4631,
+    "severe": 0.2185,
+    "rent_to_income": 0.2866,
+    "price_to_income": 3.4424,
+    "denial": 0.0697,
+    "homeownership": 0.6584
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.138
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.167
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.072
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.765
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.013
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.15
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.001,
+   "mc_gap_p90": -0.176
+  },
+  {
+   "cbsa": "18140",
+   "name": "Columbus, OH Metro Area",
+   "short": "Columbus",
+   "gap": 0.145,
+   "gap_rank": 53,
+   "score": -0.696,
+   "twins": [
+    "Kansas City",
+    "Indianapolis",
+    "Cincinnati",
+    "Omaha",
+    "St. Louis",
+    "Phoenix",
+    "Virginia Beach",
+    "Louisville",
+    "Salt Lake City",
+    "San Antonio"
+   ],
+   "metrics": {
+    "burden": 0.4559,
+    "severe": 0.2214,
+    "rent_to_income": 0.2907,
+    "price_to_income": 3.6708,
+    "denial": 0.0932,
+    "homeownership": 0.6135
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.024
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.214
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.242
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.253
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.09
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.688
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.432,
+   "mc_gap_p90": 0.64
+  },
+  {
+   "cbsa": "17410",
+   "name": "Cleveland, OH Metro Area",
+   "short": "Cleveland",
+   "gap": 0.164,
+   "gap_rank": 51,
+   "score": -0.738,
+   "twins": [
+    "Pittsburgh",
+    "Milwaukee",
+    "Buffalo",
+    "St. Louis",
+    "Louisville",
+    "Cincinnati",
+    "Detroit",
+    "Dayton",
+    "Akron",
+    "Rochester"
+   ],
+   "metrics": {
+    "burden": 0.4774,
+    "severe": 0.248,
+    "rent_to_income": 0.3044,
+    "price_to_income": 3.0476,
+    "denial": 0.1022,
+    "homeownership": 0.6654
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.121
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.36
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.642
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.262
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.526
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.415
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.095,
+   "mc_gap_p90": 0.323
+  },
+  {
+   "cbsa": "26900",
+   "name": "Indianapolis-Carmel-Greenwood, IN Metro Area",
+   "short": "Indianapolis",
+   "gap": -0.425,
+   "gap_rank": 80,
+   "score": -0.758,
+   "twins": [
+    "Cincinnati",
+    "Kansas City",
+    "Columbus",
+    "Nashville",
+    "San Antonio",
+    "Louisville",
+    "Charlotte",
+    "Providence",
+    "Tampa",
+    "Virginia Beach"
+   ],
+   "metrics": {
+    "burden": 0.483,
+    "severe": 0.2394,
+    "rent_to_income": 0.2871,
+    "price_to_income": 3.3299,
+    "denial": 0.1118,
+    "homeownership": 0.6682
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.215
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.03
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.343
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.305
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.288
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.649
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.552,
+   "mc_gap_p90": 0.107
+  },
+  {
+   "cbsa": "34980",
+   "name": "Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",
+   "short": "Nashville",
+   "gap": -0.385,
+   "gap_rank": 78,
+   "score": -0.283,
+   "twins": [
+    "Charlotte",
+    "San Antonio",
+    "Indianapolis",
+    "Jacksonville",
+    "Tampa",
+    "Orlando",
+    "Phoenix",
+    "Charleston",
+    "Kansas City",
+    "Richmond"
+   ],
+   "metrics": {
+    "burden": 0.514,
+    "severe": 0.2346,
+    "rent_to_income": 0.3198,
+    "price_to_income": 4.7936,
+    "denial": 0.0949,
+    "homeownership": 0.6521
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.923
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.29
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.307
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.831
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.023
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.412
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.029,
+   "mc_gap_p90": 0.078
+  },
+  {
+   "cbsa": "41940",
+   "name": "San Jose-Sunnyvale-Santa Clara, CA Metro Area",
+   "short": "San Jose",
+   "gap": 0.163,
+   "gap_rank": 52,
+   "score": 0.338,
+   "twins": [
+    "San Francisco",
+    "Seattle",
+    "Boston",
+    "San Diego",
+    "Oxnard",
+    "Bridgeport",
+    "Denver",
+    "Washington",
+    "Portland",
+    "Minneapolis"
+   ],
+   "metrics": {
+    "burden": 0.4509,
+    "severe": 0.2105,
+    "rent_to_income": 0.2799,
+    "price_to_income": 8.9309,
+    "denial": 0.0922,
+    "homeownership": 0.5547
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.11
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.034
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.083
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.213
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.005
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.547
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.039,
+   "mc_gap_p10": -0.621,
+   "mc_gap_p90": 1.016
+  },
+  {
+   "cbsa": "47260",
+   "name": "Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",
+   "short": "Virginia Beach",
+   "gap": 0.624,
+   "gap_rank": 29,
+   "score": 0.082,
+   "twins": [
+    "Tucson",
+    "Providence",
+    "Cincinnati",
+    "Richmond",
+    "St. Louis",
+    "Albany",
+    "Kansas City",
+    "Oklahoma City",
+    "Indianapolis",
+    "Columbus"
+   ],
+   "metrics": {
+    "burden": 0.545,
+    "severe": 0.271,
+    "rent_to_income": 0.3321,
+    "price_to_income": 4.1407,
+    "denial": 0.0846,
+    "homeownership": 0.6343
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.139
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.038
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.262
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.429
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.525
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.273
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.014,
+   "mc_gap_p10": 0.067,
+   "mc_gap_p90": 0.996
+  },
+  {
+   "cbsa": "39300",
+   "name": "Providence-Warwick, RI-MA Metro Area",
+   "short": "Providence",
+   "gap": 0.439,
+   "gap_rank": 37,
+   "score": -0.19,
+   "twins": [
+    "Cincinnati",
+    "Virginia Beach",
+    "Richmond",
+    "Indianapolis",
+    "St. Louis",
+    "Allentown",
+    "Pittsburgh",
+    "Hartford",
+    "Kansas City",
+    "Worcester"
+   ],
+   "metrics": {
+    "burden": 0.4946,
+    "severe": 0.2486,
+    "rent_to_income": 0.3226,
+    "price_to_income": 4.8541,
+    "denial": 0.0867,
+    "homeownership": 0.6317
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.592
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.23
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.003
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.203
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.133
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.98
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.003,
+   "mc_gap_p10": 0.004,
+   "mc_gap_p90": 0.905
+  },
+  {
+   "cbsa": "27260",
+   "name": "Jacksonville, FL Metro Area",
+   "short": "Jacksonville",
+   "gap": 0.564,
+   "gap_rank": 32,
+   "score": 0.59,
+   "twins": [
+    "Charlotte",
+    "North Port",
+    "Nashville",
+    "San Antonio",
+    "Tampa",
+    "Orlando",
+    "Deltona",
+    "Indianapolis",
+    "Richmond",
+    "Spokane"
+   ],
+   "metrics": {
+    "burden": 0.5585,
+    "severe": 0.2788,
+    "rent_to_income": 0.3384,
+    "price_to_income": 4.3117,
+    "denial": 0.1333,
+    "homeownership": 0.6647
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.594
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.422
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.006
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.297
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.074
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.251
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.002,
+   "mc_gap_p10": -0.137,
+   "mc_gap_p90": 0.812
+  },
+  {
+   "cbsa": "33340",
+   "name": "Milwaukee-Waukesha, WI Metro Area",
+   "short": "Milwaukee",
+   "gap": 0.393,
+   "gap_rank": 40,
+   "score": -0.51,
+   "twins": [
+    "Cleveland",
+    "Cincinnati",
+    "St. Louis",
+    "Akron",
+    "Dayton",
+    "Rochester",
+    "Pittsburgh",
+    "Buffalo",
+    "Louisville",
+    "Detroit"
+   ],
+   "metrics": {
+    "burden": 0.4757,
+    "severe": 0.2423,
+    "rent_to_income": 0.2877,
+    "price_to_income": 3.9173,
+    "denial": 0.0836,
+    "homeownership": 0.6038
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.182
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.318
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.396
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.386
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.225
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.594
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.004,
+   "mc_gap_p10": -0.21,
+   "mc_gap_p90": 0.956
+  },
+  {
+   "cbsa": "39580",
+   "name": "Raleigh-Cary, NC Metro Area",
+   "short": "Raleigh",
+   "gap": -0.464,
+   "gap_rank": 82,
+   "score": -0.866,
+   "twins": [
+    "Austin",
+    "Nashville",
+    "Salt Lake City",
+    "Provo",
+    "Boise City",
+    "Denver",
+    "Ogden",
+    "Charlotte",
+    "Sacramento",
+    "Worcester"
+   ],
+   "metrics": {
+    "burden": 0.4846,
+    "severe": 0.2238,
+    "rent_to_income": 0.3016,
+    "price_to_income": 4.1797,
+    "denial": 0.0895,
+    "homeownership": 0.6662
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.068
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.612
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.36
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.051
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.631
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.01
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.671,
+   "mc_gap_p90": -0.167
+  },
+  {
+   "cbsa": "36420",
+   "name": "Oklahoma City, OK Metro Area",
+   "short": "Oklahoma City",
+   "gap": -0.016,
+   "gap_rank": 61,
+   "score": -0.124,
+   "twins": [
+    "Tulsa",
+    "Tucson",
+    "Columbia",
+    "Little Rock",
+    "San Antonio",
+    "Birmingham",
+    "Virginia Beach",
+    "Spokane",
+    "Knoxville",
+    "Richmond"
+   ],
+   "metrics": {
+    "burden": 0.4853,
+    "severe": 0.247,
+    "rent_to_income": 0.2965,
+    "price_to_income": 3.1903,
+    "denial": 0.1356,
+    "homeownership": 0.6362
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.556
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.224
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.31
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.056
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.089
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.072
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.363,
+   "mc_gap_p90": 0.387
+  },
+  {
+   "cbsa": "31140",
+   "name": "Louisville/Jefferson County, KY-IN Metro Area",
+   "short": "Louisville",
+   "gap": -0.15,
+   "gap_rank": 69,
+   "score": -0.925,
+   "twins": [
+    "Cincinnati",
+    "Birmingham",
+    "Greensboro",
+    "Tulsa",
+    "Chattanooga",
+    "Cleveland",
+    "Indianapolis",
+    "Dayton",
+    "Kansas City",
+    "Winston-Salem"
+   ],
+   "metrics": {
+    "burden": 0.4653,
+    "severe": 0.2272,
+    "rent_to_income": 0.302,
+    "price_to_income": 3.367,
+    "denial": 0.1148,
+    "homeownership": 0.6892
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.019
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.287
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.062
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.158
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.358
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.037
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.404,
+   "mc_gap_p90": 0.066
+  },
+  {
+   "cbsa": "32820",
+   "name": "Memphis, TN-MS-AR Metro Area",
+   "short": "Memphis",
+   "gap": 0.769,
+   "gap_rank": 21,
+   "score": 0.679,
+   "twins": [
+    "Louisville",
+    "Greensboro",
+    "Birmingham",
+    "Jackson",
+    "El Paso",
+    "Tulsa",
+    "Little Rock",
+    "Toledo",
+    "Winston-Salem",
+    "Columbia"
+   ],
+   "metrics": {
+    "burden": 0.533,
+    "severe": 0.2797,
+    "rent_to_income": 0.3328,
+    "price_to_income": 3.7033,
+    "denial": 0.1207,
+    "homeownership": 0.605
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.339
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.229
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.189
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.504
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.162
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.032
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.156,
+   "mc_gap_p10": 0.163,
+   "mc_gap_p90": 1.421
+  },
+  {
+   "cbsa": "40060",
+   "name": "Richmond, VA Metro Area",
+   "short": "Richmond",
+   "gap": -0.23,
+   "gap_rank": 75,
+   "score": -0.387,
+   "twins": [
+    "Virginia Beach",
+    "Providence",
+    "Kansas City",
+    "Omaha",
+    "Charleston",
+    "Oklahoma City",
+    "Indianapolis",
+    "Birmingham",
+    "San Antonio",
+    "Nashville"
+   ],
+   "metrics": {
+    "burden": 0.5124,
+    "severe": 0.2571,
+    "rent_to_income": 0.3173,
+    "price_to_income": 4.0783,
+    "denial": 0.0972,
+    "homeownership": 0.6699
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.024
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.376
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.058
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.183
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.127
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.12
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.304,
+   "mc_gap_p90": 0.293
+  },
+  {
+   "cbsa": "41620",
+   "name": "Salt Lake City-Murray, UT Metro Area",
+   "short": "Salt Lake City",
+   "gap": 0.126,
+   "gap_rank": 54,
+   "score": -0.601,
+   "twins": [
+    "Portland",
+    "Ogden",
+    "Omaha",
+    "Kansas City",
+    "Minneapolis",
+    "Hartford",
+    "Columbus",
+    "Denver",
+    "Indianapolis",
+    "Richmond"
+   ],
+   "metrics": {
+    "burden": 0.485,
+    "severe": 0.2207,
+    "rent_to_income": 0.3019,
+    "price_to_income": 5.2547,
+    "denial": 0.1025,
+    "homeownership": 0.6696
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.821
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.226
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.431
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.561
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.516
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.619
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.003,
+   "mc_gap_p10": -0.293,
+   "mc_gap_p90": 0.694
+  },
+  {
+   "cbsa": "13820",
+   "name": "Birmingham, AL Metro Area",
+   "short": "Birmingham",
+   "gap": 0.364,
+   "gap_rank": 42,
+   "score": 0.062,
+   "twins": [
+    "Columbia",
+    "Little Rock",
+    "Louisville",
+    "Baton Rouge",
+    "Tulsa",
+    "Winston-Salem",
+    "Greensboro",
+    "Knoxville",
+    "Chattanooga",
+    "Oklahoma City"
+   ],
+   "metrics": {
+    "burden": 0.5107,
+    "severe": 0.2621,
+    "rent_to_income": 0.3339,
+    "price_to_income": 3.3595,
+    "denial": 0.1575,
+    "homeownership": 0.708
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.316
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.753
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.088
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.533
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.125
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.517
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.005,
+   "mc_gap_p10": -0.153,
+   "mc_gap_p90": 0.858
+  },
+  {
+   "cbsa": "23420",
+   "name": "Fresno, CA Metro Area",
+   "short": "Fresno",
+   "gap": 1.446,
+   "gap_rank": 7,
+   "score": 1.374,
+   "twins": [
+    "Bakersfield",
+    "Tulsa",
+    "Oklahoma City",
+    "Little Rock",
+    "Birmingham",
+    "El Paso",
+    "Albuquerque",
+    "Harrisburg",
+    "Louisville",
+    "Baton Rouge"
+   ],
+   "metrics": {
+    "burden": 0.5564,
+    "severe": 0.3013,
+    "rent_to_income": 0.3375,
+    "price_to_income": 5.2291,
+    "denial": 0.1154,
+    "homeownership": 0.5701
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.324
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.399
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.018
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.535
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.091
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.48
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.577,
+   "mc_gap_p10": 0.459,
+   "mc_gap_p90": 2.034
+  },
+  {
+   "cbsa": "24340",
+   "name": "Grand Rapids-Wyoming-Kentwood, MI Metro Area",
+   "short": "Grand Rapids",
+   "gap": 0.042,
+   "gap_rank": 59,
+   "score": -0.783,
+   "twins": [
+    "Cincinnati",
+    "Akron",
+    "Milwaukee",
+    "Wichita",
+    "Greenville",
+    "Louisville",
+    "Kansas City",
+    "Allentown",
+    "Greensboro",
+    "Tulsa"
+   ],
+   "metrics": {
+    "burden": 0.4884,
+    "severe": 0.2328,
+    "rent_to_income": 0.2957,
+    "price_to_income": 3.4426,
+    "denial": 0.1565,
+    "homeownership": 0.7461
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.028
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.437
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.294
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.497
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.037
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.2
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.02,
+   "mc_gap_p10": -0.826,
+   "mc_gap_p90": 0.949
+  },
+  {
+   "cbsa": "15380",
+   "name": "Buffalo-Cheektowaga, NY Metro Area",
+   "short": "Buffalo",
+   "gap": 0.244,
+   "gap_rank": 45,
+   "score": -0.516,
+   "twins": [
+    "Rochester",
+    "Syracuse",
+    "Cleveland",
+    "Dayton",
+    "Milwaukee",
+    "Pittsburgh",
+    "Tucson",
+    "Louisville",
+    "Akron",
+    "Little Rock"
+   ],
+   "metrics": {
+    "burden": 0.5008,
+    "severe": 0.2725,
+    "rent_to_income": 0.3068,
+    "price_to_income": 3.13,
+    "denial": 0.0992,
+    "homeownership": 0.668
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.192
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.198
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.396
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.062
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.084
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.186
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": 0.007,
+   "mc_gap_p90": 0.4
+  },
+  {
+   "cbsa": "25540",
+   "name": "Hartford-West Hartford-East Hartford, CT Metro Area",
+   "short": "Hartford",
+   "gap": 0.234,
+   "gap_rank": 46,
+   "score": -0.415,
+   "twins": [
+    "Madison",
+    "Albany",
+    "Providence",
+    "Worcester",
+    "Omaha",
+    "New Haven",
+    "Salt Lake City",
+    "Cincinnati",
+    "Columbus",
+    "Minneapolis"
+   ],
+   "metrics": {
+    "burden": 0.516,
+    "severe": 0.2697,
+    "rent_to_income": 0.3383,
+    "price_to_income": 3.5062,
+    "denial": 0.0834,
+    "homeownership": 0.6733
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.904
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.313
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.216
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.196
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.802
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.871
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.276,
+   "mc_gap_p90": 0.548
+  },
+  {
+   "cbsa": "46060",
+   "name": "Tucson, AZ Metro Area",
+   "short": "Tucson",
+   "gap": 0.097,
+   "gap_rank": 55,
+   "score": 0.025,
+   "twins": [
+    "Virginia Beach",
+    "Oklahoma City",
+    "Columbia",
+    "Dayton",
+    "Albuquerque",
+    "Little Rock",
+    "Baton Rouge",
+    "Tulsa",
+    "El Paso",
+    "Buffalo"
+   ],
+   "metrics": {
+    "burden": 0.532,
+    "severe": 0.2683,
+    "rent_to_income": 0.3197,
+    "price_to_income": 4.5467,
+    "denial": 0.1005,
+    "homeownership": 0.6524
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.797
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.279
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.462
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.983
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.335
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.081
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.322,
+   "mc_gap_p90": 0.563
+  },
+  {
+   "cbsa": "40380",
+   "name": "Rochester, NY Metro Area",
+   "short": "Rochester",
+   "gap": -0.155,
+   "gap_rank": 70,
+   "score": -0.782,
+   "twins": [
+    "Syracuse",
+    "Buffalo",
+    "Dayton",
+    "Milwaukee",
+    "Cleveland",
+    "Akron",
+    "Pittsburgh",
+    "Tucson",
+    "Wichita",
+    "Albany"
+   ],
+   "metrics": {
+    "burden": 0.5045,
+    "severe": 0.2659,
+    "rent_to_income": 0.3119,
+    "price_to_income": 2.6821,
+    "denial": 0.0844,
+    "homeownership": 0.6733
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.012
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.414
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.031
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.464
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.055
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.267
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.334,
+   "mc_gap_p90": 0.18
+  },
+  {
+   "cbsa": "46140",
+   "name": "Tulsa, OK Metro Area",
+   "short": "Tulsa",
+   "gap": -0.538,
+   "gap_rank": 86,
+   "score": -0.769,
+   "twins": [
+    "Knoxville",
+    "Greensboro",
+    "Oklahoma City",
+    "Winston-Salem",
+    "Little Rock",
+    "Chattanooga",
+    "Columbia",
+    "Greenville",
+    "Birmingham",
+    "Louisville"
+   ],
+   "metrics": {
+    "burden": 0.4527,
+    "severe": 0.215,
+    "rent_to_income": 0.2805,
+    "price_to_income": 3.1964,
+    "denial": 0.1309,
+    "homeownership": 0.6545
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.067
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.034
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.278
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.495
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.115
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.315
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.775,
+   "mc_gap_p90": -0.1
+  },
+  {
+   "cbsa": "46520",
+   "name": "Urban Honolulu, HI Metro Area",
+   "short": "Urban Honolulu",
+   "gap": 1.893,
+   "gap_rank": 5,
+   "score": 1.705,
+   "twins": [
+    "Baltimore",
+    "Sacramento",
+    "Albany",
+    "Kiryas Joel",
+    "Hartford",
+    "Portland",
+    "Worcester",
+    "Providence",
+    "Salt Lake City",
+    "Oxnard"
+   ],
+   "metrics": {
+    "burden": 0.5768,
+    "severe": 0.2892,
+    "rent_to_income": 0.3376,
+    "price_to_income": 8.4514,
+    "denial": 0.1217,
+    "homeownership": 0.5979
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.227
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.853
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -3.102
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.747
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -1.31
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -1.789
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.828,
+   "mc_gap_p10": 1.193,
+   "mc_gap_p90": 2.241
+  },
+  {
+   "cbsa": "36540",
+   "name": "Omaha, NE-IA Metro Area",
+   "short": "Omaha",
+   "gap": -0.648,
+   "gap_rank": 90,
+   "score": -1.375,
+   "twins": [
+    "Des Moines",
+    "Kansas City",
+    "Richmond",
+    "Columbus",
+    "Salt Lake City",
+    "Spokane",
+    "Harrisburg",
+    "Indianapolis",
+    "Hartford",
+    "Madison"
+   ],
+   "metrics": {
+    "burden": 0.4774,
+    "severe": 0.2286,
+    "rent_to_income": 0.2844,
+    "price_to_income": 3.1664,
+    "denial": 0.066,
+    "homeownership": 0.6616
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.072
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.296
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.362
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.67
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.086
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.557
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.902,
+   "mc_gap_p90": -0.18
+  },
+  {
+   "cbsa": "35380",
+   "name": "New Orleans-Metairie, LA Metro Area",
+   "short": "New Orleans",
+   "gap": 1.898,
+   "gap_rank": 4,
+   "score": 1.987,
+   "twins": [
+    "Jackson",
+    "Albuquerque",
+    "Baton Rouge",
+    "El Paso",
+    "Cleveland",
+    "Pittsburgh",
+    "Augusta",
+    "Columbia",
+    "Akron",
+    "Little Rock"
+   ],
+   "metrics": {
+    "burden": 0.5746,
+    "severe": 0.332,
+    "rent_to_income": 0.3793,
+    "price_to_income": 4.1529,
+    "denial": 0.1571,
+    "homeownership": 0.6061
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 1.229
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.482
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.41
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.513
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.158
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.358
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.93,
+   "mc_gap_p10": 1.376,
+   "mc_gap_p90": 2.369
+  },
+  {
+   "cbsa": "24860",
+   "name": "Greenville-Anderson-Greer, SC Metro Area",
+   "short": "Greenville",
+   "gap": 0.173,
+   "gap_rank": 50,
+   "score": -0.222,
+   "twins": [
+    "Knoxville",
+    "Tulsa",
+    "Winston-Salem",
+    "Greensboro",
+    "Chattanooga",
+    "Birmingham",
+    "Louisville",
+    "Columbia",
+    "Spokane",
+    "Charleston"
+   ],
+   "metrics": {
+    "burden": 0.5071,
+    "severe": 0.2484,
+    "rent_to_income": 0.3103,
+    "price_to_income": 3.7142,
+    "denial": 0.1509,
+    "homeownership": 0.7067
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.788
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.092
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.365
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.449
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.496
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.364
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.165,
+   "mc_gap_p90": 0.646
+  },
+  {
+   "cbsa": "14860",
+   "name": "Bridgeport-Stamford-Danbury, CT Metro Area",
+   "short": "Bridgeport",
+   "gap": 0.567,
+   "gap_rank": 31,
+   "score": 0.48,
+   "twins": [
+    "Denver",
+    "Seattle",
+    "Kiryas Joel",
+    "Worcester",
+    "Boston",
+    "Salt Lake City",
+    "Portland",
+    "Hartford",
+    "Urban Honolulu",
+    "Minneapolis"
+   ],
+   "metrics": {
+    "burden": 0.5479,
+    "severe": 0.2857,
+    "rent_to_income": 0.3589,
+    "price_to_income": 4.9273,
+    "denial": 0.1014,
+    "homeownership": 0.6603
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.462
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.133
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.401
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.537
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.237
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.493
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.003,
+   "mc_gap_p10": 0.081,
+   "mc_gap_p90": 0.894
+  },
+  {
+   "cbsa": "28940",
+   "name": "Knoxville, TN Metro Area",
+   "short": "Knoxville",
+   "gap": -0.283,
+   "gap_rank": 77,
+   "score": -0.364,
+   "twins": [
+    "Greenville",
+    "Tulsa",
+    "Winston-Salem",
+    "Birmingham",
+    "Chattanooga",
+    "Little Rock",
+    "Greensboro",
+    "Augusta",
+    "Columbia",
+    "Deltona"
+   ],
+   "metrics": {
+    "burden": 0.4729,
+    "severe": 0.2254,
+    "rent_to_income": 0.3058,
+    "price_to_income": 4.0071,
+    "denial": 0.1605,
+    "homeownership": 0.704
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.008
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.13
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.07
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.5
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.224
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.244
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.574,
+   "mc_gap_p90": 0.288
+  },
+  {
+   "cbsa": "10740",
+   "name": "Albuquerque, NM Metro Area",
+   "short": "Albuquerque",
+   "gap": -0.16,
+   "gap_rank": 71,
+   "score": -0.02,
+   "twins": [
+    "Columbia",
+    "Baton Rouge",
+    "Little Rock",
+    "Tucson",
+    "Augusta",
+    "El Paso",
+    "Birmingham",
+    "Virginia Beach",
+    "Dayton",
+    "Jackson"
+   ],
+   "metrics": {
+    "burden": 0.5187,
+    "severe": 0.2755,
+    "rent_to_income": 0.3082,
+    "price_to_income": 4.0659,
+    "denial": 0.1362,
+    "homeownership": 0.6906
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.769
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 1.044
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.022
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.23
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.023
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.876
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.489,
+   "mc_gap_p90": 0.292
+  },
+  {
+   "cbsa": "12540",
+   "name": "Bakersfield-Delano, CA Metro Area",
+   "short": "Bakersfield",
+   "gap": 1.046,
+   "gap_rank": 15,
+   "score": 1.089,
+   "twins": [
+    "Fresno",
+    "Oklahoma City",
+    "Tulsa",
+    "Tucson",
+    "Baton Rouge",
+    "El Paso",
+    "Columbia",
+    "Little Rock",
+    "Albuquerque",
+    "Birmingham"
+   ],
+   "metrics": {
+    "burden": 0.5644,
+    "severe": 0.2982,
+    "rent_to_income": 0.3384,
+    "price_to_income": 4.8184,
+    "denial": 0.1147,
+    "homeownership": 0.6006
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.756
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.532
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.919
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.637
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.142
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.816
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.204,
+   "mc_gap_p10": 0.358,
+   "mc_gap_p90": 1.464
+  },
+  {
+   "cbsa": "10580",
+   "name": "Albany-Schenectady-Troy, NY Metro Area",
+   "short": "Albany",
+   "gap": 0.091,
+   "gap_rank": 57,
+   "score": -0.374,
+   "twins": [
+    "Hartford",
+    "Virginia Beach",
+    "Madison",
+    "New Haven",
+    "Harrisburg",
+    "Richmond",
+    "Providence",
+    "Rochester",
+    "Buffalo",
+    "Dayton"
+   ],
+   "metrics": {
+    "burden": 0.4698,
+    "severe": 0.252,
+    "rent_to_income": 0.2883,
+    "price_to_income": 3.2461,
+    "denial": 0.1252,
+    "homeownership": 0.6415
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.622
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.629
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.118
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.066
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.263
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.033
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.381,
+   "mc_gap_p90": 0.522
+  },
+  {
+   "cbsa": "32580",
+   "name": "McAllen-Edinburg-Mission, TX Metro Area",
+   "short": "McAllen",
+   "gap": 0.647,
+   "gap_rank": 28,
+   "score": 0.851,
+   "twins": [
+    "El Paso",
+    "Little Rock",
+    "Tulsa",
+    "Winston-Salem",
+    "Knoxville",
+    "Greensboro",
+    "Baton Rouge",
+    "Augusta",
+    "Columbia",
+    "Jackson"
+   ],
+   "metrics": {
+    "burden": 0.4868,
+    "severe": 0.2717,
+    "rent_to_income": 0.3178,
+    "price_to_income": 2.593,
+    "denial": 0.2253,
+    "homeownership": 0.6746
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.216
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.883
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.898
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 2.29
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.875
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.433
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.265,
+   "mc_gap_p10": -0.04,
+   "mc_gap_p90": 1.715
+  },
+  {
+   "cbsa": "35840",
+   "name": "North Port-Bradenton-Sarasota, FL Metro Area",
+   "short": "North Port",
+   "gap": 0.424,
+   "gap_rank": 39,
+   "score": 0.529,
+   "twins": [
+    "Deltona",
+    "Jacksonville",
+    "Cape Coral",
+    "Palm Bay",
+    "Nashville",
+    "San Antonio",
+    "Boise City",
+    "Spokane",
+    "Charleston",
+    "Oklahoma City"
+   ],
+   "metrics": {
+    "burden": 0.5989,
+    "severe": 0.3076,
+    "rent_to_income": 0.3656,
+    "price_to_income": 4.9741,
+    "denial": 0.1351,
+    "homeownership": 0.7563
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.05
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -3.448
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.136
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.019
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.309
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.622
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.02,
+   "mc_gap_p10": -0.323,
+   "mc_gap_p90": 0.906
+  },
+  {
+   "cbsa": "12940",
+   "name": "Baton Rouge, LA Metro Area",
+   "short": "Baton Rouge",
+   "gap": 0.978,
+   "gap_rank": 18,
+   "score": 0.981,
+   "twins": [
+    "Columbia",
+    "Birmingham",
+    "Albuquerque",
+    "Little Rock",
+    "Winston-Salem",
+    "El Paso",
+    "Tucson",
+    "Tulsa",
+    "Chattanooga",
+    "Augusta"
+   ],
+   "metrics": {
+    "burden": 0.5478,
+    "severe": 0.2933,
+    "rent_to_income": 0.3428,
+    "price_to_income": 3.4641,
+    "denial": 0.1883,
+    "homeownership": 0.6911
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.996
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.289
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.062
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.63
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.346
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.355
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.29,
+   "mc_gap_p10": 0.312,
+   "mc_gap_p90": 1.612
+  },
+  {
+   "cbsa": "21340",
+   "name": "El Paso, TX Metro Area",
+   "short": "El Paso",
+   "gap": 0.097,
+   "gap_rank": 56,
+   "score": 0.208,
+   "twins": [
+    "Little Rock",
+    "Augusta",
+    "Tulsa",
+    "Columbia",
+    "Baton Rouge",
+    "Winston-Salem",
+    "Albuquerque",
+    "Greensboro",
+    "Tucson",
+    "McAllen"
+   ],
+   "metrics": {
+    "burden": 0.5352,
+    "severe": 0.2548,
+    "rent_to_income": 0.3274,
+    "price_to_income": 3.0158,
+    "denial": 0.1293,
+    "homeownership": 0.6426
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.687
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.559
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.169
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.439
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.145
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 2.308
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.002,
+   "mc_gap_p10": -0.223,
+   "mc_gap_p90": 0.622
+  },
+  {
+   "cbsa": "10900",
+   "name": "Allentown-Bethlehem-Easton, PA-NJ Metro Area",
+   "short": "Allentown",
+   "gap": 0.09,
+   "gap_rank": 58,
+   "score": -0.499,
+   "twins": [
+    "Providence",
+    "Louisville",
+    "Birmingham",
+    "Indianapolis",
+    "Cincinnati",
+    "Harrisburg",
+    "Charleston",
+    "Grand Rapids",
+    "Worcester",
+    "Greenville"
+   ],
+   "metrics": {
+    "burden": 0.5177,
+    "severe": 0.2566,
+    "rent_to_income": 0.3263,
+    "price_to_income": 3.5561,
+    "denial": 0.105,
+    "homeownership": 0.6971
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.725
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.379
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.617
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.248
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.919
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.665
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.179,
+   "mc_gap_p90": 0.48
+  },
+  {
+   "cbsa": "49340",
+   "name": "Worcester, MA Metro Area",
+   "short": "Worcester",
+   "gap": -0.131,
+   "gap_rank": 68,
+   "score": -0.42,
+   "twins": [
+    "Providence",
+    "Hartford",
+    "Kiryas Joel",
+    "New Haven",
+    "Allentown",
+    "Salt Lake City",
+    "Portland",
+    "Madison",
+    "Richmond",
+    "Sacramento"
+   ],
+   "metrics": {
+    "burden": 0.5059,
+    "severe": 0.2496,
+    "rent_to_income": 0.3266,
+    "price_to_income": 4.4163,
+    "denial": 0.0828,
+    "homeownership": 0.6578
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.405
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.316
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.247
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.417
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 1.149
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.093
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.404,
+   "mc_gap_p90": 0.085
+  },
+  {
+   "cbsa": "17900",
+   "name": "Columbia, SC Metro Area",
+   "short": "Columbia",
+   "gap": 0.662,
+   "gap_rank": 26,
+   "score": 0.59,
+   "twins": [
+    "Little Rock",
+    "Birmingham",
+    "Baton Rouge",
+    "Winston-Salem",
+    "Albuquerque",
+    "Tulsa",
+    "Greensboro",
+    "Tucson",
+    "Oklahoma City",
+    "Chattanooga"
+   ],
+   "metrics": {
+    "burden": 0.5543,
+    "severe": 0.2929,
+    "rent_to_income": 0.3451,
+    "price_to_income": 3.3997,
+    "denial": 0.154,
+    "homeownership": 0.6939
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.802
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.336
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.212
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.544
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.444
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.422
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.053,
+   "mc_gap_p10": 0.187,
+   "mc_gap_p90": 1.136
+  },
+  {
+   "cbsa": "37100",
+   "name": "Oxnard-Thousand Oaks-Ventura, CA Metro Area",
+   "short": "Oxnard",
+   "gap": 1.424,
+   "gap_rank": 8,
+   "score": 1.162,
+   "twins": [
+    "San Diego",
+    "Portland",
+    "Denver",
+    "Salt Lake City",
+    "Urban Honolulu",
+    "Ogden",
+    "Sacramento",
+    "Worcester",
+    "Minneapolis",
+    "Hartford"
+   ],
+   "metrics": {
+    "burden": 0.588,
+    "severe": 0.2942,
+    "rent_to_income": 0.3621,
+    "price_to_income": 7.4929,
+    "denial": 0.0976,
+    "homeownership": 0.6457
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.686
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.041
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 1.082
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.352
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.223
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.575
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.331,
+   "mc_gap_p10": 0.781,
+   "mc_gap_p90": 1.552
+  },
+  {
+   "cbsa": "16700",
+   "name": "Charleston-North Charleston, SC Metro Area",
+   "short": "Charleston",
+   "gap": 0.588,
+   "gap_rank": 30,
+   "score": 0.335,
+   "twins": [
+    "Richmond",
+    "Knoxville",
+    "Palm Bay",
+    "Deltona",
+    "Nashville",
+    "Greenville",
+    "Allentown",
+    "Providence",
+    "North Port",
+    "Spokane"
+   ],
+   "metrics": {
+    "burden": 0.5341,
+    "severe": 0.2691,
+    "rent_to_income": 0.3406,
+    "price_to_income": 4.4279,
+    "denial": 0.14,
+    "homeownership": 0.6906
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.887
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.909
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.186
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.913
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.519
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.943
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": 0.215,
+   "mc_gap_p90": 0.937
+  },
+  {
+   "cbsa": "15980",
+   "name": "Cape Coral-Fort Myers, FL Metro Area",
+   "short": "Cape Coral",
+   "gap": 0.487,
+   "gap_rank": 35,
+   "score": 0.919,
+   "twins": [
+    "Deltona",
+    "North Port",
+    "Lakeland",
+    "San Antonio",
+    "Jacksonville",
+    "Palm Bay",
+    "Orlando",
+    "Charleston",
+    "Nashville",
+    "Boise City"
+   ],
+   "metrics": {
+    "burden": 0.6001,
+    "severe": 0.3218,
+    "rent_to_income": 0.3744,
+    "price_to_income": 4.7591,
+    "denial": 0.1492,
+    "homeownership": 0.7433
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.639
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -4.513
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.361
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.391
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.548
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.562
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.011,
+   "mc_gap_p10": -0.097,
+   "mc_gap_p90": 0.91
+  },
+  {
+   "cbsa": "19430",
+   "name": "Dayton-Kettering-Beavercreek, OH Metro Area",
+   "short": "Dayton",
+   "gap": -0.533,
+   "gap_rank": 85,
+   "score": -1.182,
+   "twins": [
+    "Wichita",
+    "Akron",
+    "Rochester",
+    "Toledo",
+    "Tucson",
+    "Milwaukee",
+    "Syracuse",
+    "Buffalo",
+    "Louisville",
+    "Greensboro"
+   ],
+   "metrics": {
+    "burden": 0.4542,
+    "severe": 0.2237,
+    "rent_to_income": 0.2799,
+    "price_to_income": 2.8032,
+    "denial": 0.0927,
+    "homeownership": 0.6499
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.207
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.039
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.153
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.215
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.271
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.132
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.76,
+   "mc_gap_p90": -0.125
+  },
+  {
+   "cbsa": "14260",
+   "name": "Boise City, ID Metro Area",
+   "short": "Boise City",
+   "gap": -1.051,
+   "gap_rank": 96,
+   "score": -1.565,
+   "twins": [
+    "Provo",
+    "North Port",
+    "Jacksonville",
+    "Nashville",
+    "Spokane",
+    "Fayetteville",
+    "Palm Bay",
+    "Raleigh",
+    "Ogden",
+    "Salt Lake City"
+   ],
+   "metrics": {
+    "burden": 0.4857,
+    "severe": 0.2144,
+    "rent_to_income": 0.2975,
+    "price_to_income": 5.4531,
+    "denial": 0.0609,
+    "homeownership": 0.7253
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.758
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.839
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 1.549
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.947
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.052
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.089
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.429,
+   "mc_gap_p90": -0.613
+  },
+  {
+   "cbsa": "44700",
+   "name": "Stockton-Lodi, CA Metro Area",
+   "short": "Stockton",
+   "gap": 0.678,
+   "gap_rank": 24,
+   "score": 0.499,
+   "twins": [
+    "Worcester",
+    "Kiryas Joel",
+    "Allentown",
+    "Charleston",
+    "Nashville",
+    "Riverside",
+    "Indianapolis",
+    "Providence",
+    "Sacramento",
+    "Palm Bay"
+   ],
+   "metrics": {
+    "burden": 0.5389,
+    "severe": 0.2567,
+    "rent_to_income": 0.3256,
+    "price_to_income": 5.7573,
+    "denial": 0.1044,
+    "homeownership": 0.6199
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.25
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.572
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.786
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.12
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.009
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.158
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.012,
+   "mc_gap_p10": -0.119,
+   "mc_gap_p90": 1.025
+  },
+  {
+   "cbsa": "29460",
+   "name": "Lakeland-Winter Haven, FL Metro Area",
+   "short": "Lakeland",
+   "gap": 0.488,
+   "gap_rank": 34,
+   "score": 0.92,
+   "twins": [
+    "Deltona",
+    "Cape Coral",
+    "North Port",
+    "Jacksonville",
+    "Orlando",
+    "San Antonio",
+    "Charleston",
+    "Palm Bay",
+    "Spokane",
+    "Nashville"
+   ],
+   "metrics": {
+    "burden": 0.5424,
+    "severe": 0.2688,
+    "rent_to_income": 0.3244,
+    "price_to_income": 4.0392,
+    "denial": 0.2109,
+    "homeownership": 0.7047
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.187
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.252
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 1.585
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 2.244
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.006
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.356
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.091,
+   "mc_gap_p10": -0.318,
+   "mc_gap_p90": 1.328
+  },
+  {
+   "cbsa": "24660",
+   "name": "Greensboro-High Point, NC Metro Area",
+   "short": "Greensboro",
+   "gap": 1.057,
+   "gap_rank": 14,
+   "score": 0.273,
+   "twins": [
+    "Winston-Salem",
+    "Tulsa",
+    "Chattanooga",
+    "Little Rock",
+    "Toledo",
+    "Louisville",
+    "Akron",
+    "Wichita",
+    "Birmingham",
+    "Columbia"
+   ],
+   "metrics": {
+    "burden": 0.5075,
+    "severe": 0.2291,
+    "rent_to_income": 0.3099,
+    "price_to_income": 3.5232,
+    "denial": 0.1591,
+    "homeownership": 0.6375
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.028
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.331
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.493
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.886
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.145
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.045
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.054,
+   "mc_gap_p10": 0.57,
+   "mc_gap_p90": 1.212
+  },
+  {
+   "cbsa": "17820",
+   "name": "Colorado Springs, CO Metro Area",
+   "short": "Colorado Springs",
+   "gap": -0.004,
+   "gap_rank": 60,
+   "score": -0.149,
+   "twins": [
+    "Palm Bay",
+    "Salt Lake City",
+    "Ogden",
+    "North Port",
+    "Richmond",
+    "Omaha",
+    "Virginia Beach",
+    "Sacramento",
+    "Durham",
+    "Oklahoma City"
+   ],
+   "metrics": {
+    "burden": 0.5478,
+    "severe": 0.2586,
+    "rent_to_income": 0.3298,
+    "price_to_income": 5.1229,
+    "denial": 0.0823,
+    "homeownership": 0.6682
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.3
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.839
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.212
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.433
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.401
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.761
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.151,
+   "mc_gap_p90": 0.632
+  },
+  {
+   "cbsa": "30780",
+   "name": "Little Rock-North Little Rock-Conway, AR Metro Area",
+   "short": "Little Rock",
+   "gap": -0.262,
+   "gap_rank": 76,
+   "score": -0.241,
+   "twins": [
+    "Columbia",
+    "Birmingham",
+    "Winston-Salem",
+    "Tulsa",
+    "Greensboro",
+    "El Paso",
+    "Albuquerque",
+    "Knoxville",
+    "Baton Rouge",
+    "Chattanooga"
+   ],
+   "metrics": {
+    "burden": 0.4603,
+    "severe": 0.226,
+    "rent_to_income": 0.3005,
+    "price_to_income": 3.1882,
+    "denial": 0.144,
+    "homeownership": 0.6374
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.517
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.06
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.301
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.034
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.436
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.282
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.565,
+   "mc_gap_p90": 0.28
+  },
+  {
+   "cbsa": "19780",
+   "name": "Des Moines-West Des Moines, IA Metro Area",
+   "short": "Des Moines",
+   "gap": -1.507,
+   "gap_rank": 99,
+   "score": -2.021,
+   "twins": [
+    "Omaha",
+    "Spokane",
+    "Richmond",
+    "Salt Lake City",
+    "Kansas City",
+    "Harrisburg",
+    "Hartford",
+    "Charlotte",
+    "Jacksonville",
+    "Columbus"
+   ],
+   "metrics": {
+    "burden": 0.4451,
+    "severe": 0.1922,
+    "rent_to_income": 0.2725,
+    "price_to_income": 3.1133,
+    "denial": 0.0714,
+    "homeownership": 0.6945
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.048
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.094
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.311
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.715
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.124
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.704
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.532,
+   "mc_gap_p90": -0.972
+  },
+  {
+   "cbsa": "39340",
+   "name": "Provo-Orem-Lehi, UT Metro Area",
+   "short": "Provo",
+   "gap": -0.84,
+   "gap_rank": 92,
+   "score": -1.282,
+   "twins": [
+    "Boise City",
+    "Raleigh",
+    "Austin",
+    "Ogden",
+    "North Port",
+    "Salt Lake City",
+    "Nashville",
+    "Fayetteville",
+    "Jacksonville",
+    "Palm Bay"
+   ],
+   "metrics": {
+    "burden": 0.451,
+    "severe": 0.207,
+    "rent_to_income": 0.2906,
+    "price_to_income": 5.3176,
+    "denial": 0.0809,
+    "homeownership": 0.6857
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.19
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 1.093
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.538
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.532
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.014
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.367
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.991,
+   "mc_gap_p90": -0.248
+  },
+  {
+   "cbsa": "19660",
+   "name": "Deltona-Daytona Beach-Ormond Beach, FL Metro Area",
+   "short": "Deltona",
+   "gap": 0.229,
+   "gap_rank": 47,
+   "score": 0.334,
+   "twins": [
+    "North Port",
+    "Cape Coral",
+    "Palm Bay",
+    "Knoxville",
+    "Spokane",
+    "Charleston",
+    "San Antonio",
+    "Jacksonville",
+    "Oklahoma City",
+    "Greenville"
+   ],
+   "metrics": {
+    "burden": 0.5829,
+    "severe": 0.2977,
+    "rent_to_income": 0.3582,
+    "price_to_income": 4.5499,
+    "denial": 0.1373,
+    "homeownership": 0.7536
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.766
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.402
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.32
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.016
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.339
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.413
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.001,
+   "mc_gap_p10": -0.431,
+   "mc_gap_p90": 0.565
+  },
+  {
+   "cbsa": "28880",
+   "name": "Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",
+   "short": "Kiryas Joel",
+   "gap": 0.666,
+   "gap_rank": 25,
+   "score": 0.478,
+   "twins": [
+    "Worcester",
+    "Providence",
+    "Allentown",
+    "Stockton",
+    "Baltimore",
+    "Urban Honolulu",
+    "Hartford",
+    "Bridgeport",
+    "Richmond",
+    "Charleston"
+   ],
+   "metrics": {
+    "burden": 0.5505,
+    "severe": 0.2982,
+    "rent_to_income": 0.3461,
+    "price_to_income": 4.0068,
+    "denial": 0.1289,
+    "homeownership": 0.6844
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.099
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.006
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.196
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.789
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.13
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 2.227
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.017,
+   "mc_gap_p10": 0.003,
+   "mc_gap_p90": 1.044
+  },
+  {
+   "cbsa": "10420",
+   "name": "Akron, OH Metro Area",
+   "short": "Akron",
+   "gap": -0.117,
+   "gap_rank": 66,
+   "score": -0.879,
+   "twins": [
+    "Toledo",
+    "Dayton",
+    "Greensboro",
+    "Milwaukee",
+    "Wichita",
+    "Syracuse",
+    "Winston-Salem",
+    "Louisville",
+    "Cleveland",
+    "Little Rock"
+   ],
+   "metrics": {
+    "burden": 0.4962,
+    "severe": 0.265,
+    "rent_to_income": 0.3041,
+    "price_to_income": 2.9432,
+    "denial": 0.0863,
+    "homeownership": 0.6809
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.407
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.363
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.19
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.639
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.323
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.273
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.463,
+   "mc_gap_p90": 0.251
+  },
+  {
+   "cbsa": "31540",
+   "name": "Madison, WI Metro Area",
+   "short": "Madison",
+   "gap": -0.487,
+   "gap_rank": 84,
+   "score": -0.91,
+   "twins": [
+    "Durham",
+    "Hartford",
+    "New Haven",
+    "Albany",
+    "Omaha",
+    "Harrisburg",
+    "Rochester",
+    "Salt Lake City",
+    "Worcester",
+    "Spokane"
+   ],
+   "metrics": {
+    "burden": 0.4662,
+    "severe": 0.225,
+    "rent_to_income": 0.2935,
+    "price_to_income": 4.1935,
+    "denial": 0.0547,
+    "homeownership": 0.6035
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.832
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.677
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -1.599
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.992
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -1.047
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.7
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -1.095,
+   "mc_gap_p90": 0.378
+  },
+  {
+   "cbsa": "49180",
+   "name": "Winston-Salem, NC Metro Area",
+   "short": "Winston-Salem",
+   "gap": -0.556,
+   "gap_rank": 88,
+   "score": -0.788,
+   "twins": [
+    "Greensboro",
+    "Chattanooga",
+    "Columbia",
+    "Little Rock",
+    "Tulsa",
+    "Knoxville",
+    "Greenville",
+    "Birmingham",
+    "Augusta",
+    "Wichita"
+   ],
+   "metrics": {
+    "burden": 0.4743,
+    "severe": 0.2312,
+    "rent_to_income": 0.2896,
+    "price_to_income": 3.5362,
+    "denial": 0.1283,
+    "homeownership": 0.6918
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.38
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.029
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.035
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.573
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.048
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.302
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.841,
+   "mc_gap_p90": -0.199
+  },
+  {
+   "cbsa": "45060",
+   "name": "Syracuse, NY Metro Area",
+   "short": "Syracuse",
+   "gap": 0.175,
+   "gap_rank": 49,
+   "score": -0.474,
+   "twins": [
+    "Rochester",
+    "Buffalo",
+    "Dayton",
+    "Akron",
+    "New Haven",
+    "Milwaukee",
+    "Toledo",
+    "Tucson",
+    "Wichita",
+    "Little Rock"
+   ],
+   "metrics": {
+    "burden": 0.5012,
+    "severe": 0.2767,
+    "rent_to_income": 0.3169,
+    "price_to_income": 2.4864,
+    "denial": 0.113,
+    "homeownership": 0.6843
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.08
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.422
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.052
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.412
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.272
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 1.076
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.181,
+   "mc_gap_p90": 0.615
+  },
+  {
+   "cbsa": "36260",
+   "name": "Ogden, UT Metro Area",
+   "short": "Ogden",
+   "gap": -1.496,
+   "gap_rank": 98,
+   "score": -2.007,
+   "twins": [
+    "Salt Lake City",
+    "Colorado Springs",
+    "Sacramento",
+    "Worcester",
+    "Palm Bay",
+    "Omaha",
+    "Raleigh",
+    "Madison",
+    "Boise City",
+    "Hartford"
+   ],
+   "metrics": {
+    "burden": 0.4613,
+    "severe": 0.1859,
+    "rent_to_income": 0.2857,
+    "price_to_income": 4.659,
+    "denial": 0.0875,
+    "homeownership": 0.761
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.521
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.092
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 1.004
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.131
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.068
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.688
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -2.011,
+   "mc_gap_p90": -0.732
+  },
+  {
+   "cbsa": "48620",
+   "name": "Wichita, KS Metro Area",
+   "short": "Wichita",
+   "gap": -0.538,
+   "gap_rank": 87,
+   "score": -1.323,
+   "twins": [
+    "Dayton",
+    "Toledo",
+    "Greensboro",
+    "Akron",
+    "Winston-Salem",
+    "Chattanooga",
+    "Tulsa",
+    "Louisville",
+    "Grand Rapids",
+    "Greenville"
+   ],
+   "metrics": {
+    "burden": 0.436,
+    "severe": 0.2087,
+    "rent_to_income": 0.2723,
+    "price_to_income": 2.8476,
+    "denial": 0.1012,
+    "homeownership": 0.6529
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.195
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.332
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.179
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.854
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.609
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.527
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.902,
+   "mc_gap_p90": -0.2
+  },
+  {
+   "cbsa": "37340",
+   "name": "Palm Bay-Melbourne-Titusville, FL Metro Area",
+   "short": "Palm Bay",
+   "gap": -0.031,
+   "gap_rank": 62,
+   "score": -0.167,
+   "twins": [
+    "Deltona",
+    "North Port",
+    "Charleston",
+    "Spokane",
+    "Greenville",
+    "Tucson",
+    "Colorado Springs",
+    "Oklahoma City",
+    "Indianapolis",
+    "Nashville"
+   ],
+   "metrics": {
+    "burden": 0.5572,
+    "severe": 0.3042,
+    "rent_to_income": 0.3548,
+    "price_to_income": 4.3274,
+    "denial": 0.1142,
+    "homeownership": 0.7668
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.956
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.661
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.016
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.275
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.382
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.326
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.004,
+   "mc_gap_p10": -0.762,
+   "mc_gap_p90": 0.622
+  },
+  {
+   "cbsa": "12260",
+   "name": "Augusta-Richmond County, GA-SC Metro Area",
+   "short": "Augusta",
+   "gap": 0.329,
+   "gap_rank": 44,
+   "score": 0.198,
+   "twins": [
+    "Winston-Salem",
+    "Chattanooga",
+    "Columbia",
+    "El Paso",
+    "Knoxville",
+    "Albuquerque",
+    "Little Rock",
+    "Greensboro",
+    "Tulsa",
+    "Baton Rouge"
+   ],
+   "metrics": {
+    "burden": 0.5191,
+    "severe": 0.2752,
+    "rent_to_income": 0.3311,
+    "price_to_income": 3.2606,
+    "denial": 0.1437,
+    "homeownership": 0.6803
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.659
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -1.676
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.692
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.11
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.163
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.268
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.007,
+   "mc_gap_p10": -0.037,
+   "mc_gap_p90": 0.792
+  },
+  {
+   "cbsa": "27140",
+   "name": "Jackson, MS Metro Area",
+   "short": "Jackson",
+   "gap": 1.11,
+   "gap_rank": 13,
+   "score": 1.199,
+   "twins": [
+    "New Orleans",
+    "Little Rock",
+    "Columbia",
+    "Albuquerque",
+    "Winston-Salem",
+    "Greensboro",
+    "Toledo",
+    "Baton Rouge",
+    "Akron",
+    "Augusta"
+   ],
+   "metrics": {
+    "burden": 0.5439,
+    "severe": 0.2803,
+    "rent_to_income": 0.3593,
+    "price_to_income": 3.2525,
+    "denial": 0.1967,
+    "homeownership": 0.675
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.166
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.996
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.39
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 1.587
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.136
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.093
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.341,
+   "mc_gap_p10": 0.409,
+   "mc_gap_p90": 1.664
+  },
+  {
+   "cbsa": "25420",
+   "name": "Harrisburg-Carlisle, PA Metro Area",
+   "short": "Harrisburg",
+   "gap": -0.854,
+   "gap_rank": 93,
+   "score": -1.317,
+   "twins": [
+    "Spokane",
+    "Omaha",
+    "Little Rock",
+    "Richmond",
+    "Dayton",
+    "Albany",
+    "Allentown",
+    "Louisville",
+    "Tulsa",
+    "Oklahoma City"
+   ],
+   "metrics": {
+    "burden": 0.4387,
+    "severe": 0.216,
+    "rent_to_income": 0.2806,
+    "price_to_income": 3.1278,
+    "denial": 0.107,
+    "homeownership": 0.6805
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.593
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.738
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.327
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.087
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.546
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.263
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.999,
+   "mc_gap_p90": -0.367
+  },
+  {
+   "cbsa": "45780",
+   "name": "Toledo, OH Metro Area",
+   "short": "Toledo",
+   "gap": -0.207,
+   "gap_rank": 73,
+   "score": -0.992,
+   "twins": [
+    "Akron",
+    "Greensboro",
+    "Wichita",
+    "Dayton",
+    "Winston-Salem",
+    "Syracuse",
+    "Little Rock",
+    "Rochester",
+    "Chattanooga",
+    "Louisville"
+   ],
+   "metrics": {
+    "burden": 0.442,
+    "severe": 0.2331,
+    "rent_to_income": 0.2834,
+    "price_to_income": 2.6922,
+    "denial": 0.0993,
+    "homeownership": 0.637
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.748
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.161
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.356
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.438
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.915
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.565
+    }
+   ],
+   "top_driver_home": "M",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.64,
+   "mc_gap_p90": 0.194
+  },
+  {
+   "cbsa": "20500",
+   "name": "Durham-Chapel Hill, NC Metro Area",
+   "short": "Durham",
+   "gap": 0.434,
+   "gap_rank": 38,
+   "score": 0.039,
+   "twins": [
+    "Madison",
+    "New Haven",
+    "Palm Bay",
+    "Worcester",
+    "Albany",
+    "Tucson",
+    "Colorado Springs",
+    "Omaha",
+    "Hartford",
+    "Rochester"
+   ],
+   "metrics": {
+    "burden": 0.5095,
+    "severe": 0.2569,
+    "rent_to_income": 0.3227,
+    "price_to_income": 4.7437,
+    "denial": 0.0911,
+    "homeownership": 0.6217
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.87
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": -0.368
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.643
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.216
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -1.533
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -1.403
+    }
+   ],
+   "top_driver_home": "O",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.055,
+   "mc_gap_p90": 0.718
+  },
+  {
+   "cbsa": "44060",
+   "name": "Spokane-Spokane Valley, WA Metro Area",
+   "short": "Spokane",
+   "gap": -0.124,
+   "gap_rank": 67,
+   "score": -0.426,
+   "twins": [
+    "Harrisburg",
+    "Omaha",
+    "Deltona",
+    "Oklahoma City",
+    "Tulsa",
+    "Knoxville",
+    "Palm Bay",
+    "Greenville",
+    "Little Rock",
+    "Richmond"
+   ],
+   "metrics": {
+    "burden": 0.5173,
+    "severe": 0.2457,
+    "rent_to_income": 0.3061,
+    "price_to_income": 5.2305,
+    "denial": 0.0823,
+    "homeownership": 0.6573
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.123
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.795
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.447
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -1.529
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.805
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.873
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.745,
+   "mc_gap_p90": 0.706
+  },
+  {
+   "cbsa": "22220",
+   "name": "Fayetteville-Springdale-Rogers, AR Metro Area",
+   "short": "Fayetteville",
+   "gap": -1.514,
+   "gap_rank": 100,
+   "score": -1.659,
+   "twins": [
+    "North Port",
+    "Boise City",
+    "Spokane",
+    "Deltona",
+    "Palm Bay",
+    "Jacksonville",
+    "Cape Coral",
+    "Knoxville",
+    "Greenville",
+    "Oklahoma City"
+   ],
+   "metrics": {
+    "burden": 0.3912,
+    "severe": 0.1689,
+    "rent_to_income": 0.2524,
+    "price_to_income": 3.7624,
+    "denial": 0.09,
+    "homeownership": 0.6225
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -1.207
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.295
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.263
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -1.359
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": -0.48
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": -0.793
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -2.309,
+   "mc_gap_p90": -0.224
+  },
+  {
+   "cbsa": "16860",
+   "name": "Chattanooga, TN-GA Metro Area",
+   "short": "Chattanooga",
+   "gap": -0.478,
+   "gap_rank": 83,
+   "score": -0.781,
+   "twins": [
+    "Winston-Salem",
+    "Greensboro",
+    "Tulsa",
+    "Louisville",
+    "Knoxville",
+    "Wichita",
+    "Birmingham",
+    "Columbia",
+    "Augusta",
+    "Little Rock"
+   ],
+   "metrics": {
+    "burden": 0.4502,
+    "severe": 0.2204,
+    "rent_to_income": 0.2925,
+    "price_to_income": 3.7749,
+    "denial": 0.1318,
+    "homeownership": 0.6816
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": -0.111
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.031
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": 0.178
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": -0.362
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.125
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.094
+    }
+   ],
+   "top_driver_home": "H",
+   "mc_top10_share": 0.0,
+   "mc_gap_p10": -0.684,
+   "mc_gap_p90": 0.041
+  },
+  {
+   "cbsa": "35300",
+   "name": "New Haven, CT Metro Area",
+   "short": "New Haven",
+   "gap": 1.235,
+   "gap_rank": 10,
+   "score": 0.787,
+   "twins": [
+    "Madison",
+    "Syracuse",
+    "Durham",
+    "Hartford",
+    "Albany",
+    "Rochester",
+    "Worcester",
+    "Providence",
+    "Buffalo",
+    "Harrisburg"
+   ],
+   "metrics": {
+    "burden": 0.5352,
+    "severe": 0.2789,
+    "rent_to_income": 0.363,
+    "price_to_income": 4.0035,
+    "denial": 0.1077,
+    "homeownership": 0.6053
+   },
+   "drivers": [
+    {
+     "key": "recent_build",
+     "label": "Homes built since 2010 (share of stock)",
+     "home": "H",
+     "dev": 0.243
+    },
+    {
+     "key": "vacancy",
+     "label": "Vacancy rate",
+     "home": "H",
+     "dev": 0.084
+    },
+    {
+     "key": "multifamily",
+     "label": "Apartments in 5+ unit buildings (share)",
+     "home": "H",
+     "dev": -0.789
+    },
+    {
+     "key": "denial",
+     "label": "Home-purchase mortgage denial rate",
+     "home": "O",
+     "dev": 0.565
+    },
+    {
+     "key": "pre1960",
+     "label": "Homes built before 1960 (share)",
+     "home": "M",
+     "dev": 0.228
+    },
+    {
+     "key": "tax_burden",
+     "label": "Median property tax / owner income",
+     "home": "E",
+     "dev": 0.701
+    }
+   ],
+   "top_driver_home": "E",
+   "mc_top10_share": 0.332,
+   "mc_gap_p10": 0.808,
+   "mc_gap_p90": 1.512
+  }
+ ]
+}

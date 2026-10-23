@@ -1,0 +1,54 @@
+column,dataset,table,variable,official_label
+metro definitions,OMB/Census delineation (July 2023),list1_2023.xlsx,,https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx
+pop,ACS 2020-2024 5-year,B01003,B01003_001E,Estimate!!Total
+hh_inc,ACS 2020-2024 5-year,B19013,B19013_001E,Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars)
+own_inc,ACS 2020-2024 5-year,B25119,B25119_002E,Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Owner occupied (dollars)
+rent_inc,ACS 2020-2024 5-year,B25119,B25119_003E,Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Renter occupied (dollars)
+rent,ACS 2020-2024 5-year,B25064,B25064_001E,Estimate!!Median gross rent
+value,ACS 2020-2024 5-year,B25077,B25077_001E,Estimate!!Median value (dollars)
+b70_total,ACS 2020-2024 5-year,B25070,B25070_001E,Estimate!!Total:
+b70_nc,ACS 2020-2024 5-year,B25070,B25070_011E,Estimate!!Total:!!Not computed
+b70_30,ACS 2020-2024 5-year,B25070,B25070_007E,Estimate!!Total:!!30.0 to 34.9 percent
+b70_35,ACS 2020-2024 5-year,B25070,B25070_008E,Estimate!!Total:!!35.0 to 39.9 percent
+b70_40,ACS 2020-2024 5-year,B25070,B25070_009E,Estimate!!Total:!!40.0 to 49.9 percent
+b70_50,ACS 2020-2024 5-year,B25070,B25070_010E,Estimate!!Total:!!50.0 percent or more
+ten_total,ACS 2020-2024 5-year,B25003,B25003_001E,Estimate!!Total:
+ten_own,ACS 2020-2024 5-year,B25003,B25003_002E,Estimate!!Total:!!Owner occupied
+units_total,ACS 2020-2024 5-year,B25002,B25002_001E,Estimate!!Total:
+units_vacant,ACS 2020-2024 5-year,B25002,B25002_003E,Estimate!!Total:!!Vacant
+bb_total,ACS 2020-2024 5-year,B28002,B28002_001E,Estimate!!Total:
+bb_yes,ACS 2020-2024 5-year,B28002,B28002_004E,Estimate!!Total:!!With an Internet subscription!!Broadband of any type
+tr_total,ACS 2020-2024 5-year,B08301,B08301_001E,Estimate!!Total:
+tr_transit,ACS 2020-2024 5-year,B08301,B08301_010E,Estimate!!Total:!!Public transportation:
+veh_total,ACS 2020-2024 5-year,B08201,B08201_001E,Estimate!!Total:
+veh_none,ACS 2020-2024 5-year,B08201,B08201_002E,Estimate!!Total:!!No vehicle available
+tt_agg,ACS 2020-2024 5-year,B08013,B08013_001E,Estimate!!Aggregate travel time to work (in minutes):
+tt_workers,ACS 2020-2024 5-year,B08303,B08303_001E,Estimate!!Total:
+tax_med,ACS 2020-2024 5-year,B25103,B25103_001E,Estimate!!Median real estate taxes paid --!!Total:
+ind_total,ACS 2020-2024 5-year,C24050,C24050_001E,Estimate!!Total:
+ind_C24050_002E,ACS 2020-2024 5-year,C24050,C24050_002E,"Estimate!!Total:!!Agriculture, forestry, fishing and hunting, and mining"
+ind_C24050_003E,ACS 2020-2024 5-year,C24050,C24050_003E,Estimate!!Total:!!Construction
+ind_C24050_004E,ACS 2020-2024 5-year,C24050,C24050_004E,Estimate!!Total:!!Manufacturing
+ind_C24050_005E,ACS 2020-2024 5-year,C24050,C24050_005E,Estimate!!Total:!!Wholesale trade
+ind_C24050_006E,ACS 2020-2024 5-year,C24050,C24050_006E,Estimate!!Total:!!Retail trade
+ind_C24050_007E,ACS 2020-2024 5-year,C24050,C24050_007E,"Estimate!!Total:!!Transportation and warehousing, and utilities"
+ind_C24050_008E,ACS 2020-2024 5-year,C24050,C24050_008E,Estimate!!Total:!!Information
+ind_C24050_009E,ACS 2020-2024 5-year,C24050,C24050_009E,"Estimate!!Total:!!Finance and insurance, and real estate, and rental and leasing"
+ind_C24050_010E,ACS 2020-2024 5-year,C24050,C24050_010E,"Estimate!!Total:!!Professional, scientific, and management, and administrative, and waste management services"
+ind_C24050_011E,ACS 2020-2024 5-year,C24050,C24050_011E,"Estimate!!Total:!!Educational services, and health care and social assistance"
+ind_C24050_012E,ACS 2020-2024 5-year,C24050,C24050_012E,"Estimate!!Total:!!Arts, entertainment, and recreation, and accommodation and food services"
+ind_C24050_013E,ACS 2020-2024 5-year,C24050,C24050_013E,"Estimate!!Total:!!Other services, except public administration"
+ind_C24050_014E,ACS 2020-2024 5-year,C24050,C24050_014E,Estimate!!Total:!!Public administration
+yb_total,ACS 2020-2024 5-year,B25034,B25034_001E,Estimate!!Total:
+yb_2020p,ACS 2020-2024 5-year,B25034,B25034_002E,Estimate!!Total:!!Built 2020 or later
+yb_2010s,ACS 2020-2024 5-year,B25034,B25034_003E,Estimate!!Total:!!Built 2010 to 2019
+yb_pre1960,ACS 2020-2024 5-year,B25034,B25034_009E,Estimate!!Total:!!Built 1950 to 1959
+yb_pre1960,ACS 2020-2024 5-year,B25034,B25034_010E,Estimate!!Total:!!Built 1940 to 1949
+yb_pre1960,ACS 2020-2024 5-year,B25034,B25034_011E,Estimate!!Total:!!Built 1939 or earlier
+us_total,ACS 2020-2024 5-year,B25024,B25024_001E,Estimate!!Total:
+us_5plus,ACS 2020-2024 5-year,B25024,B25024_006E,Estimate!!Total:!!5 to 9
+us_5plus,ACS 2020-2024 5-year,B25024,B25024_007E,Estimate!!Total:!!10 to 19
+us_5plus,ACS 2020-2024 5-year,B25024,B25024_008E,Estimate!!Total:!!20 to 49
+us_5plus,ACS 2020-2024 5-year,B25024,B25024_009E,Estimate!!Total:!!50 or more
+pop_prior,ACS 2015-2019 5-year,B01003,B01003_001E,Estimate!!Total
+denial,HMDA 2025 (FFIEC/CFPB Data Browser API),aggregations,"actions_taken 1,2,3; loan_purposes 1",All home-purchase applications; denial rate = denied / (originated + approved not accepted + denied). Metros with metropolitan divisions are summed across their divisions.

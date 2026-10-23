@@ -1,0 +1,1001 @@
+metro,rank,twin,distance
+"New York-Newark-Jersey City, NY-NJ Metro Area",1,"Chicago-Naperville-Elgin, IL-IN Metro Area",4.375
+"New York-Newark-Jersey City, NY-NJ Metro Area",2,"Boston-Cambridge-Newton, MA-NH Metro Area",4.471
+"New York-Newark-Jersey City, NY-NJ Metro Area",3,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",4.588
+"New York-Newark-Jersey City, NY-NJ Metro Area",4,"San Francisco-Oakland-Fremont, CA Metro Area",5.005
+"New York-Newark-Jersey City, NY-NJ Metro Area",5,"Baltimore-Columbia-Towson, MD Metro Area",5.355
+"New York-Newark-Jersey City, NY-NJ Metro Area",6,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",5.358
+"New York-Newark-Jersey City, NY-NJ Metro Area",7,"Seattle-Tacoma-Bellevue, WA Metro Area",5.394
+"New York-Newark-Jersey City, NY-NJ Metro Area",8,"Los Angeles-Long Beach-Anaheim, CA Metro Area",5.416
+"New York-Newark-Jersey City, NY-NJ Metro Area",9,"Bridgeport-Stamford-Danbury, CT Metro Area",5.616
+"New York-Newark-Jersey City, NY-NJ Metro Area",10,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",5.74
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",1,"Chicago-Naperville-Elgin, IL-IN Metro Area",1.636
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",2,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.996
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",3,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",1.996
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",4,"San Diego-Chula Vista-Carlsbad, CA Metro Area",2.0
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",5,"Denver-Aurora-Centennial, CO Metro Area",2.068
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",6,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",2.082
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",7,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2.167
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",8,"Riverside-San Bernardino-Ontario, CA Metro Area",2.187
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",9,"St. Louis, MO-IL Metro Area",2.222
+"Los Angeles-Long Beach-Anaheim, CA Metro Area",10,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",2.239
+"Chicago-Naperville-Elgin, IL-IN Metro Area",1,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",1.04
+"Chicago-Naperville-Elgin, IL-IN Metro Area",2,"Los Angeles-Long Beach-Anaheim, CA Metro Area",1.636
+"Chicago-Naperville-Elgin, IL-IN Metro Area",3,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",1.908
+"Chicago-Naperville-Elgin, IL-IN Metro Area",4,"Baltimore-Columbia-Towson, MD Metro Area",1.986
+"Chicago-Naperville-Elgin, IL-IN Metro Area",5,"St. Louis, MO-IL Metro Area",2.099
+"Chicago-Naperville-Elgin, IL-IN Metro Area",6,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2.104
+"Chicago-Naperville-Elgin, IL-IN Metro Area",7,"Atlanta-Sandy Springs-Roswell, GA Metro Area",2.107
+"Chicago-Naperville-Elgin, IL-IN Metro Area",8,"Boston-Cambridge-Newton, MA-NH Metro Area",2.108
+"Chicago-Naperville-Elgin, IL-IN Metro Area",9,"Pittsburgh, PA Metro Area",2.119
+"Chicago-Naperville-Elgin, IL-IN Metro Area",10,"Detroit-Warren-Dearborn, MI Metro Area",2.125
+"Dallas-Fort Worth-Arlington, TX Metro Area",1,"Atlanta-Sandy Springs-Roswell, GA Metro Area",0.959
+"Dallas-Fort Worth-Arlington, TX Metro Area",2,"Phoenix-Mesa-Chandler, AZ Metro Area",1.019
+"Dallas-Fort Worth-Arlington, TX Metro Area",3,"Houston-Pasadena-The Woodlands, TX Metro Area",1.082
+"Dallas-Fort Worth-Arlington, TX Metro Area",4,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.134
+"Dallas-Fort Worth-Arlington, TX Metro Area",5,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.426
+"Dallas-Fort Worth-Arlington, TX Metro Area",6,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.519
+"Dallas-Fort Worth-Arlington, TX Metro Area",7,"San Antonio-New Braunfels, TX Metro Area",1.666
+"Dallas-Fort Worth-Arlington, TX Metro Area",8,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.72
+"Dallas-Fort Worth-Arlington, TX Metro Area",9,"Orlando-Kissimmee-Sanford, FL Metro Area",1.746
+"Dallas-Fort Worth-Arlington, TX Metro Area",10,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.795
+"Houston-Pasadena-The Woodlands, TX Metro Area",1,"Dallas-Fort Worth-Arlington, TX Metro Area",1.082
+"Houston-Pasadena-The Woodlands, TX Metro Area",2,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.236
+"Houston-Pasadena-The Woodlands, TX Metro Area",3,"Phoenix-Mesa-Chandler, AZ Metro Area",1.385
+"Houston-Pasadena-The Woodlands, TX Metro Area",4,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.432
+"Houston-Pasadena-The Woodlands, TX Metro Area",5,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",1.432
+"Houston-Pasadena-The Woodlands, TX Metro Area",6,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.468
+"Houston-Pasadena-The Woodlands, TX Metro Area",7,"San Antonio-New Braunfels, TX Metro Area",1.506
+"Houston-Pasadena-The Woodlands, TX Metro Area",8,"Riverside-San Bernardino-Ontario, CA Metro Area",1.573
+"Houston-Pasadena-The Woodlands, TX Metro Area",9,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.574
+"Houston-Pasadena-The Woodlands, TX Metro Area",10,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.645
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",1,"San Francisco-Oakland-Fremont, CA Metro Area",2.338
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",2,"Boston-Cambridge-Newton, MA-NH Metro Area",2.464
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",3,"Seattle-Tacoma-Bellevue, WA Metro Area",2.685
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",4,"Baltimore-Columbia-Towson, MD Metro Area",2.761
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",5,"Denver-Aurora-Centennial, CO Metro Area",2.924
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",6,"San Diego-Chula Vista-Carlsbad, CA Metro Area",3.004
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",7,"Bridgeport-Stamford-Danbury, CT Metro Area",3.05
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",8,"Sacramento-Roseville-Folsom, CA Metro Area",3.089
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",9,"Urban Honolulu, HI Metro Area",3.333
+"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",10,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",3.394
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",1,"Chicago-Naperville-Elgin, IL-IN Metro Area",1.04
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",2,"Baltimore-Columbia-Towson, MD Metro Area",1.502
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",3,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.637
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",4,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.688
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",5,"Providence-Warwick, RI-MA Metro Area",1.739
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",6,"Boston-Cambridge-Newton, MA-NH Metro Area",1.766
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",7,"St. Louis, MO-IL Metro Area",1.813
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",8,"Pittsburgh, PA Metro Area",1.814
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",9,"Phoenix-Mesa-Chandler, AZ Metro Area",1.857
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",10,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.897
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",1,"Dallas-Fort Worth-Arlington, TX Metro Area",0.959
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",2,"Phoenix-Mesa-Chandler, AZ Metro Area",1.188
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",3,"Houston-Pasadena-The Woodlands, TX Metro Area",1.236
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",4,"Riverside-San Bernardino-Ontario, CA Metro Area",1.44
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",5,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.465
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",6,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.498
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",7,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.537
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",8,"Denver-Aurora-Centennial, CO Metro Area",1.56
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",9,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.685
+"Atlanta-Sandy Springs-Roswell, GA Metro Area",10,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.703
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",1,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.364
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",2,"Houston-Pasadena-The Woodlands, TX Metro Area",1.432
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",3,"St. Louis, MO-IL Metro Area",1.572
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",4,"Phoenix-Mesa-Chandler, AZ Metro Area",1.654
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",5,"Pittsburgh, PA Metro Area",1.682
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",6,"San Antonio-New Braunfels, TX Metro Area",1.703
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",7,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.711
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",8,"Riverside-San Bernardino-Ontario, CA Metro Area",1.75
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",9,"Birmingham, AL Metro Area",1.856
+"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",10,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.857
+"Phoenix-Mesa-Chandler, AZ Metro Area",1,"Dallas-Fort Worth-Arlington, TX Metro Area",1.019
+"Phoenix-Mesa-Chandler, AZ Metro Area",2,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.067
+"Phoenix-Mesa-Chandler, AZ Metro Area",3,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.109
+"Phoenix-Mesa-Chandler, AZ Metro Area",4,"San Antonio-New Braunfels, TX Metro Area",1.171
+"Phoenix-Mesa-Chandler, AZ Metro Area",5,"Kansas City, MO-KS Metro Area",1.182
+"Phoenix-Mesa-Chandler, AZ Metro Area",6,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.188
+"Phoenix-Mesa-Chandler, AZ Metro Area",7,"Columbus, OH Metro Area",1.227
+"Phoenix-Mesa-Chandler, AZ Metro Area",8,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.275
+"Phoenix-Mesa-Chandler, AZ Metro Area",9,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.285
+"Phoenix-Mesa-Chandler, AZ Metro Area",10,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.344
+"Boston-Cambridge-Newton, MA-NH Metro Area",1,"Seattle-Tacoma-Bellevue, WA Metro Area",1.587
+"Boston-Cambridge-Newton, MA-NH Metro Area",2,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",1.766
+"Boston-Cambridge-Newton, MA-NH Metro Area",3,"San Francisco-Oakland-Fremont, CA Metro Area",1.812
+"Boston-Cambridge-Newton, MA-NH Metro Area",4,"Baltimore-Columbia-Towson, MD Metro Area",1.936
+"Boston-Cambridge-Newton, MA-NH Metro Area",5,"Bridgeport-Stamford-Danbury, CT Metro Area",2.011
+"Boston-Cambridge-Newton, MA-NH Metro Area",6,"Denver-Aurora-Centennial, CO Metro Area",2.097
+"Boston-Cambridge-Newton, MA-NH Metro Area",7,"Chicago-Naperville-Elgin, IL-IN Metro Area",2.108
+"Boston-Cambridge-Newton, MA-NH Metro Area",8,"San Diego-Chula Vista-Carlsbad, CA Metro Area",2.164
+"Boston-Cambridge-Newton, MA-NH Metro Area",9,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",2.247
+"Boston-Cambridge-Newton, MA-NH Metro Area",10,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2.266
+"Riverside-San Bernardino-Ontario, CA Metro Area",1,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.44
+"Riverside-San Bernardino-Ontario, CA Metro Area",2,"Houston-Pasadena-The Woodlands, TX Metro Area",1.573
+"Riverside-San Bernardino-Ontario, CA Metro Area",3,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",1.75
+"Riverside-San Bernardino-Ontario, CA Metro Area",4,"Phoenix-Mesa-Chandler, AZ Metro Area",1.792
+"Riverside-San Bernardino-Ontario, CA Metro Area",5,"Sacramento-Roseville-Folsom, CA Metro Area",1.871
+"Riverside-San Bernardino-Ontario, CA Metro Area",6,"Dallas-Fort Worth-Arlington, TX Metro Area",1.922
+"Riverside-San Bernardino-Ontario, CA Metro Area",7,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.963
+"Riverside-San Bernardino-Ontario, CA Metro Area",8,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.986
+"Riverside-San Bernardino-Ontario, CA Metro Area",9,"Stockton-Lodi, CA Metro Area",1.991
+"Riverside-San Bernardino-Ontario, CA Metro Area",10,"Tampa-St. Petersburg-Clearwater, FL Metro Area",2.057
+"San Francisco-Oakland-Fremont, CA Metro Area",1,"Boston-Cambridge-Newton, MA-NH Metro Area",1.812
+"San Francisco-Oakland-Fremont, CA Metro Area",2,"Seattle-Tacoma-Bellevue, WA Metro Area",2.124
+"San Francisco-Oakland-Fremont, CA Metro Area",3,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",2.338
+"San Francisco-Oakland-Fremont, CA Metro Area",4,"Bridgeport-Stamford-Danbury, CT Metro Area",2.626
+"San Francisco-Oakland-Fremont, CA Metro Area",5,"Denver-Aurora-Centennial, CO Metro Area",2.788
+"San Francisco-Oakland-Fremont, CA Metro Area",6,"San Diego-Chula Vista-Carlsbad, CA Metro Area",2.791
+"San Francisco-Oakland-Fremont, CA Metro Area",7,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",2.819
+"San Francisco-Oakland-Fremont, CA Metro Area",8,"Baltimore-Columbia-Towson, MD Metro Area",3.082
+"San Francisco-Oakland-Fremont, CA Metro Area",9,"Los Angeles-Long Beach-Anaheim, CA Metro Area",3.129
+"San Francisco-Oakland-Fremont, CA Metro Area",10,"Chicago-Naperville-Elgin, IL-IN Metro Area",3.258
+"Detroit-Warren-Dearborn, MI Metro Area",1,"Cincinnati, OH-KY-IN Metro Area",0.979
+"Detroit-Warren-Dearborn, MI Metro Area",2,"St. Louis, MO-IL Metro Area",1.075
+"Detroit-Warren-Dearborn, MI Metro Area",3,"Cleveland, OH Metro Area",1.188
+"Detroit-Warren-Dearborn, MI Metro Area",4,"Milwaukee-Waukesha, WI Metro Area",1.224
+"Detroit-Warren-Dearborn, MI Metro Area",5,"Pittsburgh, PA Metro Area",1.366
+"Detroit-Warren-Dearborn, MI Metro Area",6,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.435
+"Detroit-Warren-Dearborn, MI Metro Area",7,"Louisville/Jefferson County, KY-IN Metro Area",1.494
+"Detroit-Warren-Dearborn, MI Metro Area",8,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.512
+"Detroit-Warren-Dearborn, MI Metro Area",9,"Kansas City, MO-KS Metro Area",1.524
+"Detroit-Warren-Dearborn, MI Metro Area",10,"Providence-Warwick, RI-MA Metro Area",1.563
+"Seattle-Tacoma-Bellevue, WA Metro Area",1,"Denver-Aurora-Centennial, CO Metro Area",1.31
+"Seattle-Tacoma-Bellevue, WA Metro Area",2,"Boston-Cambridge-Newton, MA-NH Metro Area",1.587
+"Seattle-Tacoma-Bellevue, WA Metro Area",3,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.724
+"Seattle-Tacoma-Bellevue, WA Metro Area",4,"San Diego-Chula Vista-Carlsbad, CA Metro Area",1.794
+"Seattle-Tacoma-Bellevue, WA Metro Area",5,"Bridgeport-Stamford-Danbury, CT Metro Area",1.868
+"Seattle-Tacoma-Bellevue, WA Metro Area",6,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.933
+"Seattle-Tacoma-Bellevue, WA Metro Area",7,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.997
+"Seattle-Tacoma-Bellevue, WA Metro Area",8,"Sacramento-Roseville-Folsom, CA Metro Area",2.115
+"Seattle-Tacoma-Bellevue, WA Metro Area",9,"San Francisco-Oakland-Fremont, CA Metro Area",2.124
+"Seattle-Tacoma-Bellevue, WA Metro Area",10,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",2.142
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",0.812
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",2,"Salt Lake City-Murray, UT Metro Area",1.286
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",3,"Kansas City, MO-KS Metro Area",1.322
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",4,"Phoenix-Mesa-Chandler, AZ Metro Area",1.344
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",5,"Denver-Aurora-Centennial, CO Metro Area",1.367
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",6,"Hartford-West Hartford-East Hartford, CT Metro Area",1.375
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",7,"Cincinnati, OH-KY-IN Metro Area",1.382
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",8,"Columbus, OH Metro Area",1.4
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",9,"Providence-Warwick, RI-MA Metro Area",1.5
+"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",10,"San Diego-Chula Vista-Carlsbad, CA Metro Area",1.511
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",1,"San Antonio-New Braunfels, TX Metro Area",0.734
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",2,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.027
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",3,"Phoenix-Mesa-Chandler, AZ Metro Area",1.109
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",4,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.19
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",5,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.216
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",6,"Jacksonville, FL Metro Area",1.312
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",7,"Kansas City, MO-KS Metro Area",1.333
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",8,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",1.364
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",9,"Cincinnati, OH-KY-IN Metro Area",1.409
+"Tampa-St. Petersburg-Clearwater, FL Metro Area",10,"Columbus, OH Metro Area",1.411
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",1,"Denver-Aurora-Centennial, CO Metro Area",1.241
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",2,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.314
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",3,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.511
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",4,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",1.612
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",5,"Sacramento-Roseville-Folsom, CA Metro Area",1.618
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",6,"Seattle-Tacoma-Bellevue, WA Metro Area",1.794
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",7,"Baltimore-Columbia-Towson, MD Metro Area",1.847
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",8,"Salt Lake City-Murray, UT Metro Area",1.905
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",9,"Los Angeles-Long Beach-Anaheim, CA Metro Area",2.0
+"San Diego-Chula Vista-Carlsbad, CA Metro Area",10,"Phoenix-Mesa-Chandler, AZ Metro Area",2.03
+"Denver-Aurora-Centennial, CO Metro Area",1,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.207
+"Denver-Aurora-Centennial, CO Metro Area",2,"San Diego-Chula Vista-Carlsbad, CA Metro Area",1.241
+"Denver-Aurora-Centennial, CO Metro Area",3,"Seattle-Tacoma-Bellevue, WA Metro Area",1.31
+"Denver-Aurora-Centennial, CO Metro Area",4,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.367
+"Denver-Aurora-Centennial, CO Metro Area",5,"Sacramento-Roseville-Folsom, CA Metro Area",1.41
+"Denver-Aurora-Centennial, CO Metro Area",6,"Salt Lake City-Murray, UT Metro Area",1.433
+"Denver-Aurora-Centennial, CO Metro Area",7,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.56
+"Denver-Aurora-Centennial, CO Metro Area",8,"Phoenix-Mesa-Chandler, AZ Metro Area",1.575
+"Denver-Aurora-Centennial, CO Metro Area",9,"Raleigh-Cary, NC Metro Area",1.729
+"Denver-Aurora-Centennial, CO Metro Area",10,"Bridgeport-Stamford-Danbury, CT Metro Area",1.754
+"Baltimore-Columbia-Towson, MD Metro Area",1,"Sacramento-Roseville-Folsom, CA Metro Area",1.32
+"Baltimore-Columbia-Towson, MD Metro Area",2,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",1.502
+"Baltimore-Columbia-Towson, MD Metro Area",3,"Urban Honolulu, HI Metro Area",1.62
+"Baltimore-Columbia-Towson, MD Metro Area",4,"Providence-Warwick, RI-MA Metro Area",1.651
+"Baltimore-Columbia-Towson, MD Metro Area",5,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.652
+"Baltimore-Columbia-Towson, MD Metro Area",6,"Albany-Schenectady-Troy, NY Metro Area",1.652
+"Baltimore-Columbia-Towson, MD Metro Area",7,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.723
+"Baltimore-Columbia-Towson, MD Metro Area",8,"Denver-Aurora-Centennial, CO Metro Area",1.773
+"Baltimore-Columbia-Towson, MD Metro Area",9,"Worcester, MA Metro Area",1.801
+"Baltimore-Columbia-Towson, MD Metro Area",10,"Richmond, VA Metro Area",1.816
+"St. Louis, MO-IL Metro Area",1,"Cincinnati, OH-KY-IN Metro Area",0.831
+"St. Louis, MO-IL Metro Area",2,"Pittsburgh, PA Metro Area",0.944
+"St. Louis, MO-IL Metro Area",3,"Kansas City, MO-KS Metro Area",1.028
+"St. Louis, MO-IL Metro Area",4,"Cleveland, OH Metro Area",1.034
+"St. Louis, MO-IL Metro Area",5,"Milwaukee-Waukesha, WI Metro Area",1.041
+"St. Louis, MO-IL Metro Area",6,"Detroit-Warren-Dearborn, MI Metro Area",1.075
+"St. Louis, MO-IL Metro Area",7,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.081
+"St. Louis, MO-IL Metro Area",8,"Providence-Warwick, RI-MA Metro Area",1.161
+"St. Louis, MO-IL Metro Area",9,"Louisville/Jefferson County, KY-IN Metro Area",1.21
+"St. Louis, MO-IL Metro Area",10,"Columbus, OH Metro Area",1.218
+"Orlando-Kissimmee-Sanford, FL Metro Area",1,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.258
+"Orlando-Kissimmee-Sanford, FL Metro Area",2,"San Antonio-New Braunfels, TX Metro Area",1.319
+"Orlando-Kissimmee-Sanford, FL Metro Area",3,"Jacksonville, FL Metro Area",1.349
+"Orlando-Kissimmee-Sanford, FL Metro Area",4,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.438
+"Orlando-Kissimmee-Sanford, FL Metro Area",5,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.572
+"Orlando-Kissimmee-Sanford, FL Metro Area",6,"North Port-Bradenton-Sarasota, FL Metro Area",1.645
+"Orlando-Kissimmee-Sanford, FL Metro Area",7,"Las Vegas-Henderson-North Las Vegas, NV Metro Area",1.655
+"Orlando-Kissimmee-Sanford, FL Metro Area",8,"Dallas-Fort Worth-Arlington, TX Metro Area",1.746
+"Orlando-Kissimmee-Sanford, FL Metro Area",9,"Phoenix-Mesa-Chandler, AZ Metro Area",1.747
+"Orlando-Kissimmee-Sanford, FL Metro Area",10,"Atlanta-Sandy Springs-Roswell, GA Metro Area",1.769
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",1,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",0.929
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",2,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.027
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",3,"Jacksonville, FL Metro Area",1.05
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",4,"Phoenix-Mesa-Chandler, AZ Metro Area",1.067
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",5,"Dallas-Fort Worth-Arlington, TX Metro Area",1.134
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",6,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.144
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",7,"San Antonio-New Braunfels, TX Metro Area",1.152
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",8,"Kansas City, MO-KS Metro Area",1.257
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",9,"Columbus, OH Metro Area",1.409
+"Charlotte-Concord-Gastonia, NC-SC Metro Area",10,"Richmond, VA Metro Area",1.41
+"San Antonio-New Braunfels, TX Metro Area",1,"Tampa-St. Petersburg-Clearwater, FL Metro Area",0.734
+"San Antonio-New Braunfels, TX Metro Area",2,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.014
+"San Antonio-New Braunfels, TX Metro Area",3,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.073
+"San Antonio-New Braunfels, TX Metro Area",4,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.152
+"San Antonio-New Braunfels, TX Metro Area",5,"Jacksonville, FL Metro Area",1.154
+"San Antonio-New Braunfels, TX Metro Area",6,"Phoenix-Mesa-Chandler, AZ Metro Area",1.171
+"San Antonio-New Braunfels, TX Metro Area",7,"Oklahoma City, OK Metro Area",1.172
+"San Antonio-New Braunfels, TX Metro Area",8,"Kansas City, MO-KS Metro Area",1.3
+"San Antonio-New Braunfels, TX Metro Area",9,"Richmond, VA Metro Area",1.317
+"San Antonio-New Braunfels, TX Metro Area",10,"Orlando-Kissimmee-Sanford, FL Metro Area",1.319
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",0.812
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2,"Salt Lake City-Murray, UT Metro Area",1.115
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",3,"Denver-Aurora-Centennial, CO Metro Area",1.207
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",4,"San Diego-Chula Vista-Carlsbad, CA Metro Area",1.314
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",5,"Kansas City, MO-KS Metro Area",1.343
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",6,"Providence-Warwick, RI-MA Metro Area",1.349
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",7,"Sacramento-Roseville-Folsom, CA Metro Area",1.353
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",8,"Cincinnati, OH-KY-IN Metro Area",1.377
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",9,"Columbus, OH Metro Area",1.39
+"Portland-Vancouver-Hillsboro, OR-WA Metro Area",10,"Phoenix-Mesa-Chandler, AZ Metro Area",1.45
+"Pittsburgh, PA Metro Area",1,"Cleveland, OH Metro Area",0.716
+"Pittsburgh, PA Metro Area",2,"St. Louis, MO-IL Metro Area",0.944
+"Pittsburgh, PA Metro Area",3,"Milwaukee-Waukesha, WI Metro Area",1.137
+"Pittsburgh, PA Metro Area",4,"Cincinnati, OH-KY-IN Metro Area",1.16
+"Pittsburgh, PA Metro Area",5,"Buffalo-Cheektowaga, NY Metro Area",1.168
+"Pittsburgh, PA Metro Area",6,"Providence-Warwick, RI-MA Metro Area",1.174
+"Pittsburgh, PA Metro Area",7,"Louisville/Jefferson County, KY-IN Metro Area",1.244
+"Pittsburgh, PA Metro Area",8,"Birmingham, AL Metro Area",1.322
+"Pittsburgh, PA Metro Area",9,"Rochester, NY Metro Area",1.359
+"Pittsburgh, PA Metro Area",10,"Detroit-Warren-Dearborn, MI Metro Area",1.366
+"Austin-Round Rock-San Marcos, TX Metro Area",1,"Raleigh-Cary, NC Metro Area",0.872
+"Austin-Round Rock-San Marcos, TX Metro Area",2,"Provo-Orem-Lehi, UT Metro Area",1.715
+"Austin-Round Rock-San Marcos, TX Metro Area",3,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.727
+"Austin-Round Rock-San Marcos, TX Metro Area",4,"Boise City, ID Metro Area",1.945
+"Austin-Round Rock-San Marcos, TX Metro Area",5,"Dallas-Fort Worth-Arlington, TX Metro Area",2.012
+"Austin-Round Rock-San Marcos, TX Metro Area",6,"Jacksonville, FL Metro Area",2.055
+"Austin-Round Rock-San Marcos, TX Metro Area",7,"Salt Lake City-Murray, UT Metro Area",2.067
+"Austin-Round Rock-San Marcos, TX Metro Area",8,"Orlando-Kissimmee-Sanford, FL Metro Area",2.083
+"Austin-Round Rock-San Marcos, TX Metro Area",9,"Charlotte-Concord-Gastonia, NC-SC Metro Area",2.088
+"Austin-Round Rock-San Marcos, TX Metro Area",10,"Denver-Aurora-Centennial, CO Metro Area",2.115
+"Sacramento-Roseville-Folsom, CA Metro Area",1,"Baltimore-Columbia-Towson, MD Metro Area",1.32
+"Sacramento-Roseville-Folsom, CA Metro Area",2,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.349
+"Sacramento-Roseville-Folsom, CA Metro Area",3,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.353
+"Sacramento-Roseville-Folsom, CA Metro Area",4,"Denver-Aurora-Centennial, CO Metro Area",1.41
+"Sacramento-Roseville-Folsom, CA Metro Area",5,"Richmond, VA Metro Area",1.472
+"Sacramento-Roseville-Folsom, CA Metro Area",6,"Salt Lake City-Murray, UT Metro Area",1.507
+"Sacramento-Roseville-Folsom, CA Metro Area",7,"Phoenix-Mesa-Chandler, AZ Metro Area",1.536
+"Sacramento-Roseville-Folsom, CA Metro Area",8,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.568
+"Sacramento-Roseville-Folsom, CA Metro Area",9,"Columbus, OH Metro Area",1.599
+"Sacramento-Roseville-Folsom, CA Metro Area",10,"Providence-Warwick, RI-MA Metro Area",1.611
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",1,"Orlando-Kissimmee-Sanford, FL Metro Area",1.655
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",2,"San Antonio-New Braunfels, TX Metro Area",1.995
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",3,"Tampa-St. Petersburg-Clearwater, FL Metro Area",2.214
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",4,"Tucson, AZ Metro Area",2.314
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",5,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",2.322
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",6,"Jacksonville, FL Metro Area",2.348
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",7,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",2.365
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",8,"Oklahoma City, OK Metro Area",2.366
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",9,"Indianapolis-Carmel-Greenwood, IN Metro Area",2.37
+"Las Vegas-Henderson-North Las Vegas, NV Metro Area",10,"North Port-Bradenton-Sarasota, FL Metro Area",2.375
+"Cincinnati, OH-KY-IN Metro Area",1,"Kansas City, MO-KS Metro Area",0.727
+"Cincinnati, OH-KY-IN Metro Area",2,"Indianapolis-Carmel-Greenwood, IN Metro Area",0.729
+"Cincinnati, OH-KY-IN Metro Area",3,"St. Louis, MO-IL Metro Area",0.831
+"Cincinnati, OH-KY-IN Metro Area",4,"Columbus, OH Metro Area",0.854
+"Cincinnati, OH-KY-IN Metro Area",5,"Providence-Warwick, RI-MA Metro Area",0.938
+"Cincinnati, OH-KY-IN Metro Area",6,"Louisville/Jefferson County, KY-IN Metro Area",0.942
+"Cincinnati, OH-KY-IN Metro Area",7,"Detroit-Warren-Dearborn, MI Metro Area",0.979
+"Cincinnati, OH-KY-IN Metro Area",8,"Milwaukee-Waukesha, WI Metro Area",1.036
+"Cincinnati, OH-KY-IN Metro Area",9,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.073
+"Cincinnati, OH-KY-IN Metro Area",10,"Cleveland, OH Metro Area",1.091
+"Kansas City, MO-KS Metro Area",1,"Columbus, OH Metro Area",0.67
+"Kansas City, MO-KS Metro Area",2,"Cincinnati, OH-KY-IN Metro Area",0.727
+"Kansas City, MO-KS Metro Area",3,"Indianapolis-Carmel-Greenwood, IN Metro Area",0.747
+"Kansas City, MO-KS Metro Area",4,"Omaha, NE-IA Metro Area",0.97
+"Kansas City, MO-KS Metro Area",5,"St. Louis, MO-IL Metro Area",1.028
+"Kansas City, MO-KS Metro Area",6,"Richmond, VA Metro Area",1.12
+"Kansas City, MO-KS Metro Area",7,"Phoenix-Mesa-Chandler, AZ Metro Area",1.182
+"Kansas City, MO-KS Metro Area",8,"Providence-Warwick, RI-MA Metro Area",1.185
+"Kansas City, MO-KS Metro Area",9,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.187
+"Kansas City, MO-KS Metro Area",10,"Louisville/Jefferson County, KY-IN Metro Area",1.196
+"Columbus, OH Metro Area",1,"Kansas City, MO-KS Metro Area",0.67
+"Columbus, OH Metro Area",2,"Indianapolis-Carmel-Greenwood, IN Metro Area",0.791
+"Columbus, OH Metro Area",3,"Cincinnati, OH-KY-IN Metro Area",0.854
+"Columbus, OH Metro Area",4,"Omaha, NE-IA Metro Area",1.163
+"Columbus, OH Metro Area",5,"St. Louis, MO-IL Metro Area",1.218
+"Columbus, OH Metro Area",6,"Phoenix-Mesa-Chandler, AZ Metro Area",1.227
+"Columbus, OH Metro Area",7,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.256
+"Columbus, OH Metro Area",8,"Louisville/Jefferson County, KY-IN Metro Area",1.314
+"Columbus, OH Metro Area",9,"Salt Lake City-Murray, UT Metro Area",1.328
+"Columbus, OH Metro Area",10,"San Antonio-New Braunfels, TX Metro Area",1.332
+"Cleveland, OH Metro Area",1,"Pittsburgh, PA Metro Area",0.716
+"Cleveland, OH Metro Area",2,"Milwaukee-Waukesha, WI Metro Area",0.807
+"Cleveland, OH Metro Area",3,"Buffalo-Cheektowaga, NY Metro Area",0.993
+"Cleveland, OH Metro Area",4,"St. Louis, MO-IL Metro Area",1.034
+"Cleveland, OH Metro Area",5,"Louisville/Jefferson County, KY-IN Metro Area",1.058
+"Cleveland, OH Metro Area",6,"Cincinnati, OH-KY-IN Metro Area",1.091
+"Cleveland, OH Metro Area",7,"Detroit-Warren-Dearborn, MI Metro Area",1.188
+"Cleveland, OH Metro Area",8,"Dayton-Kettering-Beavercreek, OH Metro Area",1.229
+"Cleveland, OH Metro Area",9,"Akron, OH Metro Area",1.255
+"Cleveland, OH Metro Area",10,"Rochester, NY Metro Area",1.257
+"Indianapolis-Carmel-Greenwood, IN Metro Area",1,"Cincinnati, OH-KY-IN Metro Area",0.729
+"Indianapolis-Carmel-Greenwood, IN Metro Area",2,"Kansas City, MO-KS Metro Area",0.747
+"Indianapolis-Carmel-Greenwood, IN Metro Area",3,"Columbus, OH Metro Area",0.791
+"Indianapolis-Carmel-Greenwood, IN Metro Area",4,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.028
+"Indianapolis-Carmel-Greenwood, IN Metro Area",5,"San Antonio-New Braunfels, TX Metro Area",1.073
+"Indianapolis-Carmel-Greenwood, IN Metro Area",6,"Louisville/Jefferson County, KY-IN Metro Area",1.085
+"Indianapolis-Carmel-Greenwood, IN Metro Area",7,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.144
+"Indianapolis-Carmel-Greenwood, IN Metro Area",8,"Providence-Warwick, RI-MA Metro Area",1.161
+"Indianapolis-Carmel-Greenwood, IN Metro Area",9,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.216
+"Indianapolis-Carmel-Greenwood, IN Metro Area",10,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.237
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1,"Charlotte-Concord-Gastonia, NC-SC Metro Area",0.929
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",2,"San Antonio-New Braunfels, TX Metro Area",1.014
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",3,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.028
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",4,"Jacksonville, FL Metro Area",1.122
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",5,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.19
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",6,"Orlando-Kissimmee-Sanford, FL Metro Area",1.258
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",7,"Phoenix-Mesa-Chandler, AZ Metro Area",1.285
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",8,"Charleston-North Charleston, SC Metro Area",1.289
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",9,"Kansas City, MO-KS Metro Area",1.3
+"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",10,"Richmond, VA Metro Area",1.336
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",1,"San Francisco-Oakland-Fremont, CA Metro Area",2.819
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",2,"Seattle-Tacoma-Bellevue, WA Metro Area",3.637
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",3,"Boston-Cambridge-Newton, MA-NH Metro Area",3.984
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",4,"San Diego-Chula Vista-Carlsbad, CA Metro Area",4.038
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",5,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",4.05
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",6,"Bridgeport-Stamford-Danbury, CT Metro Area",4.092
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",7,"Denver-Aurora-Centennial, CO Metro Area",4.119
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",8,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",4.197
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",9,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",4.689
+"San Jose-Sunnyvale-Santa Clara, CA Metro Area",10,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",4.703
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1,"Tucson, AZ Metro Area",1.031
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",2,"Providence-Warwick, RI-MA Metro Area",1.073
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",3,"Cincinnati, OH-KY-IN Metro Area",1.073
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",4,"Richmond, VA Metro Area",1.074
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",5,"St. Louis, MO-IL Metro Area",1.081
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",6,"Albany-Schenectady-Troy, NY Metro Area",1.177
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",7,"Kansas City, MO-KS Metro Area",1.187
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",8,"Oklahoma City, OK Metro Area",1.211
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",9,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.237
+"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",10,"Columbus, OH Metro Area",1.256
+"Providence-Warwick, RI-MA Metro Area",1,"Cincinnati, OH-KY-IN Metro Area",0.938
+"Providence-Warwick, RI-MA Metro Area",2,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.073
+"Providence-Warwick, RI-MA Metro Area",3,"Richmond, VA Metro Area",1.116
+"Providence-Warwick, RI-MA Metro Area",4,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.161
+"Providence-Warwick, RI-MA Metro Area",5,"St. Louis, MO-IL Metro Area",1.161
+"Providence-Warwick, RI-MA Metro Area",6,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.164
+"Providence-Warwick, RI-MA Metro Area",7,"Pittsburgh, PA Metro Area",1.174
+"Providence-Warwick, RI-MA Metro Area",8,"Hartford-West Hartford-East Hartford, CT Metro Area",1.177
+"Providence-Warwick, RI-MA Metro Area",9,"Kansas City, MO-KS Metro Area",1.185
+"Providence-Warwick, RI-MA Metro Area",10,"Worcester, MA Metro Area",1.185
+"Jacksonville, FL Metro Area",1,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.05
+"Jacksonville, FL Metro Area",2,"North Port-Bradenton-Sarasota, FL Metro Area",1.116
+"Jacksonville, FL Metro Area",3,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.122
+"Jacksonville, FL Metro Area",4,"San Antonio-New Braunfels, TX Metro Area",1.154
+"Jacksonville, FL Metro Area",5,"Tampa-St. Petersburg-Clearwater, FL Metro Area",1.312
+"Jacksonville, FL Metro Area",6,"Orlando-Kissimmee-Sanford, FL Metro Area",1.349
+"Jacksonville, FL Metro Area",7,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.354
+"Jacksonville, FL Metro Area",8,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.52
+"Jacksonville, FL Metro Area",9,"Richmond, VA Metro Area",1.521
+"Jacksonville, FL Metro Area",10,"Spokane-Spokane Valley, WA Metro Area",1.573
+"Milwaukee-Waukesha, WI Metro Area",1,"Cleveland, OH Metro Area",0.807
+"Milwaukee-Waukesha, WI Metro Area",2,"Cincinnati, OH-KY-IN Metro Area",1.036
+"Milwaukee-Waukesha, WI Metro Area",3,"St. Louis, MO-IL Metro Area",1.041
+"Milwaukee-Waukesha, WI Metro Area",4,"Akron, OH Metro Area",1.055
+"Milwaukee-Waukesha, WI Metro Area",5,"Dayton-Kettering-Beavercreek, OH Metro Area",1.091
+"Milwaukee-Waukesha, WI Metro Area",6,"Rochester, NY Metro Area",1.112
+"Milwaukee-Waukesha, WI Metro Area",7,"Pittsburgh, PA Metro Area",1.137
+"Milwaukee-Waukesha, WI Metro Area",8,"Buffalo-Cheektowaga, NY Metro Area",1.165
+"Milwaukee-Waukesha, WI Metro Area",9,"Louisville/Jefferson County, KY-IN Metro Area",1.224
+"Milwaukee-Waukesha, WI Metro Area",10,"Detroit-Warren-Dearborn, MI Metro Area",1.224
+"Raleigh-Cary, NC Metro Area",1,"Austin-Round Rock-San Marcos, TX Metro Area",0.872
+"Raleigh-Cary, NC Metro Area",2,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.476
+"Raleigh-Cary, NC Metro Area",3,"Salt Lake City-Murray, UT Metro Area",1.514
+"Raleigh-Cary, NC Metro Area",4,"Provo-Orem-Lehi, UT Metro Area",1.586
+"Raleigh-Cary, NC Metro Area",5,"Boise City, ID Metro Area",1.716
+"Raleigh-Cary, NC Metro Area",6,"Denver-Aurora-Centennial, CO Metro Area",1.729
+"Raleigh-Cary, NC Metro Area",7,"Ogden, UT Metro Area",1.741
+"Raleigh-Cary, NC Metro Area",8,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.808
+"Raleigh-Cary, NC Metro Area",9,"Sacramento-Roseville-Folsom, CA Metro Area",1.901
+"Raleigh-Cary, NC Metro Area",10,"Worcester, MA Metro Area",1.921
+"Oklahoma City, OK Metro Area",1,"Tulsa, OK Metro Area",0.922
+"Oklahoma City, OK Metro Area",2,"Tucson, AZ Metro Area",1.033
+"Oklahoma City, OK Metro Area",3,"Columbia, SC Metro Area",1.065
+"Oklahoma City, OK Metro Area",4,"Little Rock-North Little Rock-Conway, AR Metro Area",1.17
+"Oklahoma City, OK Metro Area",5,"San Antonio-New Braunfels, TX Metro Area",1.172
+"Oklahoma City, OK Metro Area",6,"Birmingham, AL Metro Area",1.183
+"Oklahoma City, OK Metro Area",7,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.211
+"Oklahoma City, OK Metro Area",8,"Spokane-Spokane Valley, WA Metro Area",1.22
+"Oklahoma City, OK Metro Area",9,"Knoxville, TN Metro Area",1.24
+"Oklahoma City, OK Metro Area",10,"Richmond, VA Metro Area",1.246
+"Louisville/Jefferson County, KY-IN Metro Area",1,"Cincinnati, OH-KY-IN Metro Area",0.942
+"Louisville/Jefferson County, KY-IN Metro Area",2,"Birmingham, AL Metro Area",0.969
+"Louisville/Jefferson County, KY-IN Metro Area",3,"Greensboro-High Point, NC Metro Area",0.997
+"Louisville/Jefferson County, KY-IN Metro Area",4,"Tulsa, OK Metro Area",1.032
+"Louisville/Jefferson County, KY-IN Metro Area",5,"Chattanooga, TN-GA Metro Area",1.037
+"Louisville/Jefferson County, KY-IN Metro Area",6,"Cleveland, OH Metro Area",1.058
+"Louisville/Jefferson County, KY-IN Metro Area",7,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.085
+"Louisville/Jefferson County, KY-IN Metro Area",8,"Dayton-Kettering-Beavercreek, OH Metro Area",1.102
+"Louisville/Jefferson County, KY-IN Metro Area",9,"Kansas City, MO-KS Metro Area",1.196
+"Louisville/Jefferson County, KY-IN Metro Area",10,"Winston-Salem, NC Metro Area",1.202
+"Memphis, TN-MS-AR Metro Area",1,"Louisville/Jefferson County, KY-IN Metro Area",1.473
+"Memphis, TN-MS-AR Metro Area",2,"Greensboro-High Point, NC Metro Area",1.64
+"Memphis, TN-MS-AR Metro Area",3,"Birmingham, AL Metro Area",1.735
+"Memphis, TN-MS-AR Metro Area",4,"Jackson, MS Metro Area",1.75
+"Memphis, TN-MS-AR Metro Area",5,"El Paso, TX Metro Area",1.765
+"Memphis, TN-MS-AR Metro Area",6,"Tulsa, OK Metro Area",1.802
+"Memphis, TN-MS-AR Metro Area",7,"Little Rock-North Little Rock-Conway, AR Metro Area",1.809
+"Memphis, TN-MS-AR Metro Area",8,"Toledo, OH Metro Area",1.826
+"Memphis, TN-MS-AR Metro Area",9,"Winston-Salem, NC Metro Area",1.834
+"Memphis, TN-MS-AR Metro Area",10,"Columbia, SC Metro Area",1.871
+"Richmond, VA Metro Area",1,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.074
+"Richmond, VA Metro Area",2,"Providence-Warwick, RI-MA Metro Area",1.116
+"Richmond, VA Metro Area",3,"Kansas City, MO-KS Metro Area",1.12
+"Richmond, VA Metro Area",4,"Omaha, NE-IA Metro Area",1.131
+"Richmond, VA Metro Area",5,"Charleston-North Charleston, SC Metro Area",1.179
+"Richmond, VA Metro Area",6,"Oklahoma City, OK Metro Area",1.246
+"Richmond, VA Metro Area",7,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.256
+"Richmond, VA Metro Area",8,"Birmingham, AL Metro Area",1.287
+"Richmond, VA Metro Area",9,"San Antonio-New Braunfels, TX Metro Area",1.317
+"Richmond, VA Metro Area",10,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.336
+"Salt Lake City-Murray, UT Metro Area",1,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.115
+"Salt Lake City-Murray, UT Metro Area",2,"Ogden, UT Metro Area",1.144
+"Salt Lake City-Murray, UT Metro Area",3,"Omaha, NE-IA Metro Area",1.171
+"Salt Lake City-Murray, UT Metro Area",4,"Kansas City, MO-KS Metro Area",1.264
+"Salt Lake City-Murray, UT Metro Area",5,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.286
+"Salt Lake City-Murray, UT Metro Area",6,"Hartford-West Hartford-East Hartford, CT Metro Area",1.326
+"Salt Lake City-Murray, UT Metro Area",7,"Columbus, OH Metro Area",1.328
+"Salt Lake City-Murray, UT Metro Area",8,"Denver-Aurora-Centennial, CO Metro Area",1.433
+"Salt Lake City-Murray, UT Metro Area",9,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.445
+"Salt Lake City-Murray, UT Metro Area",10,"Richmond, VA Metro Area",1.456
+"Birmingham, AL Metro Area",1,"Columbia, SC Metro Area",0.82
+"Birmingham, AL Metro Area",2,"Little Rock-North Little Rock-Conway, AR Metro Area",0.897
+"Birmingham, AL Metro Area",3,"Louisville/Jefferson County, KY-IN Metro Area",0.969
+"Birmingham, AL Metro Area",4,"Baton Rouge, LA Metro Area",0.988
+"Birmingham, AL Metro Area",5,"Tulsa, OK Metro Area",1.009
+"Birmingham, AL Metro Area",6,"Winston-Salem, NC Metro Area",1.018
+"Birmingham, AL Metro Area",7,"Greensboro-High Point, NC Metro Area",1.058
+"Birmingham, AL Metro Area",8,"Knoxville, TN Metro Area",1.059
+"Birmingham, AL Metro Area",9,"Chattanooga, TN-GA Metro Area",1.094
+"Birmingham, AL Metro Area",10,"Oklahoma City, OK Metro Area",1.183
+"Fresno, CA Metro Area",1,"Bakersfield-Delano, CA Metro Area",1.31
+"Fresno, CA Metro Area",2,"Tulsa, OK Metro Area",1.668
+"Fresno, CA Metro Area",3,"Oklahoma City, OK Metro Area",1.75
+"Fresno, CA Metro Area",4,"Little Rock-North Little Rock-Conway, AR Metro Area",1.758
+"Fresno, CA Metro Area",5,"Birmingham, AL Metro Area",1.763
+"Fresno, CA Metro Area",6,"El Paso, TX Metro Area",1.776
+"Fresno, CA Metro Area",7,"Albuquerque, NM Metro Area",1.792
+"Fresno, CA Metro Area",8,"Harrisburg-Carlisle, PA Metro Area",1.817
+"Fresno, CA Metro Area",9,"Louisville/Jefferson County, KY-IN Metro Area",1.818
+"Fresno, CA Metro Area",10,"Baton Rouge, LA Metro Area",1.821
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",1,"Cincinnati, OH-KY-IN Metro Area",1.304
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",2,"Akron, OH Metro Area",1.315
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",3,"Milwaukee-Waukesha, WI Metro Area",1.327
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",4,"Wichita, KS Metro Area",1.335
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",5,"Greenville-Anderson-Greer, SC Metro Area",1.358
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",6,"Louisville/Jefferson County, KY-IN Metro Area",1.43
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",7,"Kansas City, MO-KS Metro Area",1.438
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",8,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.438
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",9,"Greensboro-High Point, NC Metro Area",1.454
+"Grand Rapids-Wyoming-Kentwood, MI Metro Area",10,"Tulsa, OK Metro Area",1.47
+"Buffalo-Cheektowaga, NY Metro Area",1,"Rochester, NY Metro Area",0.87
+"Buffalo-Cheektowaga, NY Metro Area",2,"Syracuse, NY Metro Area",0.97
+"Buffalo-Cheektowaga, NY Metro Area",3,"Cleveland, OH Metro Area",0.993
+"Buffalo-Cheektowaga, NY Metro Area",4,"Dayton-Kettering-Beavercreek, OH Metro Area",1.096
+"Buffalo-Cheektowaga, NY Metro Area",5,"Milwaukee-Waukesha, WI Metro Area",1.165
+"Buffalo-Cheektowaga, NY Metro Area",6,"Pittsburgh, PA Metro Area",1.168
+"Buffalo-Cheektowaga, NY Metro Area",7,"Tucson, AZ Metro Area",1.284
+"Buffalo-Cheektowaga, NY Metro Area",8,"Louisville/Jefferson County, KY-IN Metro Area",1.301
+"Buffalo-Cheektowaga, NY Metro Area",9,"Akron, OH Metro Area",1.37
+"Buffalo-Cheektowaga, NY Metro Area",10,"Little Rock-North Little Rock-Conway, AR Metro Area",1.392
+"Hartford-West Hartford-East Hartford, CT Metro Area",1,"Madison, WI Metro Area",1.139
+"Hartford-West Hartford-East Hartford, CT Metro Area",2,"Albany-Schenectady-Troy, NY Metro Area",1.173
+"Hartford-West Hartford-East Hartford, CT Metro Area",3,"Providence-Warwick, RI-MA Metro Area",1.177
+"Hartford-West Hartford-East Hartford, CT Metro Area",4,"Worcester, MA Metro Area",1.247
+"Hartford-West Hartford-East Hartford, CT Metro Area",5,"Omaha, NE-IA Metro Area",1.296
+"Hartford-West Hartford-East Hartford, CT Metro Area",6,"New Haven, CT Metro Area",1.32
+"Hartford-West Hartford-East Hartford, CT Metro Area",7,"Salt Lake City-Murray, UT Metro Area",1.326
+"Hartford-West Hartford-East Hartford, CT Metro Area",8,"Cincinnati, OH-KY-IN Metro Area",1.339
+"Hartford-West Hartford-East Hartford, CT Metro Area",9,"Columbus, OH Metro Area",1.344
+"Hartford-West Hartford-East Hartford, CT Metro Area",10,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",1.375
+"Tucson, AZ Metro Area",1,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.031
+"Tucson, AZ Metro Area",2,"Oklahoma City, OK Metro Area",1.033
+"Tucson, AZ Metro Area",3,"Columbia, SC Metro Area",1.064
+"Tucson, AZ Metro Area",4,"Dayton-Kettering-Beavercreek, OH Metro Area",1.083
+"Tucson, AZ Metro Area",5,"Albuquerque, NM Metro Area",1.093
+"Tucson, AZ Metro Area",6,"Little Rock-North Little Rock-Conway, AR Metro Area",1.195
+"Tucson, AZ Metro Area",7,"Baton Rouge, LA Metro Area",1.231
+"Tucson, AZ Metro Area",8,"Tulsa, OK Metro Area",1.255
+"Tucson, AZ Metro Area",9,"El Paso, TX Metro Area",1.274
+"Tucson, AZ Metro Area",10,"Buffalo-Cheektowaga, NY Metro Area",1.284
+"Rochester, NY Metro Area",1,"Syracuse, NY Metro Area",0.756
+"Rochester, NY Metro Area",2,"Buffalo-Cheektowaga, NY Metro Area",0.87
+"Rochester, NY Metro Area",3,"Dayton-Kettering-Beavercreek, OH Metro Area",1.054
+"Rochester, NY Metro Area",4,"Milwaukee-Waukesha, WI Metro Area",1.112
+"Rochester, NY Metro Area",5,"Cleveland, OH Metro Area",1.257
+"Rochester, NY Metro Area",6,"Akron, OH Metro Area",1.33
+"Rochester, NY Metro Area",7,"Pittsburgh, PA Metro Area",1.359
+"Rochester, NY Metro Area",8,"Tucson, AZ Metro Area",1.4
+"Rochester, NY Metro Area",9,"Wichita, KS Metro Area",1.415
+"Rochester, NY Metro Area",10,"Albany-Schenectady-Troy, NY Metro Area",1.434
+"Tulsa, OK Metro Area",1,"Knoxville, TN Metro Area",0.894
+"Tulsa, OK Metro Area",2,"Greensboro-High Point, NC Metro Area",0.896
+"Tulsa, OK Metro Area",3,"Oklahoma City, OK Metro Area",0.922
+"Tulsa, OK Metro Area",4,"Winston-Salem, NC Metro Area",0.927
+"Tulsa, OK Metro Area",5,"Little Rock-North Little Rock-Conway, AR Metro Area",0.942
+"Tulsa, OK Metro Area",6,"Chattanooga, TN-GA Metro Area",0.961
+"Tulsa, OK Metro Area",7,"Columbia, SC Metro Area",0.979
+"Tulsa, OK Metro Area",8,"Greenville-Anderson-Greer, SC Metro Area",0.982
+"Tulsa, OK Metro Area",9,"Birmingham, AL Metro Area",1.009
+"Tulsa, OK Metro Area",10,"Louisville/Jefferson County, KY-IN Metro Area",1.032
+"Urban Honolulu, HI Metro Area",1,"Baltimore-Columbia-Towson, MD Metro Area",1.62
+"Urban Honolulu, HI Metro Area",2,"Sacramento-Roseville-Folsom, CA Metro Area",1.645
+"Urban Honolulu, HI Metro Area",3,"Albany-Schenectady-Troy, NY Metro Area",1.816
+"Urban Honolulu, HI Metro Area",4,"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",1.869
+"Urban Honolulu, HI Metro Area",5,"Hartford-West Hartford-East Hartford, CT Metro Area",1.874
+"Urban Honolulu, HI Metro Area",6,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.898
+"Urban Honolulu, HI Metro Area",7,"Worcester, MA Metro Area",1.947
+"Urban Honolulu, HI Metro Area",8,"Providence-Warwick, RI-MA Metro Area",1.962
+"Urban Honolulu, HI Metro Area",9,"Salt Lake City-Murray, UT Metro Area",2.034
+"Urban Honolulu, HI Metro Area",10,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",2.039
+"Omaha, NE-IA Metro Area",1,"Des Moines-West Des Moines, IA Metro Area",0.938
+"Omaha, NE-IA Metro Area",2,"Kansas City, MO-KS Metro Area",0.97
+"Omaha, NE-IA Metro Area",3,"Richmond, VA Metro Area",1.131
+"Omaha, NE-IA Metro Area",4,"Columbus, OH Metro Area",1.163
+"Omaha, NE-IA Metro Area",5,"Salt Lake City-Murray, UT Metro Area",1.171
+"Omaha, NE-IA Metro Area",6,"Spokane-Spokane Valley, WA Metro Area",1.186
+"Omaha, NE-IA Metro Area",7,"Harrisburg-Carlisle, PA Metro Area",1.273
+"Omaha, NE-IA Metro Area",8,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.288
+"Omaha, NE-IA Metro Area",9,"Hartford-West Hartford-East Hartford, CT Metro Area",1.296
+"Omaha, NE-IA Metro Area",10,"Madison, WI Metro Area",1.3
+"New Orleans-Metairie, LA Metro Area",1,"Jackson, MS Metro Area",1.22
+"New Orleans-Metairie, LA Metro Area",2,"Albuquerque, NM Metro Area",1.507
+"New Orleans-Metairie, LA Metro Area",3,"Baton Rouge, LA Metro Area",1.698
+"New Orleans-Metairie, LA Metro Area",4,"El Paso, TX Metro Area",1.738
+"New Orleans-Metairie, LA Metro Area",5,"Cleveland, OH Metro Area",1.781
+"New Orleans-Metairie, LA Metro Area",6,"Pittsburgh, PA Metro Area",1.791
+"New Orleans-Metairie, LA Metro Area",7,"Augusta-Richmond County, GA-SC Metro Area",1.82
+"New Orleans-Metairie, LA Metro Area",8,"Columbia, SC Metro Area",1.821
+"New Orleans-Metairie, LA Metro Area",9,"Akron, OH Metro Area",1.825
+"New Orleans-Metairie, LA Metro Area",10,"Little Rock-North Little Rock-Conway, AR Metro Area",1.834
+"Greenville-Anderson-Greer, SC Metro Area",1,"Knoxville, TN Metro Area",0.849
+"Greenville-Anderson-Greer, SC Metro Area",2,"Tulsa, OK Metro Area",0.982
+"Greenville-Anderson-Greer, SC Metro Area",3,"Winston-Salem, NC Metro Area",0.998
+"Greenville-Anderson-Greer, SC Metro Area",4,"Greensboro-High Point, NC Metro Area",1.08
+"Greenville-Anderson-Greer, SC Metro Area",5,"Chattanooga, TN-GA Metro Area",1.126
+"Greenville-Anderson-Greer, SC Metro Area",6,"Birmingham, AL Metro Area",1.232
+"Greenville-Anderson-Greer, SC Metro Area",7,"Louisville/Jefferson County, KY-IN Metro Area",1.272
+"Greenville-Anderson-Greer, SC Metro Area",8,"Columbia, SC Metro Area",1.285
+"Greenville-Anderson-Greer, SC Metro Area",9,"Spokane-Spokane Valley, WA Metro Area",1.29
+"Greenville-Anderson-Greer, SC Metro Area",10,"Charleston-North Charleston, SC Metro Area",1.31
+"Bridgeport-Stamford-Danbury, CT Metro Area",1,"Denver-Aurora-Centennial, CO Metro Area",1.754
+"Bridgeport-Stamford-Danbury, CT Metro Area",2,"Seattle-Tacoma-Bellevue, WA Metro Area",1.868
+"Bridgeport-Stamford-Danbury, CT Metro Area",3,"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",1.896
+"Bridgeport-Stamford-Danbury, CT Metro Area",4,"Worcester, MA Metro Area",1.97
+"Bridgeport-Stamford-Danbury, CT Metro Area",5,"Boston-Cambridge-Newton, MA-NH Metro Area",2.011
+"Bridgeport-Stamford-Danbury, CT Metro Area",6,"Salt Lake City-Murray, UT Metro Area",2.116
+"Bridgeport-Stamford-Danbury, CT Metro Area",7,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",2.148
+"Bridgeport-Stamford-Danbury, CT Metro Area",8,"Hartford-West Hartford-East Hartford, CT Metro Area",2.165
+"Bridgeport-Stamford-Danbury, CT Metro Area",9,"Urban Honolulu, HI Metro Area",2.186
+"Bridgeport-Stamford-Danbury, CT Metro Area",10,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",2.275
+"Knoxville, TN Metro Area",1,"Greenville-Anderson-Greer, SC Metro Area",0.849
+"Knoxville, TN Metro Area",2,"Tulsa, OK Metro Area",0.894
+"Knoxville, TN Metro Area",3,"Winston-Salem, NC Metro Area",0.988
+"Knoxville, TN Metro Area",4,"Birmingham, AL Metro Area",1.059
+"Knoxville, TN Metro Area",5,"Chattanooga, TN-GA Metro Area",1.073
+"Knoxville, TN Metro Area",6,"Little Rock-North Little Rock-Conway, AR Metro Area",1.088
+"Knoxville, TN Metro Area",7,"Greensboro-High Point, NC Metro Area",1.132
+"Knoxville, TN Metro Area",8,"Augusta-Richmond County, GA-SC Metro Area",1.142
+"Knoxville, TN Metro Area",9,"Columbia, SC Metro Area",1.162
+"Knoxville, TN Metro Area",10,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.198
+"Albuquerque, NM Metro Area",1,"Columbia, SC Metro Area",0.951
+"Albuquerque, NM Metro Area",2,"Baton Rouge, LA Metro Area",1.012
+"Albuquerque, NM Metro Area",3,"Little Rock-North Little Rock-Conway, AR Metro Area",1.061
+"Albuquerque, NM Metro Area",4,"Tucson, AZ Metro Area",1.093
+"Albuquerque, NM Metro Area",5,"Augusta-Richmond County, GA-SC Metro Area",1.17
+"Albuquerque, NM Metro Area",6,"El Paso, TX Metro Area",1.232
+"Albuquerque, NM Metro Area",7,"Birmingham, AL Metro Area",1.246
+"Albuquerque, NM Metro Area",8,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.327
+"Albuquerque, NM Metro Area",9,"Dayton-Kettering-Beavercreek, OH Metro Area",1.361
+"Albuquerque, NM Metro Area",10,"Jackson, MS Metro Area",1.373
+"Bakersfield-Delano, CA Metro Area",1,"Fresno, CA Metro Area",1.31
+"Bakersfield-Delano, CA Metro Area",2,"Oklahoma City, OK Metro Area",2.104
+"Bakersfield-Delano, CA Metro Area",3,"Tulsa, OK Metro Area",2.191
+"Bakersfield-Delano, CA Metro Area",4,"Tucson, AZ Metro Area",2.288
+"Bakersfield-Delano, CA Metro Area",5,"Baton Rouge, LA Metro Area",2.318
+"Bakersfield-Delano, CA Metro Area",6,"El Paso, TX Metro Area",2.342
+"Bakersfield-Delano, CA Metro Area",7,"Columbia, SC Metro Area",2.349
+"Bakersfield-Delano, CA Metro Area",8,"Little Rock-North Little Rock-Conway, AR Metro Area",2.381
+"Bakersfield-Delano, CA Metro Area",9,"Albuquerque, NM Metro Area",2.429
+"Bakersfield-Delano, CA Metro Area",10,"Birmingham, AL Metro Area",2.433
+"Albany-Schenectady-Troy, NY Metro Area",1,"Hartford-West Hartford-East Hartford, CT Metro Area",1.173
+"Albany-Schenectady-Troy, NY Metro Area",2,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.177
+"Albany-Schenectady-Troy, NY Metro Area",3,"Madison, WI Metro Area",1.211
+"Albany-Schenectady-Troy, NY Metro Area",4,"New Haven, CT Metro Area",1.351
+"Albany-Schenectady-Troy, NY Metro Area",5,"Harrisburg-Carlisle, PA Metro Area",1.376
+"Albany-Schenectady-Troy, NY Metro Area",6,"Richmond, VA Metro Area",1.401
+"Albany-Schenectady-Troy, NY Metro Area",7,"Providence-Warwick, RI-MA Metro Area",1.401
+"Albany-Schenectady-Troy, NY Metro Area",8,"Rochester, NY Metro Area",1.434
+"Albany-Schenectady-Troy, NY Metro Area",9,"Buffalo-Cheektowaga, NY Metro Area",1.439
+"Albany-Schenectady-Troy, NY Metro Area",10,"Dayton-Kettering-Beavercreek, OH Metro Area",1.459
+"McAllen-Edinburg-Mission, TX Metro Area",1,"El Paso, TX Metro Area",1.278
+"McAllen-Edinburg-Mission, TX Metro Area",2,"Little Rock-North Little Rock-Conway, AR Metro Area",1.5
+"McAllen-Edinburg-Mission, TX Metro Area",3,"Tulsa, OK Metro Area",1.588
+"McAllen-Edinburg-Mission, TX Metro Area",4,"Winston-Salem, NC Metro Area",1.589
+"McAllen-Edinburg-Mission, TX Metro Area",5,"Knoxville, TN Metro Area",1.634
+"McAllen-Edinburg-Mission, TX Metro Area",6,"Greensboro-High Point, NC Metro Area",1.701
+"McAllen-Edinburg-Mission, TX Metro Area",7,"Baton Rouge, LA Metro Area",1.721
+"McAllen-Edinburg-Mission, TX Metro Area",8,"Augusta-Richmond County, GA-SC Metro Area",1.816
+"McAllen-Edinburg-Mission, TX Metro Area",9,"Columbia, SC Metro Area",1.824
+"McAllen-Edinburg-Mission, TX Metro Area",10,"Jackson, MS Metro Area",1.852
+"North Port-Bradenton-Sarasota, FL Metro Area",1,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.014
+"North Port-Bradenton-Sarasota, FL Metro Area",2,"Jacksonville, FL Metro Area",1.116
+"North Port-Bradenton-Sarasota, FL Metro Area",3,"Cape Coral-Fort Myers, FL Metro Area",1.186
+"North Port-Bradenton-Sarasota, FL Metro Area",4,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.263
+"North Port-Bradenton-Sarasota, FL Metro Area",5,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.378
+"North Port-Bradenton-Sarasota, FL Metro Area",6,"San Antonio-New Braunfels, TX Metro Area",1.396
+"North Port-Bradenton-Sarasota, FL Metro Area",7,"Boise City, ID Metro Area",1.416
+"North Port-Bradenton-Sarasota, FL Metro Area",8,"Spokane-Spokane Valley, WA Metro Area",1.42
+"North Port-Bradenton-Sarasota, FL Metro Area",9,"Charleston-North Charleston, SC Metro Area",1.461
+"North Port-Bradenton-Sarasota, FL Metro Area",10,"Oklahoma City, OK Metro Area",1.548
+"Baton Rouge, LA Metro Area",1,"Columbia, SC Metro Area",0.835
+"Baton Rouge, LA Metro Area",2,"Birmingham, AL Metro Area",0.988
+"Baton Rouge, LA Metro Area",3,"Albuquerque, NM Metro Area",1.012
+"Baton Rouge, LA Metro Area",4,"Little Rock-North Little Rock-Conway, AR Metro Area",1.095
+"Baton Rouge, LA Metro Area",5,"Winston-Salem, NC Metro Area",1.128
+"Baton Rouge, LA Metro Area",6,"El Paso, TX Metro Area",1.213
+"Baton Rouge, LA Metro Area",7,"Tucson, AZ Metro Area",1.231
+"Baton Rouge, LA Metro Area",8,"Tulsa, OK Metro Area",1.239
+"Baton Rouge, LA Metro Area",9,"Chattanooga, TN-GA Metro Area",1.259
+"Baton Rouge, LA Metro Area",10,"Augusta-Richmond County, GA-SC Metro Area",1.28
+"El Paso, TX Metro Area",1,"Little Rock-North Little Rock-Conway, AR Metro Area",0.964
+"El Paso, TX Metro Area",2,"Augusta-Richmond County, GA-SC Metro Area",1.136
+"El Paso, TX Metro Area",3,"Tulsa, OK Metro Area",1.16
+"El Paso, TX Metro Area",4,"Columbia, SC Metro Area",1.193
+"El Paso, TX Metro Area",5,"Baton Rouge, LA Metro Area",1.213
+"El Paso, TX Metro Area",6,"Winston-Salem, NC Metro Area",1.213
+"El Paso, TX Metro Area",7,"Albuquerque, NM Metro Area",1.232
+"El Paso, TX Metro Area",8,"Greensboro-High Point, NC Metro Area",1.242
+"El Paso, TX Metro Area",9,"Tucson, AZ Metro Area",1.274
+"El Paso, TX Metro Area",10,"McAllen-Edinburg-Mission, TX Metro Area",1.278
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1,"Providence-Warwick, RI-MA Metro Area",1.164
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",2,"Louisville/Jefferson County, KY-IN Metro Area",1.203
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",3,"Birmingham, AL Metro Area",1.298
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",4,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.323
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",5,"Cincinnati, OH-KY-IN Metro Area",1.333
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",6,"Harrisburg-Carlisle, PA Metro Area",1.377
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",7,"Charleston-North Charleston, SC Metro Area",1.424
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",8,"Grand Rapids-Wyoming-Kentwood, MI Metro Area",1.438
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",9,"Worcester, MA Metro Area",1.464
+"Allentown-Bethlehem-Easton, PA-NJ Metro Area",10,"Greenville-Anderson-Greer, SC Metro Area",1.475
+"Worcester, MA Metro Area",1,"Providence-Warwick, RI-MA Metro Area",1.185
+"Worcester, MA Metro Area",2,"Hartford-West Hartford-East Hartford, CT Metro Area",1.247
+"Worcester, MA Metro Area",3,"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",1.285
+"Worcester, MA Metro Area",4,"New Haven, CT Metro Area",1.455
+"Worcester, MA Metro Area",5,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.464
+"Worcester, MA Metro Area",6,"Salt Lake City-Murray, UT Metro Area",1.473
+"Worcester, MA Metro Area",7,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.499
+"Worcester, MA Metro Area",8,"Madison, WI Metro Area",1.552
+"Worcester, MA Metro Area",9,"Richmond, VA Metro Area",1.598
+"Worcester, MA Metro Area",10,"Sacramento-Roseville-Folsom, CA Metro Area",1.632
+"Columbia, SC Metro Area",1,"Little Rock-North Little Rock-Conway, AR Metro Area",0.733
+"Columbia, SC Metro Area",2,"Birmingham, AL Metro Area",0.82
+"Columbia, SC Metro Area",3,"Baton Rouge, LA Metro Area",0.835
+"Columbia, SC Metro Area",4,"Winston-Salem, NC Metro Area",0.896
+"Columbia, SC Metro Area",5,"Albuquerque, NM Metro Area",0.951
+"Columbia, SC Metro Area",6,"Tulsa, OK Metro Area",0.979
+"Columbia, SC Metro Area",7,"Greensboro-High Point, NC Metro Area",1.061
+"Columbia, SC Metro Area",8,"Tucson, AZ Metro Area",1.064
+"Columbia, SC Metro Area",9,"Oklahoma City, OK Metro Area",1.065
+"Columbia, SC Metro Area",10,"Chattanooga, TN-GA Metro Area",1.096
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",1,"San Diego-Chula Vista-Carlsbad, CA Metro Area",1.612
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",2,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",1.824
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",3,"Denver-Aurora-Centennial, CO Metro Area",1.878
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",4,"Salt Lake City-Murray, UT Metro Area",1.967
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",5,"Urban Honolulu, HI Metro Area",2.039
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",6,"Ogden, UT Metro Area",2.042
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",7,"Sacramento-Roseville-Folsom, CA Metro Area",2.074
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",8,"Worcester, MA Metro Area",2.097
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",9,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",2.098
+"Oxnard-Thousand Oaks-Ventura, CA Metro Area",10,"Hartford-West Hartford-East Hartford, CT Metro Area",2.231
+"Charleston-North Charleston, SC Metro Area",1,"Richmond, VA Metro Area",1.179
+"Charleston-North Charleston, SC Metro Area",2,"Knoxville, TN Metro Area",1.21
+"Charleston-North Charleston, SC Metro Area",3,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.267
+"Charleston-North Charleston, SC Metro Area",4,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.278
+"Charleston-North Charleston, SC Metro Area",5,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.289
+"Charleston-North Charleston, SC Metro Area",6,"Greenville-Anderson-Greer, SC Metro Area",1.31
+"Charleston-North Charleston, SC Metro Area",7,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.424
+"Charleston-North Charleston, SC Metro Area",8,"Providence-Warwick, RI-MA Metro Area",1.451
+"Charleston-North Charleston, SC Metro Area",9,"North Port-Bradenton-Sarasota, FL Metro Area",1.461
+"Charleston-North Charleston, SC Metro Area",10,"Spokane-Spokane Valley, WA Metro Area",1.466
+"Cape Coral-Fort Myers, FL Metro Area",1,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.157
+"Cape Coral-Fort Myers, FL Metro Area",2,"North Port-Bradenton-Sarasota, FL Metro Area",1.186
+"Cape Coral-Fort Myers, FL Metro Area",3,"Lakeland-Winter Haven, FL Metro Area",1.566
+"Cape Coral-Fort Myers, FL Metro Area",4,"San Antonio-New Braunfels, TX Metro Area",1.676
+"Cape Coral-Fort Myers, FL Metro Area",5,"Jacksonville, FL Metro Area",1.72
+"Cape Coral-Fort Myers, FL Metro Area",6,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.777
+"Cape Coral-Fort Myers, FL Metro Area",7,"Orlando-Kissimmee-Sanford, FL Metro Area",1.792
+"Cape Coral-Fort Myers, FL Metro Area",8,"Charleston-North Charleston, SC Metro Area",1.832
+"Cape Coral-Fort Myers, FL Metro Area",9,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.859
+"Cape Coral-Fort Myers, FL Metro Area",10,"Boise City, ID Metro Area",1.908
+"Dayton-Kettering-Beavercreek, OH Metro Area",1,"Wichita, KS Metro Area",0.86
+"Dayton-Kettering-Beavercreek, OH Metro Area",2,"Akron, OH Metro Area",0.978
+"Dayton-Kettering-Beavercreek, OH Metro Area",3,"Rochester, NY Metro Area",1.054
+"Dayton-Kettering-Beavercreek, OH Metro Area",4,"Toledo, OH Metro Area",1.06
+"Dayton-Kettering-Beavercreek, OH Metro Area",5,"Tucson, AZ Metro Area",1.083
+"Dayton-Kettering-Beavercreek, OH Metro Area",6,"Milwaukee-Waukesha, WI Metro Area",1.091
+"Dayton-Kettering-Beavercreek, OH Metro Area",7,"Syracuse, NY Metro Area",1.093
+"Dayton-Kettering-Beavercreek, OH Metro Area",8,"Buffalo-Cheektowaga, NY Metro Area",1.096
+"Dayton-Kettering-Beavercreek, OH Metro Area",9,"Louisville/Jefferson County, KY-IN Metro Area",1.102
+"Dayton-Kettering-Beavercreek, OH Metro Area",10,"Greensboro-High Point, NC Metro Area",1.175
+"Boise City, ID Metro Area",1,"Provo-Orem-Lehi, UT Metro Area",1.335
+"Boise City, ID Metro Area",2,"North Port-Bradenton-Sarasota, FL Metro Area",1.416
+"Boise City, ID Metro Area",3,"Jacksonville, FL Metro Area",1.596
+"Boise City, ID Metro Area",4,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.632
+"Boise City, ID Metro Area",5,"Spokane-Spokane Valley, WA Metro Area",1.646
+"Boise City, ID Metro Area",6,"Fayetteville-Springdale-Rogers, AR Metro Area",1.697
+"Boise City, ID Metro Area",7,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.707
+"Boise City, ID Metro Area",8,"Raleigh-Cary, NC Metro Area",1.716
+"Boise City, ID Metro Area",9,"Ogden, UT Metro Area",1.814
+"Boise City, ID Metro Area",10,"Salt Lake City-Murray, UT Metro Area",1.82
+"Stockton-Lodi, CA Metro Area",1,"Worcester, MA Metro Area",1.758
+"Stockton-Lodi, CA Metro Area",2,"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",1.786
+"Stockton-Lodi, CA Metro Area",3,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.791
+"Stockton-Lodi, CA Metro Area",4,"Charleston-North Charleston, SC Metro Area",1.859
+"Stockton-Lodi, CA Metro Area",5,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.871
+"Stockton-Lodi, CA Metro Area",6,"Riverside-San Bernardino-Ontario, CA Metro Area",1.991
+"Stockton-Lodi, CA Metro Area",7,"Indianapolis-Carmel-Greenwood, IN Metro Area",2.045
+"Stockton-Lodi, CA Metro Area",8,"Providence-Warwick, RI-MA Metro Area",2.124
+"Stockton-Lodi, CA Metro Area",9,"Sacramento-Roseville-Folsom, CA Metro Area",2.155
+"Stockton-Lodi, CA Metro Area",10,"Palm Bay-Melbourne-Titusville, FL Metro Area",2.172
+"Lakeland-Winter Haven, FL Metro Area",1,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.421
+"Lakeland-Winter Haven, FL Metro Area",2,"Cape Coral-Fort Myers, FL Metro Area",1.566
+"Lakeland-Winter Haven, FL Metro Area",3,"North Port-Bradenton-Sarasota, FL Metro Area",1.808
+"Lakeland-Winter Haven, FL Metro Area",4,"Jacksonville, FL Metro Area",1.847
+"Lakeland-Winter Haven, FL Metro Area",5,"Orlando-Kissimmee-Sanford, FL Metro Area",1.919
+"Lakeland-Winter Haven, FL Metro Area",6,"San Antonio-New Braunfels, TX Metro Area",2.148
+"Lakeland-Winter Haven, FL Metro Area",7,"Charleston-North Charleston, SC Metro Area",2.204
+"Lakeland-Winter Haven, FL Metro Area",8,"Palm Bay-Melbourne-Titusville, FL Metro Area",2.211
+"Lakeland-Winter Haven, FL Metro Area",9,"Spokane-Spokane Valley, WA Metro Area",2.232
+"Lakeland-Winter Haven, FL Metro Area",10,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",2.239
+"Greensboro-High Point, NC Metro Area",1,"Winston-Salem, NC Metro Area",0.603
+"Greensboro-High Point, NC Metro Area",2,"Tulsa, OK Metro Area",0.896
+"Greensboro-High Point, NC Metro Area",3,"Chattanooga, TN-GA Metro Area",0.941
+"Greensboro-High Point, NC Metro Area",4,"Little Rock-North Little Rock-Conway, AR Metro Area",0.96
+"Greensboro-High Point, NC Metro Area",5,"Toledo, OH Metro Area",0.967
+"Greensboro-High Point, NC Metro Area",6,"Louisville/Jefferson County, KY-IN Metro Area",0.997
+"Greensboro-High Point, NC Metro Area",7,"Akron, OH Metro Area",1.026
+"Greensboro-High Point, NC Metro Area",8,"Wichita, KS Metro Area",1.047
+"Greensboro-High Point, NC Metro Area",9,"Birmingham, AL Metro Area",1.058
+"Greensboro-High Point, NC Metro Area",10,"Columbia, SC Metro Area",1.061
+"Colorado Springs, CO Metro Area",1,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.418
+"Colorado Springs, CO Metro Area",2,"Salt Lake City-Murray, UT Metro Area",1.492
+"Colorado Springs, CO Metro Area",3,"Ogden, UT Metro Area",1.542
+"Colorado Springs, CO Metro Area",4,"North Port-Bradenton-Sarasota, FL Metro Area",1.576
+"Colorado Springs, CO Metro Area",5,"Richmond, VA Metro Area",1.636
+"Colorado Springs, CO Metro Area",6,"Omaha, NE-IA Metro Area",1.662
+"Colorado Springs, CO Metro Area",7,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area",1.724
+"Colorado Springs, CO Metro Area",8,"Sacramento-Roseville-Folsom, CA Metro Area",1.756
+"Colorado Springs, CO Metro Area",9,"Durham-Chapel Hill, NC Metro Area",1.77
+"Colorado Springs, CO Metro Area",10,"Oklahoma City, OK Metro Area",1.793
+"Little Rock-North Little Rock-Conway, AR Metro Area",1,"Columbia, SC Metro Area",0.733
+"Little Rock-North Little Rock-Conway, AR Metro Area",2,"Birmingham, AL Metro Area",0.897
+"Little Rock-North Little Rock-Conway, AR Metro Area",3,"Winston-Salem, NC Metro Area",0.915
+"Little Rock-North Little Rock-Conway, AR Metro Area",4,"Tulsa, OK Metro Area",0.942
+"Little Rock-North Little Rock-Conway, AR Metro Area",5,"Greensboro-High Point, NC Metro Area",0.96
+"Little Rock-North Little Rock-Conway, AR Metro Area",6,"El Paso, TX Metro Area",0.964
+"Little Rock-North Little Rock-Conway, AR Metro Area",7,"Albuquerque, NM Metro Area",1.061
+"Little Rock-North Little Rock-Conway, AR Metro Area",8,"Knoxville, TN Metro Area",1.088
+"Little Rock-North Little Rock-Conway, AR Metro Area",9,"Baton Rouge, LA Metro Area",1.095
+"Little Rock-North Little Rock-Conway, AR Metro Area",10,"Chattanooga, TN-GA Metro Area",1.11
+"Des Moines-West Des Moines, IA Metro Area",1,"Omaha, NE-IA Metro Area",0.938
+"Des Moines-West Des Moines, IA Metro Area",2,"Spokane-Spokane Valley, WA Metro Area",1.464
+"Des Moines-West Des Moines, IA Metro Area",3,"Richmond, VA Metro Area",1.471
+"Des Moines-West Des Moines, IA Metro Area",4,"Salt Lake City-Murray, UT Metro Area",1.581
+"Des Moines-West Des Moines, IA Metro Area",5,"Kansas City, MO-KS Metro Area",1.593
+"Des Moines-West Des Moines, IA Metro Area",6,"Harrisburg-Carlisle, PA Metro Area",1.65
+"Des Moines-West Des Moines, IA Metro Area",7,"Hartford-West Hartford-East Hartford, CT Metro Area",1.69
+"Des Moines-West Des Moines, IA Metro Area",8,"Charlotte-Concord-Gastonia, NC-SC Metro Area",1.705
+"Des Moines-West Des Moines, IA Metro Area",9,"Jacksonville, FL Metro Area",1.746
+"Des Moines-West Des Moines, IA Metro Area",10,"Columbus, OH Metro Area",1.754
+"Provo-Orem-Lehi, UT Metro Area",1,"Boise City, ID Metro Area",1.335
+"Provo-Orem-Lehi, UT Metro Area",2,"Raleigh-Cary, NC Metro Area",1.586
+"Provo-Orem-Lehi, UT Metro Area",3,"Austin-Round Rock-San Marcos, TX Metro Area",1.715
+"Provo-Orem-Lehi, UT Metro Area",4,"Ogden, UT Metro Area",2.055
+"Provo-Orem-Lehi, UT Metro Area",5,"North Port-Bradenton-Sarasota, FL Metro Area",2.092
+"Provo-Orem-Lehi, UT Metro Area",6,"Salt Lake City-Murray, UT Metro Area",2.11
+"Provo-Orem-Lehi, UT Metro Area",7,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",2.142
+"Provo-Orem-Lehi, UT Metro Area",8,"Fayetteville-Springdale-Rogers, AR Metro Area",2.235
+"Provo-Orem-Lehi, UT Metro Area",9,"Jacksonville, FL Metro Area",2.287
+"Provo-Orem-Lehi, UT Metro Area",10,"Palm Bay-Melbourne-Titusville, FL Metro Area",2.319
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1,"North Port-Bradenton-Sarasota, FL Metro Area",1.014
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",2,"Cape Coral-Fort Myers, FL Metro Area",1.157
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",3,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.196
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",4,"Knoxville, TN Metro Area",1.198
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",5,"Spokane-Spokane Valley, WA Metro Area",1.202
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",6,"Charleston-North Charleston, SC Metro Area",1.278
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",7,"San Antonio-New Braunfels, TX Metro Area",1.335
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",8,"Jacksonville, FL Metro Area",1.354
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",9,"Oklahoma City, OK Metro Area",1.387
+"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",10,"Greenville-Anderson-Greer, SC Metro Area",1.404
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",1,"Worcester, MA Metro Area",1.285
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",2,"Providence-Warwick, RI-MA Metro Area",1.678
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",3,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.714
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",4,"Stockton-Lodi, CA Metro Area",1.786
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",5,"Baltimore-Columbia-Towson, MD Metro Area",1.843
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",6,"Urban Honolulu, HI Metro Area",1.869
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",7,"Hartford-West Hartford-East Hartford, CT Metro Area",1.89
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",8,"Bridgeport-Stamford-Danbury, CT Metro Area",1.896
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",9,"Richmond, VA Metro Area",1.909
+"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area",10,"Charleston-North Charleston, SC Metro Area",1.928
+"Akron, OH Metro Area",1,"Toledo, OH Metro Area",0.844
+"Akron, OH Metro Area",2,"Dayton-Kettering-Beavercreek, OH Metro Area",0.978
+"Akron, OH Metro Area",3,"Greensboro-High Point, NC Metro Area",1.026
+"Akron, OH Metro Area",4,"Milwaukee-Waukesha, WI Metro Area",1.055
+"Akron, OH Metro Area",5,"Wichita, KS Metro Area",1.067
+"Akron, OH Metro Area",6,"Syracuse, NY Metro Area",1.185
+"Akron, OH Metro Area",7,"Winston-Salem, NC Metro Area",1.224
+"Akron, OH Metro Area",8,"Louisville/Jefferson County, KY-IN Metro Area",1.237
+"Akron, OH Metro Area",9,"Cleveland, OH Metro Area",1.255
+"Akron, OH Metro Area",10,"Little Rock-North Little Rock-Conway, AR Metro Area",1.274
+"Madison, WI Metro Area",1,"Durham-Chapel Hill, NC Metro Area",1.122
+"Madison, WI Metro Area",2,"Hartford-West Hartford-East Hartford, CT Metro Area",1.139
+"Madison, WI Metro Area",3,"New Haven, CT Metro Area",1.144
+"Madison, WI Metro Area",4,"Albany-Schenectady-Troy, NY Metro Area",1.211
+"Madison, WI Metro Area",5,"Omaha, NE-IA Metro Area",1.3
+"Madison, WI Metro Area",6,"Harrisburg-Carlisle, PA Metro Area",1.533
+"Madison, WI Metro Area",7,"Rochester, NY Metro Area",1.537
+"Madison, WI Metro Area",8,"Salt Lake City-Murray, UT Metro Area",1.551
+"Madison, WI Metro Area",9,"Worcester, MA Metro Area",1.552
+"Madison, WI Metro Area",10,"Spokane-Spokane Valley, WA Metro Area",1.589
+"Winston-Salem, NC Metro Area",1,"Greensboro-High Point, NC Metro Area",0.603
+"Winston-Salem, NC Metro Area",2,"Chattanooga, TN-GA Metro Area",0.748
+"Winston-Salem, NC Metro Area",3,"Columbia, SC Metro Area",0.896
+"Winston-Salem, NC Metro Area",4,"Little Rock-North Little Rock-Conway, AR Metro Area",0.915
+"Winston-Salem, NC Metro Area",5,"Tulsa, OK Metro Area",0.927
+"Winston-Salem, NC Metro Area",6,"Knoxville, TN Metro Area",0.988
+"Winston-Salem, NC Metro Area",7,"Greenville-Anderson-Greer, SC Metro Area",0.998
+"Winston-Salem, NC Metro Area",8,"Birmingham, AL Metro Area",1.018
+"Winston-Salem, NC Metro Area",9,"Augusta-Richmond County, GA-SC Metro Area",1.028
+"Winston-Salem, NC Metro Area",10,"Wichita, KS Metro Area",1.074
+"Syracuse, NY Metro Area",1,"Rochester, NY Metro Area",0.756
+"Syracuse, NY Metro Area",2,"Buffalo-Cheektowaga, NY Metro Area",0.97
+"Syracuse, NY Metro Area",3,"Dayton-Kettering-Beavercreek, OH Metro Area",1.093
+"Syracuse, NY Metro Area",4,"Akron, OH Metro Area",1.185
+"Syracuse, NY Metro Area",5,"New Haven, CT Metro Area",1.306
+"Syracuse, NY Metro Area",6,"Milwaukee-Waukesha, WI Metro Area",1.327
+"Syracuse, NY Metro Area",7,"Toledo, OH Metro Area",1.351
+"Syracuse, NY Metro Area",8,"Tucson, AZ Metro Area",1.424
+"Syracuse, NY Metro Area",9,"Wichita, KS Metro Area",1.46
+"Syracuse, NY Metro Area",10,"Little Rock-North Little Rock-Conway, AR Metro Area",1.467
+"Ogden, UT Metro Area",1,"Salt Lake City-Murray, UT Metro Area",1.144
+"Ogden, UT Metro Area",2,"Colorado Springs, CO Metro Area",1.542
+"Ogden, UT Metro Area",3,"Sacramento-Roseville-Folsom, CA Metro Area",1.643
+"Ogden, UT Metro Area",4,"Worcester, MA Metro Area",1.681
+"Ogden, UT Metro Area",5,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.696
+"Ogden, UT Metro Area",6,"Omaha, NE-IA Metro Area",1.735
+"Ogden, UT Metro Area",7,"Raleigh-Cary, NC Metro Area",1.741
+"Ogden, UT Metro Area",8,"Madison, WI Metro Area",1.786
+"Ogden, UT Metro Area",9,"Boise City, ID Metro Area",1.814
+"Ogden, UT Metro Area",10,"Hartford-West Hartford-East Hartford, CT Metro Area",1.826
+"Wichita, KS Metro Area",1,"Dayton-Kettering-Beavercreek, OH Metro Area",0.86
+"Wichita, KS Metro Area",2,"Toledo, OH Metro Area",1.014
+"Wichita, KS Metro Area",3,"Greensboro-High Point, NC Metro Area",1.047
+"Wichita, KS Metro Area",4,"Akron, OH Metro Area",1.067
+"Wichita, KS Metro Area",5,"Winston-Salem, NC Metro Area",1.074
+"Wichita, KS Metro Area",6,"Chattanooga, TN-GA Metro Area",1.079
+"Wichita, KS Metro Area",7,"Tulsa, OK Metro Area",1.123
+"Wichita, KS Metro Area",8,"Louisville/Jefferson County, KY-IN Metro Area",1.332
+"Wichita, KS Metro Area",9,"Grand Rapids-Wyoming-Kentwood, MI Metro Area",1.335
+"Wichita, KS Metro Area",10,"Greenville-Anderson-Greer, SC Metro Area",1.337
+"Palm Bay-Melbourne-Titusville, FL Metro Area",1,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.196
+"Palm Bay-Melbourne-Titusville, FL Metro Area",2,"North Port-Bradenton-Sarasota, FL Metro Area",1.263
+"Palm Bay-Melbourne-Titusville, FL Metro Area",3,"Charleston-North Charleston, SC Metro Area",1.267
+"Palm Bay-Melbourne-Titusville, FL Metro Area",4,"Spokane-Spokane Valley, WA Metro Area",1.279
+"Palm Bay-Melbourne-Titusville, FL Metro Area",5,"Greenville-Anderson-Greer, SC Metro Area",1.313
+"Palm Bay-Melbourne-Titusville, FL Metro Area",6,"Tucson, AZ Metro Area",1.385
+"Palm Bay-Melbourne-Titusville, FL Metro Area",7,"Colorado Springs, CO Metro Area",1.418
+"Palm Bay-Melbourne-Titusville, FL Metro Area",8,"Oklahoma City, OK Metro Area",1.433
+"Palm Bay-Melbourne-Titusville, FL Metro Area",9,"Indianapolis-Carmel-Greenwood, IN Metro Area",1.453
+"Palm Bay-Melbourne-Titusville, FL Metro Area",10,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",1.481
+"Augusta-Richmond County, GA-SC Metro Area",1,"Winston-Salem, NC Metro Area",1.028
+"Augusta-Richmond County, GA-SC Metro Area",2,"Chattanooga, TN-GA Metro Area",1.098
+"Augusta-Richmond County, GA-SC Metro Area",3,"Columbia, SC Metro Area",1.098
+"Augusta-Richmond County, GA-SC Metro Area",4,"El Paso, TX Metro Area",1.136
+"Augusta-Richmond County, GA-SC Metro Area",5,"Knoxville, TN Metro Area",1.142
+"Augusta-Richmond County, GA-SC Metro Area",6,"Albuquerque, NM Metro Area",1.17
+"Augusta-Richmond County, GA-SC Metro Area",7,"Little Rock-North Little Rock-Conway, AR Metro Area",1.214
+"Augusta-Richmond County, GA-SC Metro Area",8,"Greensboro-High Point, NC Metro Area",1.255
+"Augusta-Richmond County, GA-SC Metro Area",9,"Tulsa, OK Metro Area",1.27
+"Augusta-Richmond County, GA-SC Metro Area",10,"Baton Rouge, LA Metro Area",1.28
+"Jackson, MS Metro Area",1,"New Orleans-Metairie, LA Metro Area",1.22
+"Jackson, MS Metro Area",2,"Little Rock-North Little Rock-Conway, AR Metro Area",1.309
+"Jackson, MS Metro Area",3,"Columbia, SC Metro Area",1.317
+"Jackson, MS Metro Area",4,"Albuquerque, NM Metro Area",1.373
+"Jackson, MS Metro Area",5,"Winston-Salem, NC Metro Area",1.385
+"Jackson, MS Metro Area",6,"Greensboro-High Point, NC Metro Area",1.47
+"Jackson, MS Metro Area",7,"Toledo, OH Metro Area",1.473
+"Jackson, MS Metro Area",8,"Baton Rouge, LA Metro Area",1.476
+"Jackson, MS Metro Area",9,"Akron, OH Metro Area",1.526
+"Jackson, MS Metro Area",10,"Augusta-Richmond County, GA-SC Metro Area",1.548
+"Harrisburg-Carlisle, PA Metro Area",1,"Spokane-Spokane Valley, WA Metro Area",1.027
+"Harrisburg-Carlisle, PA Metro Area",2,"Omaha, NE-IA Metro Area",1.273
+"Harrisburg-Carlisle, PA Metro Area",3,"Little Rock-North Little Rock-Conway, AR Metro Area",1.326
+"Harrisburg-Carlisle, PA Metro Area",4,"Richmond, VA Metro Area",1.342
+"Harrisburg-Carlisle, PA Metro Area",5,"Dayton-Kettering-Beavercreek, OH Metro Area",1.352
+"Harrisburg-Carlisle, PA Metro Area",6,"Albany-Schenectady-Troy, NY Metro Area",1.376
+"Harrisburg-Carlisle, PA Metro Area",7,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",1.377
+"Harrisburg-Carlisle, PA Metro Area",8,"Louisville/Jefferson County, KY-IN Metro Area",1.38
+"Harrisburg-Carlisle, PA Metro Area",9,"Tulsa, OK Metro Area",1.441
+"Harrisburg-Carlisle, PA Metro Area",10,"Oklahoma City, OK Metro Area",1.45
+"Toledo, OH Metro Area",1,"Akron, OH Metro Area",0.844
+"Toledo, OH Metro Area",2,"Greensboro-High Point, NC Metro Area",0.967
+"Toledo, OH Metro Area",3,"Wichita, KS Metro Area",1.014
+"Toledo, OH Metro Area",4,"Dayton-Kettering-Beavercreek, OH Metro Area",1.06
+"Toledo, OH Metro Area",5,"Winston-Salem, NC Metro Area",1.271
+"Toledo, OH Metro Area",6,"Syracuse, NY Metro Area",1.351
+"Toledo, OH Metro Area",7,"Little Rock-North Little Rock-Conway, AR Metro Area",1.421
+"Toledo, OH Metro Area",8,"Rochester, NY Metro Area",1.457
+"Toledo, OH Metro Area",9,"Chattanooga, TN-GA Metro Area",1.468
+"Toledo, OH Metro Area",10,"Louisville/Jefferson County, KY-IN Metro Area",1.47
+"Durham-Chapel Hill, NC Metro Area",1,"Madison, WI Metro Area",1.122
+"Durham-Chapel Hill, NC Metro Area",2,"New Haven, CT Metro Area",1.317
+"Durham-Chapel Hill, NC Metro Area",3,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.679
+"Durham-Chapel Hill, NC Metro Area",4,"Worcester, MA Metro Area",1.7
+"Durham-Chapel Hill, NC Metro Area",5,"Albany-Schenectady-Troy, NY Metro Area",1.727
+"Durham-Chapel Hill, NC Metro Area",6,"Tucson, AZ Metro Area",1.768
+"Durham-Chapel Hill, NC Metro Area",7,"Colorado Springs, CO Metro Area",1.77
+"Durham-Chapel Hill, NC Metro Area",8,"Omaha, NE-IA Metro Area",1.804
+"Durham-Chapel Hill, NC Metro Area",9,"Hartford-West Hartford-East Hartford, CT Metro Area",1.806
+"Durham-Chapel Hill, NC Metro Area",10,"Rochester, NY Metro Area",1.822
+"Spokane-Spokane Valley, WA Metro Area",1,"Harrisburg-Carlisle, PA Metro Area",1.027
+"Spokane-Spokane Valley, WA Metro Area",2,"Omaha, NE-IA Metro Area",1.186
+"Spokane-Spokane Valley, WA Metro Area",3,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.202
+"Spokane-Spokane Valley, WA Metro Area",4,"Oklahoma City, OK Metro Area",1.22
+"Spokane-Spokane Valley, WA Metro Area",5,"Tulsa, OK Metro Area",1.226
+"Spokane-Spokane Valley, WA Metro Area",6,"Knoxville, TN Metro Area",1.263
+"Spokane-Spokane Valley, WA Metro Area",7,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.279
+"Spokane-Spokane Valley, WA Metro Area",8,"Greenville-Anderson-Greer, SC Metro Area",1.29
+"Spokane-Spokane Valley, WA Metro Area",9,"Little Rock-North Little Rock-Conway, AR Metro Area",1.385
+"Spokane-Spokane Valley, WA Metro Area",10,"Richmond, VA Metro Area",1.395
+"Fayetteville-Springdale-Rogers, AR Metro Area",1,"North Port-Bradenton-Sarasota, FL Metro Area",1.67
+"Fayetteville-Springdale-Rogers, AR Metro Area",2,"Boise City, ID Metro Area",1.697
+"Fayetteville-Springdale-Rogers, AR Metro Area",3,"Spokane-Spokane Valley, WA Metro Area",1.712
+"Fayetteville-Springdale-Rogers, AR Metro Area",4,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",1.871
+"Fayetteville-Springdale-Rogers, AR Metro Area",5,"Palm Bay-Melbourne-Titusville, FL Metro Area",1.977
+"Fayetteville-Springdale-Rogers, AR Metro Area",6,"Jacksonville, FL Metro Area",2.071
+"Fayetteville-Springdale-Rogers, AR Metro Area",7,"Cape Coral-Fort Myers, FL Metro Area",2.134
+"Fayetteville-Springdale-Rogers, AR Metro Area",8,"Knoxville, TN Metro Area",2.172
+"Fayetteville-Springdale-Rogers, AR Metro Area",9,"Greenville-Anderson-Greer, SC Metro Area",2.205
+"Fayetteville-Springdale-Rogers, AR Metro Area",10,"Oklahoma City, OK Metro Area",2.23
+"Chattanooga, TN-GA Metro Area",1,"Winston-Salem, NC Metro Area",0.748
+"Chattanooga, TN-GA Metro Area",2,"Greensboro-High Point, NC Metro Area",0.941
+"Chattanooga, TN-GA Metro Area",3,"Tulsa, OK Metro Area",0.961
+"Chattanooga, TN-GA Metro Area",4,"Louisville/Jefferson County, KY-IN Metro Area",1.037
+"Chattanooga, TN-GA Metro Area",5,"Knoxville, TN Metro Area",1.073
+"Chattanooga, TN-GA Metro Area",6,"Wichita, KS Metro Area",1.079
+"Chattanooga, TN-GA Metro Area",7,"Birmingham, AL Metro Area",1.094
+"Chattanooga, TN-GA Metro Area",8,"Columbia, SC Metro Area",1.096
+"Chattanooga, TN-GA Metro Area",9,"Augusta-Richmond County, GA-SC Metro Area",1.098
+"Chattanooga, TN-GA Metro Area",10,"Little Rock-North Little Rock-Conway, AR Metro Area",1.11
+"New Haven, CT Metro Area",1,"Madison, WI Metro Area",1.144
+"New Haven, CT Metro Area",2,"Syracuse, NY Metro Area",1.306
+"New Haven, CT Metro Area",3,"Durham-Chapel Hill, NC Metro Area",1.317
+"New Haven, CT Metro Area",4,"Hartford-West Hartford-East Hartford, CT Metro Area",1.32
+"New Haven, CT Metro Area",5,"Albany-Schenectady-Troy, NY Metro Area",1.351
+"New Haven, CT Metro Area",6,"Rochester, NY Metro Area",1.455
+"New Haven, CT Metro Area",7,"Worcester, MA Metro Area",1.455
+"New Haven, CT Metro Area",8,"Providence-Warwick, RI-MA Metro Area",1.561
+"New Haven, CT Metro Area",9,"Buffalo-Cheektowaga, NY Metro Area",1.584
+"New Haven, CT Metro Area",10,"Harrisburg-Carlisle, PA Metro Area",1.752

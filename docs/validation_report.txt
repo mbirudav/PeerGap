@@ -1,0 +1,70 @@
+PEERGAP VALIDATION REPORT
+============================================================
+
+AUTOMATED CHECKS:
+  ! population growth not computed (boundary change) for ['25540', '14860', '35300']; treated as average in matching
+
+SPOT-CHECK THESE AGAINST data.census.gov (search the table ID + metro name,
+choose 'ACS 5-Year Estimates', year 2024). Every value must match exactly:
+
+  New York-Newark-Jersey City, NY-NJ Metro Area (CBSA 35620)
+    B01003 total population ........ 19,798,537
+    B19013 median household income . $99,155
+    B25064 median gross rent ....... $1,830
+    B25077 median home value ....... $614,200
+    B25070 rent >=50% of income .... 970,249 households
+
+  Hartford-West Hartford-East Hartford, CT Metro Area (CBSA 25540)
+    B01003 total population ........ 1,153,112
+    B19013 median household income . $95,118
+    B25064 median gross rent ....... $1,416
+    B25077 median home value ....... $333,500
+    B25070 rent >=50% of income .... 38,354 households
+
+  Miami-Fort Lauderdale-West Palm Beach, FL Metro Area (CBSA 33100)
+    B01003 total population ........ 6,249,291
+    B19013 median household income . $76,527
+    B25064 median gross rent ....... $1,869
+    B25077 median home value ....... $443,300
+    B25070 rent >=50% of income .... 305,034 households
+
+
+RUN LOG:
+Industries used (C24050):
+  C24050_002E: Agriculture, forestry, fishing and hunting, and mining
+  C24050_003E: Construction
+  C24050_004E: Manufacturing
+  C24050_005E: Wholesale trade
+  C24050_006E: Retail trade
+  C24050_007E: Transportation and warehousing, and utilities
+  C24050_008E: Information
+  C24050_009E: Finance and insurance, and real estate, and rental and leasing
+  C24050_010E: Professional, scientific, and management, and administrative, and waste management services
+  C24050_011E: Educational services, and health care and social assistance
+  C24050_012E: Arts, entertainment, and recreation, and accommodation and food services
+  C24050_013E: Other services, except public administration
+  C24050_014E: Public administration
+Selected 100 metros: largest = New York-Newark-Jersey City, NY-NJ Metro Area, smallest = New Haven, CT Metro Area (pop 570,598)
+VALIDATION: population growth not computed (boundary change) for ['25540', '14860', '35300']; treated as average in matching
+Running Monte Carlo (1,000 runs)...
+
+TOP 10 GAPS VS. TWINS (SD above twin median; higher = worse):
+    1. Los Angeles-Long Beach-Anaheim, CA Metro Area    gap +2.89  top-10 in  96% of runs  main driver: Maintaining existing stock
+    2. Miami-Fort Lauderdale-West Palm Beach, FL Metro  gap +2.84  top-10 in 100% of runs  main driver: Ownership access
+    3. San Diego-Chula Vista-Carlsbad, CA Metro Area    gap +2.15  top-10 in  96% of runs  main driver: Housing supply
+    4. New Orleans-Metairie, LA Metro Area              gap +1.90  top-10 in  93% of runs  main driver: Housing supply
+    5. Urban Honolulu, HI Metro Area                    gap +1.89  top-10 in  83% of runs  main driver: Ownership access
+    6. New York-Newark-Jersey City, NY-NJ Metro Area    gap +1.62  top-10 in  68% of runs  main driver: Expenses of ownership
+    7. Fresno, CA Metro Area                            gap +1.45  top-10 in  58% of runs  main driver: Expenses of ownership
+    8. Oxnard-Thousand Oaks-Ventura, CA Metro Area      gap +1.42  top-10 in  33% of runs  main driver: Housing supply
+    9. Tampa-St. Petersburg-Clearwater, FL Metro Area   gap +1.27  top-10 in  30% of runs  main driver: Ownership access
+   10. New Haven, CT Metro Area                         gap +1.23  top-10 in  33% of runs  main driver: Expenses of ownership
+
+CASE-STUDY CANDIDATES (positive gap, top 10 in >=70% of simulations):
+  Los Angeles-Long Beach-Anaheim, CA Metro Area  (gap +2.89, robust 96%, driver Maintaining existing stock)
+  Miami-Fort Lauderdale-West Palm Beach, FL Metro Area  (gap +2.84, robust 100%, driver Ownership access)
+  San Diego-Chula Vista-Carlsbad, CA Metro Area  (gap +2.15, robust 96%, driver Housing supply)
+  New Orleans-Metairie, LA Metro Area  (gap +1.90, robust 93%, driver Housing supply)
+  Urban Honolulu, HI Metro Area  (gap +1.89, robust 83%, driver Ownership access)
+
+CASE STUDY: Miami-Fort Lauderdale-West Palm Beach, FL Metro Area  gap +2.84 SD (rank 2), P10-P90 across simulations +2.10 to +3.23
