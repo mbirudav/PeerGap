@@ -1,3 +1,8 @@
+# PeerGap
+
+**v2 (Oct 2026):** open `index.html` for the map, `forecast.html` for the 2036 scenarios, `legacy.html` for the original page.
+See `CHANGES.md` for what is real, what is still a placeholder, and how to rebuild.
+
 # PeerGap pipeline — how to run it and what it does
 
 ## Run it (Mac terminal)

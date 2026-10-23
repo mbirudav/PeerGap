@@ -1,0 +1,11 @@
+reason_code,reason,miami_share_pct_assumption,peer_median_share_pct_assumption,difference_pts_assumption
+1,Debt-to-income ratio,31.5,30.1,1.4
+2,Employment history,1.6,1.9,-0.3
+3,Credit history,17.8,21.6,-3.8
+4,Collateral,12.4,9.3,3.1
+5,Insufficient cash,10.9,7.4,3.5
+6,Unverifiable information,5.1,5.6,-0.5
+7,Incomplete application,9.7,9.9,-0.2
+8,Mortgage insurance denied,0.6,0.5,0.1
+9,Other,8.2,9.6,-1.4
+10,Not applicable,2.2,4.1,-1.9

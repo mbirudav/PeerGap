@@ -1,0 +1,101 @@
+cbsa,metro,gap_2020_24,gap_2015_19_scenario,gap_change_scenario,trend_scenario,mc_diverging_share_scenario
+31080,Los Angeles,2.893,2.816,0.077,chronic,0.325
+33100,Miami,2.843,2.377,0.466,diverging,0.828
+41740,San Diego,2.147,2.26,-0.113,chronic,0.009
+35380,New Orleans,1.898,1.67,0.228,chronic,0.468
+46520,Urban Honolulu,1.893,1.628,0.265,diverging,0.544
+35620,New York,1.623,1.413,0.21,chronic,0.439
+23420,Fresno,1.446,1.477,-0.031,chronic,0.181
+37100,Oxnard,1.424,1.315,0.109,chronic,0.182
+45300,Tampa,1.274,1.061,0.213,chronic,0.436
+35300,New Haven,1.235,0.95,0.285,diverging,0.611
+36740,Orlando,1.201,0.856,0.345,diverging,0.832
+29820,Las Vegas,1.17,1.13,0.04,chronic,0.237
+27140,Jackson,1.11,1.057,0.053,chronic,0.213
+24660,Greensboro,1.057,0.908,0.149,chronic,0.194
+12540,Bakersfield,1.046,1.068,-0.022,chronic,0.104
+41700,San Antonio,1.021,0.931,0.09,chronic,0.226
+40900,Sacramento,1.017,0.916,0.101,chronic,0.074
+12940,Baton Rouge,0.978,0.85,0.128,chronic,0.316
+19820,Detroit,0.874,0.523,0.351,diverging,0.623
+12420,Austin,0.783,0.859,-0.076,chronic,0.049
+32820,Memphis,0.769,0.972,-0.203,chronic,0.024
+26420,Houston,0.722,0.474,0.248,chronic,0.496
+40140,Riverside,0.693,0.679,0.014,chronic,0.076
+44700,Stockton,0.678,0.569,0.109,chronic,0.264
+28880,Kiryas Joel,0.666,0.354,0.312,diverging,0.62
+17900,Columbia,0.662,0.492,0.17,chronic,0.342
+41860,San Francisco,0.658,0.855,-0.197,chronic,0.044
+32580,McAllen,0.647,0.358,0.289,diverging,0.527
+47260,Virginia Beach,0.624,0.856,-0.232,chronic,0.002
+16700,Charleston,0.588,0.571,0.017,chronic,0.039
+14860,Bridgeport,0.567,0.515,0.052,chronic,0.124
+27260,Jacksonville,0.564,0.256,0.308,diverging,0.641
+12060,Atlanta,0.525,0.345,0.18,chronic,0.394
+29460,Lakeland,0.488,-0.2,0.688,diverging,0.912
+15980,Cape Coral,0.487,0.395,0.092,stable,0.21
+38900,Portland,0.465,0.515,-0.05,stable,0.046
+39300,Providence,0.439,0.383,0.056,stable,0.117
+20500,Durham,0.434,0.587,-0.153,stable,0.004
+35840,North Port,0.424,0.286,0.138,stable,0.31
+33340,Milwaukee,0.393,0.39,0.003,stable,0.148
+14460,Boston,0.368,0.362,0.006,stable,0.01
+13820,Birmingham,0.364,0.395,-0.031,stable,0.071
+19100,Dallas,0.354,0.446,-0.092,stable,0.027
+12260,Augusta,0.329,0.262,0.067,stable,0.123
+15380,Buffalo,0.244,0.076,0.168,stable,0.136
+25540,Hartford,0.234,0.028,0.206,stable,0.376
+19660,Deltona,0.229,-0.169,0.398,diverging,0.75
+38060,Phoenix,0.202,0.404,-0.202,stable,0.002
+45060,Syracuse,0.175,-0.189,0.364,diverging,0.768
+24860,Greenville,0.173,-0.234,0.407,diverging,0.836
+17410,Cleveland,0.164,-0.076,0.24,stable,0.457
+41940,San Jose,0.163,0.196,-0.033,stable,0.176
+18140,Columbus,0.145,0.274,-0.129,stable,0.034
+41620,Salt Lake City,0.126,0.017,0.109,stable,0.241
+46060,Tucson,0.097,0.302,-0.205,stable,0.002
+21340,El Paso,0.097,0.338,-0.241,stable,0.0
+10580,Albany,0.091,-0.008,0.099,stable,0.185
+10900,Allentown,0.09,-0.004,0.094,stable,0.131
+24340,Grand Rapids,0.042,-0.299,0.341,diverging,0.607
+17820,Colorado Springs,-0.004,0.195,-0.199,stable,0.001
+36420,Oklahoma City,-0.016,0.189,-0.205,stable,0.001
+37340,Palm Bay,-0.031,0.017,-0.048,stable,0.135
+12580,Baltimore,-0.035,0.06,-0.095,stable,0.006
+37980,Philadelphia,-0.106,0.037,-0.143,stable,0.0
+19740,Denver,-0.114,0.21,-0.324,recovering,0.0
+10420,Akron,-0.117,-0.113,-0.004,stable,0.035
+44060,Spokane,-0.124,0.077,-0.201,stable,0.044
+49340,Worcester,-0.131,-0.222,0.091,stable,0.045
+31140,Louisville,-0.15,0.075,-0.225,stable,0.0
+40380,Rochester,-0.155,-0.087,-0.068,stable,0.0
+10740,Albuquerque,-0.16,0.176,-0.336,recovering,0.0
+16740,Charlotte,-0.177,-0.022,-0.155,stable,0.002
+45780,Toledo,-0.207,-0.354,0.147,stable,0.249
+17140,Cincinnati,-0.227,-0.215,-0.012,stable,0.004
+40060,Richmond,-0.23,-0.305,0.075,stable,0.06
+30780,Little Rock,-0.262,-0.13,-0.132,stable,0.01
+28940,Knoxville,-0.283,-0.325,0.042,stable,0.116
+34980,Nashville,-0.385,-0.066,-0.319,recovering,0.001
+16980,Chicago,-0.404,-0.555,0.151,stable,0.247
+26900,Indianapolis,-0.425,-0.417,-0.008,stable,0.024
+42660,Seattle,-0.444,-0.48,0.036,stable,0.098
+39580,Raleigh,-0.464,-0.246,-0.218,stable,0.0
+16860,Chattanooga,-0.478,-0.323,-0.155,stable,0.0
+31540,Madison,-0.487,-0.336,-0.151,stable,0.095
+19430,Dayton,-0.533,-0.528,-0.005,stable,0.02
+46140,Tulsa,-0.538,-0.234,-0.304,recovering,0.0
+48620,Wichita,-0.538,-0.251,-0.287,recovering,0.0
+49180,Winston-Salem,-0.556,-0.376,-0.18,stable,0.0
+28140,Kansas City,-0.646,-0.38,-0.266,recovering,0.0
+36540,Omaha,-0.648,-0.563,-0.085,stable,0.002
+41180,St. Louis,-0.735,-0.668,-0.067,stable,0.001
+39340,Provo,-0.84,-0.48,-0.36,recovering,0.0
+25420,Harrisburg,-0.854,-0.632,-0.222,stable,0.0
+47900,Washington,-0.89,-0.599,-0.291,recovering,0.0
+38300,Pittsburgh,-0.957,-0.855,-0.102,stable,0.0
+14260,Boise City,-1.051,-1.129,0.078,stable,0.13
+33460,Minneapolis,-1.06,-0.837,-0.223,stable,0.0
+36260,Ogden,-1.496,-1.391,-0.105,stable,0.072
+19780,Des Moines,-1.507,-1.083,-0.424,recovering,0.0
+22220,Fayetteville,-1.514,-1.074,-0.44,recovering,0.036

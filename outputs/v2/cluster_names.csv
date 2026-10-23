@@ -1,0 +1,4 @@
+cluster,n_metros,n_gap_metros,top_home_cause,example_metros,name
+0,17,7,E,New York | Los Angeles | Chicago | Washington,
+1,41,12,O,Detroit | St. Louis | Pittsburgh | Cincinnati,
+2,42,14,O,Dallas | Houston | Atlanta | Miami,
