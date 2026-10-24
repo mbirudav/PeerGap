@@ -95,5 +95,5 @@ metros with a positive gap that rank top 10 in at least 70% of runs.
 - `index.html` — the interactive demo (self-contained, data inlined; open it in a browser)
 - `peergap.py` — the pipeline that produces everything below
 - `data/` — `metros.csv`, `peers.csv`, `results.json`, `source_log.csv`, `case_study_table.csv`
-- `docs/` — `validation_report.txt`, `policy_scan_miami.md`
+- `docs/` — `validation_report.txt`, `policy_scan_miami.md`, `peergap_v3_preview.png` (the UI mockup the map page was built from)
 - `slides/` — the three chart PNGs used in the deck
